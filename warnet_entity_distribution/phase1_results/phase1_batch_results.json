@@ -1,8 +1,8 @@
 {
   "phase": "phase1_coarse_search",
-  "timestamp": "2026-01-04T09:06:49.498581",
-  "n_samples": 10,
-  "test_duration": 10,
+  "timestamp": "2026-01-04T20:16:14.286367",
+  "n_samples": 50,
+  "test_duration": 1800,
   "configs": [],
   "results": [
     {
@@ -33,12 +33,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -48,8 +48,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -82,12 +82,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -97,8 +97,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -131,12 +131,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -146,8 +146,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -180,12 +180,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -195,8 +195,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -229,12 +229,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -244,8 +244,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -255,12 +255,12 @@
       "status": "success",
       "splits": {
         "economic": {
-          "v27": 52.38046166865078,
-          "v26": 47.619538331349226
+          "v27": 80.94955720178558,
+          "v26": 19.050442798214412
         },
         "hashrate": {
-          "v27": 100.0,
-          "v26": 0
+          "v27": 0,
+          "v26": 100.0
         }
       },
       "steps": {
@@ -278,12 +278,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -293,8 +293,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -304,8 +304,8 @@
       "status": "success",
       "splits": {
         "economic": {
-          "v27": 52.371547598235566,
-          "v26": 47.628452401764434
+          "v27": 99.99590690493105,
+          "v26": 0.004093095068954112
         },
         "hashrate": {
           "v27": 100.0,
@@ -327,12 +327,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -342,8 +342,8 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
@@ -353,8 +353,351 @@
       "status": "success",
       "splits": {
         "economic": {
-          "v27": 99.98963824219473,
-          "v26": 0.010361757805265933
+          "v27": 52.37407811268321,
+          "v26": 47.6259218873168
+        },
+        "hashrate": {
+          "v27": 15.0,
+          "v26": 85.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-003",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.98495934078254,
+          "v26": 0.015040659217458494
+        },
+        "hashrate": {
+          "v27": 79.22,
+          "v26": 20.78
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-004",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.760734490628046,
+          "v26": 95.23926550937195
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-005",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99941574290818,
+          "v26": 0.0005842570918104694
+        },
+        "hashrate": {
+          "v27": 25.0,
+          "v26": 75.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-006",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 23.799039585999605,
+          "v26": 76.20096041400039
+        },
+        "hashrate": {
+          "v27": 60.0,
+          "v26": 40.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-007",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 52.152238816437745,
+          "v26": 47.847761183562255
+        },
+        "hashrate": {
+          "v27": 37.33,
+          "v26": 62.67
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-008",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 23.809191546715837,
+          "v26": 76.19080845328416
+        },
+        "hashrate": {
+          "v27": 58.11,
+          "v26": 41.89
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-009",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 80.89429628053828,
+          "v26": 19.10570371946173
         },
         "hashrate": {
           "v27": 100.0,
@@ -376,12 +719,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -391,23 +734,23 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
     },
     {
-      "config_id": "random-003",
+      "config_id": "random-010",
       "status": "success",
       "splits": {
         "economic": {
-          "v27": 80.95170665382558,
-          "v26": 19.048293346174425
+          "v27": 99.9890687328619,
+          "v26": 0.010931267138110958
         },
         "hashrate": {
-          "v27": 56.11,
-          "v26": 43.89
+          "v27": 60.78,
+          "v26": 39.22
         }
       },
       "steps": {
@@ -425,12 +768,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -440,23 +783,23 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
     },
     {
-      "config_id": "random-004",
+      "config_id": "random-011",
       "status": "success",
       "splits": {
         "economic": {
-          "v27": 80.94201919457568,
-          "v26": 19.057980805424314
+          "v27": 71.4247536543875,
+          "v26": 28.575246345612488
         },
         "hashrate": {
-          "v27": 90.0,
-          "v26": 10.0
+          "v27": 100.0,
+          "v26": 0
         }
       },
       "steps": {
@@ -474,12 +817,12 @@
         "mining": {
           "status": "success",
           "blocks": {
-            "v27": 1,
-            "v26": 1
+            "v27": 3,
+            "v26": 3
           },
           "final_heights": {
-            "v27": 102,
-            "v26": 102
+            "v27": 104,
+            "v26": 104
           },
           "fork_depth": 0
         },
@@ -489,16 +832,1633 @@
         }
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-012",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.7494331521499085,
+          "v26": 95.25056684785008
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-013",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 80.95201232376658,
+          "v26": 19.04798767623343
+        },
+        "hashrate": {
+          "v27": 47.33,
+          "v26": 52.67
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-014",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.9994773262616,
+          "v26": 0.0005226737383926914
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-015",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 52.376791190474094,
+          "v26": 47.6232088095259
+        },
+        "hashrate": {
+          "v27": 51.11,
+          "v26": 48.89
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-016",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 80.91299003011727,
+          "v26": 19.087009969882736
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-017",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.757567382002594,
+          "v26": 95.24243261799741
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-018",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 80.94609501893584,
+          "v26": 19.053904981064157
+        },
+        "hashrate": {
+          "v27": 35.78,
+          "v26": 64.22
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-019",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99997960098749,
+          "v26": 2.039901250786625e-05
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-020",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 71.42780230456768,
+          "v26": 28.572197695432315
+        },
+        "hashrate": {
+          "v27": 73.11,
+          "v26": 26.89
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-021",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 52.377704105992976,
+          "v26": 47.622295894007024
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-022",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.96238326166029,
+          "v26": 0.037616738339707925
+        },
+        "hashrate": {
+          "v27": 33.89,
+          "v26": 66.11
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-023",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99109623362423,
+          "v26": 0.008903766375772844
+        },
+        "hashrate": {
+          "v27": 52.67,
+          "v26": 47.33
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-024",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99798978347644,
+          "v26": 0.002010216523570439
+        },
+        "hashrate": {
+          "v27": 75.0,
+          "v26": 25.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-025",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99973464591183,
+          "v26": 0.0002653540881732699
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-026",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 23.800992396235753,
+          "v26": 76.19900760376423
+        },
+        "hashrate": {
+          "v27": 24.22,
+          "v26": 75.78
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-027",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99957525967622,
+          "v26": 0.00042474032377916684
+        },
+        "hashrate": {
+          "v27": 15.0,
+          "v26": 85.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-028",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.760877621708976,
+          "v26": 95.23912237829103
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-029",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.760291559727689,
+          "v26": 95.23970844027232
+        },
+        "hashrate": {
+          "v27": 15.0,
+          "v26": 85.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-030",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99771799092538,
+          "v26": 0.0022820090746206597
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-031",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 52.38073123045391,
+          "v26": 47.61926876954608
+        },
+        "hashrate": {
+          "v27": 85.78,
+          "v26": 14.22
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-032",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 71.42417946319387,
+          "v26": 28.57582053680615
+        },
+        "hashrate": {
+          "v27": 85.0,
+          "v26": 15.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-033",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.94317255516847,
+          "v26": 0.05682744483152458
+        },
+        "hashrate": {
+          "v27": 23.11,
+          "v26": 76.89
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-034",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.7585097373098195,
+          "v26": 95.24149026269019
+        },
+        "hashrate": {
+          "v27": 58.89,
+          "v26": 41.11
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-035",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.759960114870454,
+          "v26": 95.24003988512955
+        },
+        "hashrate": {
+          "v27": 10.78,
+          "v26": 89.22
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-036",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.9928895100872,
+          "v26": 0.007110489912808618
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-037",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 33.332409616795694,
+          "v26": 66.6675903832043
+        },
+        "hashrate": {
+          "v27": 66.89,
+          "v26": 33.11
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-038",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 52.38093491366607,
+          "v26": 47.619065086333926
+        },
+        "hashrate": {
+          "v27": 23.11,
+          "v26": 76.89
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-039",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 52.37972423817241,
+          "v26": 47.62027576182759
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-040",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.755349236011945,
+          "v26": 95.24465076398806
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-041",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 99.99880677615805,
+          "v26": 0.0011932238419570466
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-042",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 80.95145723584332,
+          "v26": 19.048542764156675
+        },
+        "hashrate": {
+          "v27": 43.89,
+          "v26": 56.11
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-043",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 33.32910270731668,
+          "v26": 66.67089729268332
+        },
+        "hashrate": {
+          "v27": 35.0,
+          "v26": 65.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0,
+      "economic_analysis": {}
+    },
+    {
+      "config_id": "random-044",
+      "status": "success",
+      "splits": {
+        "economic": {
+          "v27": 4.761421946780349,
+          "v26": 95.23857805321964
+        },
+        "hashrate": {
+          "v27": 85.0,
+          "v26": 15.0
+        }
+      },
+      "steps": {
+        "deploy": {
+          "status": "success"
+        },
+        "common_history": {
+          "status": "success",
+          "height": 101
+        },
+        "partition": {
+          "status": "success",
+          "mode": "dynamic"
+        },
+        "mining": {
+          "status": "success",
+          "blocks": {
+            "v27": 3,
+            "v26": 3
+          },
+          "final_heights": {
+            "v27": 104,
+            "v26": 104
+          },
+          "fork_depth": 0
+        },
+        "analysis": {
+          "status": "success",
+          "analysis": {}
+        }
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0,
       "economic_analysis": {}
     }
   ],
   "summary": {
-    "total": 10,
-    "completed": 10,
+    "total": 50,
+    "completed": 50,
     "failed": 0,
     "errors": 0
   }
