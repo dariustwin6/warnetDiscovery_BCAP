@@ -1,0 +1,49 @@
+{
+  "config_id": "exchange-2-vs-1",
+  "status": "success",
+  "splits": {
+    "economic": {
+      "v27": 80.94948864294437,
+      "v26": 19.050511357055612
+    },
+    "hashrate": {
+      "v27": 64.22,
+      "v26": 35.78
+    }
+  },
+  "steps": {
+    "deploy": {
+      "status": "success"
+    },
+    "common_history": {
+      "status": "success",
+      "height": 101
+    },
+    "partition": {
+      "status": "success",
+      "mode": "dynamic"
+    },
+    "mining": {
+      "status": "success",
+      "blocks": {
+        "v27": 1,
+        "v26": 1
+      },
+      "final_heights": {
+        "v27": 102,
+        "v26": 102
+      },
+      "fork_depth": 0
+    },
+    "analysis": {
+      "status": "success",
+      "analysis": {}
+    }
+  },
+  "final_heights": {
+    "v27": 102,
+    "v26": 102
+  },
+  "fork_depth": 0,
+  "economic_analysis": {}
+}

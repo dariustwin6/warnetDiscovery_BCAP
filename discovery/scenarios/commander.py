@@ -171,7 +171,16 @@ class Commander(BitcoinTestFramework):
     def ensure_miner(node):
         wallets = node.listwallets()
         if "miner" not in wallets:
-            node.createwallet("miner", descriptors=True)
+            # Create descriptor wallet with auto-generated keys
+            # Using named parameters to ensure correct mapping
+            node.createwallet(
+                wallet_name="miner",
+                disable_private_keys=False,
+                blank=False,
+                passphrase="",
+                avoid_reuse=False,
+                descriptors=True
+            )
         return node.get_wallet_rpc("miner")
 
     @staticmethod

@@ -1,0 +1,49 @@
+{
+  "config_id": "perfect-split-50-50",
+  "status": "success",
+  "splits": {
+    "economic": {
+      "v27": 47.61904761904763,
+      "v26": 52.38095238095237
+    },
+    "hashrate": {
+      "v27": 50.0,
+      "v26": 50.0
+    }
+  },
+  "steps": {
+    "deploy": {
+      "status": "success"
+    },
+    "common_history": {
+      "status": "success",
+      "height": 101
+    },
+    "partition": {
+      "status": "success",
+      "mode": "dynamic"
+    },
+    "mining": {
+      "status": "success",
+      "blocks": {
+        "v27": 1,
+        "v26": 1
+      },
+      "final_heights": {
+        "v27": 102,
+        "v26": 102
+      },
+      "fork_depth": 0
+    },
+    "analysis": {
+      "status": "success",
+      "analysis": {}
+    }
+  },
+  "final_heights": {
+    "v27": 102,
+    "v26": 102
+  },
+  "fork_depth": 0,
+  "economic_analysis": {}
+}

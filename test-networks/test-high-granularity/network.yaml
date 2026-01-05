@@ -1,0 +1,2180 @@
+caddy:
+  enabled: true
+fork_observer:
+  enabled: true
+  configQueryInterval: 10
+nodes:
+- name: node-0000
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0004
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: major_exchange
+    custody_btc: 2000000
+    daily_volume_btc: 200000
+    entity_id: exchange-0000
+    entity_name: Major Exchange 1
+    consensus_weight: 1100000.0
+- name: node-0001
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0002
+  - node-0003
+  - node-0004
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 26.89
+    entity_id: pool-foundry
+    entity_name: Foundry USA
+    location: USA
+- name: node-0002
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0003
+  - node-0004
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 23.11
+    entity_id: pool-antpool
+    entity_name: AntPool
+    location: China
+- name: node-0003
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0004
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_0
+    custody_btc: 188543
+    daily_volume_btc: 18854
+    represents: 10
+    consensus_weight: 103699.05
+- name: node-0004
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_1
+    custody_btc: 5644
+    daily_volume_btc: 564
+    represents: 10
+    consensus_weight: 3104.45
+- name: node-0005
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_2
+    custody_btc: 1944
+    daily_volume_btc: 194
+    represents: 10
+    consensus_weight: 1069.72
+- name: node-0006
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_3
+    custody_btc: 984
+    daily_volume_btc: 98
+    represents: 10
+    consensus_weight: 541.58
+- name: node-0007
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_4
+    custody_btc: 594
+    daily_volume_btc: 59
+    represents: 10
+    consensus_weight: 327.12
+- name: node-0008
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_5
+    custody_btc: 398
+    daily_volume_btc: 39
+    represents: 10
+    consensus_weight: 218.99
+- name: node-0009
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_6
+    custody_btc: 285
+    daily_volume_btc: 28
+    represents: 10
+    consensus_weight: 156.87
+- name: node-0010
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_7
+    custody_btc: 214
+    daily_volume_btc: 21
+    represents: 10
+    consensus_weight: 117.9
+- name: node-0011
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_8
+    custody_btc: 166
+    daily_volume_btc: 16
+    represents: 10
+    consensus_weight: 91.84
+- name: node-0012
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_9
+    custody_btc: 133
+    daily_volume_btc: 13
+    represents: 10
+    consensus_weight: 73.57
+- name: node-0013
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_10
+    custody_btc: 109
+    daily_volume_btc: 10
+    represents: 10
+    consensus_weight: 60.25
+- name: node-0014
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_11
+    custody_btc: 91
+    daily_volume_btc: 9
+    represents: 10
+    consensus_weight: 50.25
+- name: node-0015
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_12
+    custody_btc: 77
+    daily_volume_btc: 7
+    represents: 10
+    consensus_weight: 42.55
+- name: node-0016
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_13
+    custody_btc: 66
+    daily_volume_btc: 6
+    represents: 10
+    consensus_weight: 36.49
+- name: node-0017
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_14
+    custody_btc: 57
+    daily_volume_btc: 5
+    represents: 10
+    consensus_weight: 31.64
+- name: node-0018
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_15
+    custody_btc: 50
+    daily_volume_btc: 5
+    represents: 10
+    consensus_weight: 27.7
+- name: node-0019
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_16
+    custody_btc: 44
+    daily_volume_btc: 4
+    represents: 10
+    consensus_weight: 24.45
+- name: node-0020
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_17
+    custody_btc: 39
+    daily_volume_btc: 3
+    represents: 10
+    consensus_weight: 21.74
+- name: node-0021
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_18
+    custody_btc: 35
+    daily_volume_btc: 3
+    represents: 10
+    consensus_weight: 19.46
+- name: node-0022
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_19
+    custody_btc: 31
+    daily_volume_btc: 3
+    represents: 10
+    consensus_weight: 17.52
+- name: node-0023
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_20
+    custody_btc: 28
+    daily_volume_btc: 2
+    represents: 10
+    consensus_weight: 15.85
+- name: node-0024
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_21
+    custody_btc: 26
+    daily_volume_btc: 2
+    represents: 10
+    consensus_weight: 14.42
+- name: node-0025
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_22
+    custody_btc: 23
+    daily_volume_btc: 2
+    represents: 10
+    consensus_weight: 13.17
+- name: node-0026
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_23
+    custody_btc: 21
+    daily_volume_btc: 2
+    represents: 10
+    consensus_weight: 12.07
+- name: node-0027
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_24
+    custody_btc: 20
+    daily_volume_btc: 2
+    represents: 10
+    consensus_weight: 11.11
+- name: node-0028
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_25
+    custody_btc: 18
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 10.25
+- name: node-0029
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_26
+    custody_btc: 17
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 9.5
+- name: node-0030
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_27
+    custody_btc: 16
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 8.82
+- name: node-0031
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_28
+    custody_btc: 14
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 8.21
+- name: node-0032
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_29
+    custody_btc: 13
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 7.67
+- name: node-0033
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_30
+    custody_btc: 13
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 7.17
+- name: node-0034
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_31
+    custody_btc: 12
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 6.72
+- name: node-0035
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_32
+    custody_btc: 11
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 6.32
+- name: node-0036
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_33
+    custody_btc: 10
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 5.95
+- name: node-0037
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_34
+    custody_btc: 10
+    daily_volume_btc: 1
+    represents: 10
+    consensus_weight: 5.61
+- name: node-0038
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_35
+    custody_btc: 9
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 5.3
+- name: node-0039
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_36
+    custody_btc: 9
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 5.01
+- name: node-0040
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_37
+    custody_btc: 8
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 4.75
+- name: node-0041
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_38
+    custody_btc: 8
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 4.5
+- name: node-0042
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_39
+    custody_btc: 7
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 4.28
+- name: node-0043
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_40
+    custody_btc: 7
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 4.07
+- name: node-0044
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_41
+    custody_btc: 7
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 3.88
+- name: node-0045
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_42
+    custody_btc: 6
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 3.7
+- name: node-0046
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_43
+    custody_btc: 6
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 3.53
+- name: node-0047
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_44
+    custody_btc: 6
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 3.37
+- name: node-0048
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_45
+    custody_btc: 5
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 3.23
+- name: node-0049
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_46
+    custody_btc: 5
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 3.09
+- name: node-0050
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_47
+    custody_btc: 5
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.96
+- name: node-0051
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_48
+    custody_btc: 5
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.84
+- name: node-0052
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0053
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_49
+    custody_btc: 4
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.73
+- name: node-0053
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0057
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: exchange
+    custody_btc: 1200000
+    daily_volume_btc: 120000
+    entity_id: exchange-0001
+    entity_name: Major Exchange 2
+    consensus_weight: 660000.0
+- name: node-0054
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0055
+  - node-0056
+  - node-0057
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: exchange
+    custody_btc: 800000
+    daily_volume_btc: 80000
+    entity_id: exchange-0002
+    entity_name: Major Exchange 3
+    consensus_weight: 440000.0
+- name: node-0055
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0056
+  - node-0057
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 14.22
+    entity_id: pool-f2pool
+    entity_name: F2Pool
+    location: China
+- name: node-0056
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0057
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 10.78
+    entity_id: pool-viabtc
+    entity_name: ViaBTC
+    location: China
+- name: node-0057
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 10.0
+    entity_id: pool-binance
+    entity_name: Binance Pool
+    location: Multiple
+- name: node-0058
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 15.0
+    entity_id: pool-other
+    entity_name: Other Pools
+    location: Multiple
+- name: node-0059
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_0
+    custody_btc: 4
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.62
+- name: node-0060
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_1
+    custody_btc: 4
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.52
+- name: node-0061
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_2
+    custody_btc: 4
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.42
+- name: node-0062
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_3
+    custody_btc: 4
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.33
+- name: node-0063
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_4
+    custody_btc: 4
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.25
+- name: node-0064
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_5
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.17
+- name: node-0065
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_6
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.09
+- name: node-0066
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_7
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 2.02
+- name: node-0067
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_8
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.95
+- name: node-0068
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_9
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.89
+- name: node-0069
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_10
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.83
+- name: node-0070
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_11
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.77
+- name: node-0071
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_12
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.71
+- name: node-0072
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_13
+    custody_btc: 3
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.66
+- name: node-0073
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_14
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.61
+- name: node-0074
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_15
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.56
+- name: node-0075
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_16
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.51
+- name: node-0076
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_17
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.47
+- name: node-0077
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_18
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.42
+- name: node-0078
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_19
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.38
+- name: node-0079
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_20
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.34
+- name: node-0080
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_21
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.31
+- name: node-0081
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_22
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.27
+- name: node-0082
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_23
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.24
+- name: node-0083
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_24
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.2
+- name: node-0084
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_25
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.17
+- name: node-0085
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_26
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.14
+- name: node-0086
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_27
+    custody_btc: 2
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.11
+- name: node-0087
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_28
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.08
+- name: node-0088
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_29
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.06
+- name: node-0089
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_30
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.03
+- name: node-0090
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_31
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 1.01
+- name: node-0091
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_32
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.98
+- name: node-0092
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_33
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.96
+- name: node-0093
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_34
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.94
+- name: node-0094
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_35
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.91
+- name: node-0095
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_36
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.89
+- name: node-0096
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_37
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.87
+- name: node-0097
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_38
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.85
+- name: node-0098
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_39
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.83
+- name: node-0099
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_40
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.82
+- name: node-0100
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_41
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.8
+- name: node-0101
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_42
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.78
+- name: node-0102
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_43
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.76
+- name: node-0103
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_44
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.75
+- name: node-0104
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_45
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.73
+- name: node-0105
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_46
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.72
+- name: node-0106
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_47
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.7
+- name: node-0107
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_48
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.69
+- name: node-0108
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0053
+  - node-0054
+  - node-0055
+  - node-0056
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_49
+    custody_btc: 1
+    daily_volume_btc: 0
+    represents: 10
+    consensus_weight: 0.68

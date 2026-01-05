@@ -1,0 +1,49 @@
+{
+  "config_id": "entity-test-runner-demo",
+  "status": "success",
+  "splits": {
+    "economic": {
+      "v27": 47.61904761904763,
+      "v26": 52.38095238095237
+    },
+    "hashrate": {
+      "v27": 50.0,
+      "v26": 50.0
+    }
+  },
+  "steps": {
+    "deploy": {
+      "status": "success"
+    },
+    "common_history": {
+      "status": "success",
+      "height": 101
+    },
+    "partition": {
+      "status": "success",
+      "mode": "dynamic"
+    },
+    "mining": {
+      "status": "success",
+      "blocks": {
+        "v27": 3,
+        "v26": 3
+      },
+      "final_heights": {
+        "v27": 104,
+        "v26": 104
+      },
+      "fork_depth": 0
+    },
+    "analysis": {
+      "status": "success",
+      "analysis": {}
+    }
+  },
+  "final_heights": {
+    "v27": 104,
+    "v26": 104
+  },
+  "fork_depth": 0,
+  "economic_analysis": {}
+}

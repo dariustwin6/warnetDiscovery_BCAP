@@ -1,0 +1,73 @@
+================================================================================
+PHASE 1 COARSE SEARCH - SUMMARY REPORT
+================================================================================
+
+Total tests: 10
+Completed: 10
+Failed: 0
+Errors: 0
+Success rate: 100.0%
+
+================================================================================
+RESULTS BY CONFIGURATION
+================================================================================
+
+1. baseline-all-v27: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+2. perfect-split-50-50: SUCCESS
+   Economic: v27=47.6%, v26=52.4%
+   Hashrate: v27=50.0%, v26=50.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+3. david-vs-goliath: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=35.0%, v26=65.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+4. exchange-2-vs-1: SUCCESS
+   Economic: v27=80.9%, v26=19.1%
+   Hashrate: v27=64.2%, v26=35.8%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+5. economic-vs-miners: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+6. random-000: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+7. random-001: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+8. random-002: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+9. random-003: SUCCESS
+   Economic: v27=81.0%, v26=19.0%
+   Hashrate: v27=56.1%, v26=43.9%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks
+
+10. random-004: SUCCESS
+   Economic: v27=80.9%, v26=19.1%
+   Hashrate: v27=90.0%, v26=10.0%
+   Final heights: v27=102, v26=102
+   Fork depth: 0 blocks

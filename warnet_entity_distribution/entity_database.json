@@ -1,0 +1,6095 @@
+{
+  "exchanges": [
+    {
+      "id": "exchange-0000",
+      "name": "Major Exchange 1",
+      "custody_btc": 2000000,
+      "daily_volume_btc": 200000,
+      "withdrawal_volume_btc": 10000,
+      "deposit_volume_btc": 10000
+    },
+    {
+      "id": "exchange-0001",
+      "name": "Major Exchange 2",
+      "custody_btc": 1200000,
+      "daily_volume_btc": 120000,
+      "withdrawal_volume_btc": 6000,
+      "deposit_volume_btc": 6000
+    },
+    {
+      "id": "exchange-0002",
+      "name": "Major Exchange 3",
+      "custody_btc": 800000,
+      "daily_volume_btc": 80000,
+      "withdrawal_volume_btc": 4000,
+      "deposit_volume_btc": 4000
+    }
+  ],
+  "mining_pools": [
+    {
+      "id": "pool-foundry",
+      "name": "Foundry USA",
+      "hashrate_pct": 26.89,
+      "location": "USA"
+    },
+    {
+      "id": "pool-antpool",
+      "name": "AntPool",
+      "hashrate_pct": 23.11,
+      "location": "China"
+    },
+    {
+      "id": "pool-f2pool",
+      "name": "F2Pool",
+      "hashrate_pct": 14.22,
+      "location": "China"
+    },
+    {
+      "id": "pool-viabtc",
+      "name": "ViaBTC",
+      "hashrate_pct": 10.78,
+      "location": "China"
+    },
+    {
+      "id": "pool-binance",
+      "name": "Binance Pool",
+      "hashrate_pct": 10.0,
+      "location": "Multiple"
+    },
+    {
+      "id": "pool-other",
+      "name": "Other Pools",
+      "hashrate_pct": 15.0,
+      "location": "Multiple"
+    }
+  ],
+  "users": [
+    {
+      "id": "user-0000",
+      "custody_btc": 121659.34341518169,
+      "daily_volume_btc": 12165.93434151817,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0001",
+      "custody_btc": 30414.835853795423,
+      "daily_volume_btc": 3041.4835853795425,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0002",
+      "custody_btc": 13517.704823909076,
+      "daily_volume_btc": 1351.7704823909078,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0003",
+      "custody_btc": 7603.708963448856,
+      "daily_volume_btc": 760.3708963448856,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0004",
+      "custody_btc": 4866.373736607267,
+      "daily_volume_btc": 486.6373736607268,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0005",
+      "custody_btc": 3379.426205977269,
+      "daily_volume_btc": 337.94262059772694,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0006",
+      "custody_btc": 2482.843743166973,
+      "daily_volume_btc": 248.28437431669732,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0007",
+      "custody_btc": 1900.927240862214,
+      "daily_volume_btc": 190.0927240862214,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0008",
+      "custody_btc": 1501.9672026565643,
+      "daily_volume_btc": 150.1967202656564,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0009",
+      "custody_btc": 1216.5934341518168,
+      "daily_volume_btc": 121.6593434151817,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0010",
+      "custody_btc": 1005.449119133733,
+      "daily_volume_btc": 100.5449119133733,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0011",
+      "custody_btc": 844.8565514943173,
+      "daily_volume_btc": 84.48565514943174,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0012",
+      "custody_btc": 719.8777716874657,
+      "daily_volume_btc": 71.98777716874656,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0013",
+      "custody_btc": 620.7109357917433,
+      "daily_volume_btc": 62.07109357917433,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0014",
+      "custody_btc": 540.7081929563631,
+      "daily_volume_btc": 54.07081929563631,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0015",
+      "custody_btc": 475.2318102155535,
+      "daily_volume_btc": 47.52318102155535,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0016",
+      "custody_btc": 420.9665862117014,
+      "daily_volume_btc": 42.096658621170135,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0017",
+      "custody_btc": 375.49180066414107,
+      "daily_volume_btc": 37.5491800664141,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0018",
+      "custody_btc": 337.00649145479696,
+      "daily_volume_btc": 33.700649145479694,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0019",
+      "custody_btc": 304.1483585379542,
+      "daily_volume_btc": 30.414835853795424,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0020",
+      "custody_btc": 275.8715270185526,
+      "daily_volume_btc": 27.58715270185526,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0021",
+      "custody_btc": 251.36227978343325,
+      "daily_volume_btc": 25.136227978343324,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0022",
+      "custody_btc": 229.9798552271866,
+      "daily_volume_btc": 22.997985522718658,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0023",
+      "custody_btc": 211.21413787357932,
+      "daily_volume_btc": 21.121413787357934,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0024",
+      "custody_btc": 194.65494946429072,
+      "daily_volume_btc": 19.46549494642907,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0025",
+      "custody_btc": 179.96944292186643,
+      "daily_volume_btc": 17.99694429218664,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0026",
+      "custody_btc": 166.88524473961823,
+      "daily_volume_btc": 16.688524473961824,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0027",
+      "custody_btc": 155.17773394793582,
+      "daily_volume_btc": 15.517773394793583,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0028",
+      "custody_btc": 144.66033699783793,
+      "daily_volume_btc": 14.466033699783791,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0029",
+      "custody_btc": 135.17704823909077,
+      "daily_volume_btc": 13.517704823909078,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0030",
+      "custody_btc": 126.59661125409127,
+      "daily_volume_btc": 12.659661125409126,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0031",
+      "custody_btc": 118.80795255388837,
+      "daily_volume_btc": 11.880795255388838,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0032",
+      "custody_btc": 111.716568792637,
+      "daily_volume_btc": 11.1716568792637,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0033",
+      "custody_btc": 105.24164655292535,
+      "daily_volume_btc": 10.524164655292534,
+      "user_type": "whale"
+    },
+    {
+      "id": "user-0034",
+      "custody_btc": 99.31374972667895,
+      "daily_volume_btc": 9.931374972667895,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0035",
+      "custody_btc": 93.87295016603527,
+      "daily_volume_btc": 9.387295016603526,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0036",
+      "custody_btc": 88.86730709655346,
+      "daily_volume_btc": 8.886730709655346,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0037",
+      "custody_btc": 84.25162286369924,
+      "daily_volume_btc": 8.425162286369924,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0038",
+      "custody_btc": 79.98641907638508,
+      "daily_volume_btc": 7.998641907638508,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0039",
+      "custody_btc": 76.03708963448855,
+      "daily_volume_btc": 7.603708963448856,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0040",
+      "custody_btc": 72.37319655870417,
+      "daily_volume_btc": 7.237319655870417,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0041",
+      "custody_btc": 68.96788175463816,
+      "daily_volume_btc": 6.896788175463815,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0042",
+      "custody_btc": 65.79737339923294,
+      "daily_volume_btc": 6.579737339923295,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0043",
+      "custody_btc": 62.84056994585831,
+      "daily_volume_btc": 6.284056994585831,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0044",
+      "custody_btc": 60.07868810626257,
+      "daily_volume_btc": 6.007868810626257,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0045",
+      "custody_btc": 57.49496380679665,
+      "daily_volume_btc": 5.749496380679664,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0046",
+      "custody_btc": 55.0743972001728,
+      "daily_volume_btc": 5.507439720017279,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0047",
+      "custody_btc": 52.80353446839483,
+      "daily_volume_btc": 5.2803534468394835,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0048",
+      "custody_btc": 50.67028047279538,
+      "daily_volume_btc": 5.067028047279538,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0049",
+      "custody_btc": 48.66373736607268,
+      "daily_volume_btc": 4.866373736607268,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0050",
+      "custody_btc": 46.77406513463348,
+      "daily_volume_btc": 4.677406513463349,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0051",
+      "custody_btc": 44.99236073046661,
+      "daily_volume_btc": 4.49923607304666,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0052",
+      "custody_btc": 43.31055301359263,
+      "daily_volume_btc": 4.331055301359263,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0053",
+      "custody_btc": 41.72131118490456,
+      "daily_volume_btc": 4.172131118490456,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0054",
+      "custody_btc": 40.21796476534932,
+      "daily_volume_btc": 4.0217964765349326,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0055",
+      "custody_btc": 38.794433486983955,
+      "daily_volume_btc": 3.8794433486983957,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0056",
+      "custody_btc": 37.44516571719966,
+      "daily_volume_btc": 3.744516571719966,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0057",
+      "custody_btc": 36.16508424945948,
+      "daily_volume_btc": 3.616508424945948,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0058",
+      "custody_btc": 34.94953847031936,
+      "daily_volume_btc": 3.4949538470319363,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0059",
+      "custody_btc": 33.79426205977269,
+      "daily_volume_btc": 3.3794262059772695,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0060",
+      "custody_btc": 32.69533550528936,
+      "daily_volume_btc": 3.2695335505289354,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0061",
+      "custody_btc": 31.649152813522818,
+      "daily_volume_btc": 3.1649152813522816,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0062",
+      "custody_btc": 30.65239189095029,
+      "daily_volume_btc": 3.065239189095029,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0063",
+      "custody_btc": 29.701988138472093,
+      "daily_volume_btc": 2.9701988138472095,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0064",
+      "custody_btc": 28.795110867498625,
+      "daily_volume_btc": 2.879511086749863,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0065",
+      "custody_btc": 27.92914219815925,
+      "daily_volume_btc": 2.792914219815925,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0066",
+      "custody_btc": 27.101658145507177,
+      "daily_volume_btc": 2.7101658145507175,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0067",
+      "custody_btc": 26.310411638231336,
+      "daily_volume_btc": 2.6310411638231335,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0068",
+      "custody_btc": 25.553317247465177,
+      "daily_volume_btc": 2.5553317247465177,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0069",
+      "custody_btc": 24.828437431669737,
+      "daily_volume_btc": 2.4828437431669736,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0070",
+      "custody_btc": 24.133970127986846,
+      "daily_volume_btc": 2.4133970127986846,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0071",
+      "custody_btc": 23.468237541508817,
+      "daily_volume_btc": 2.3468237541508814,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0072",
+      "custody_btc": 22.829676002098275,
+      "daily_volume_btc": 2.2829676002098274,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0073",
+      "custody_btc": 22.216826774138365,
+      "daily_volume_btc": 2.2216826774138365,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0074",
+      "custody_btc": 21.628327718254525,
+      "daily_volume_btc": 2.1628327718254527,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0075",
+      "custody_btc": 21.06290571592481,
+      "daily_volume_btc": 2.106290571592481,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0076",
+      "custody_btc": 20.51936977823945,
+      "daily_volume_btc": 2.051936977823945,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0077",
+      "custody_btc": 19.99660476909627,
+      "daily_volume_btc": 1.999660476909627,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0078",
+      "custody_btc": 19.493565681009724,
+      "daily_volume_btc": 1.9493565681009726,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0079",
+      "custody_btc": 19.009272408622138,
+      "daily_volume_btc": 1.900927240862214,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0080",
+      "custody_btc": 18.542804971068694,
+      "daily_volume_btc": 1.8542804971068694,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0081",
+      "custody_btc": 18.09329913967604,
+      "daily_volume_btc": 1.8093299139676042,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0082",
+      "custody_btc": 17.659942432164566,
+      "daily_volume_btc": 1.7659942432164566,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0083",
+      "custody_btc": 17.24197043865954,
+      "daily_volume_btc": 1.7241970438659537,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0084",
+      "custody_btc": 16.838663448468054,
+      "daily_volume_btc": 1.6838663448468056,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0085",
+      "custody_btc": 16.449343349808235,
+      "daily_volume_btc": 1.6449343349808236,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0086",
+      "custody_btc": 16.073370777537548,
+      "daily_volume_btc": 1.6073370777537548,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0087",
+      "custody_btc": 15.710142486464578,
+      "daily_volume_btc": 1.5710142486464578,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0088",
+      "custody_btc": 15.359088930082272,
+      "daily_volume_btc": 1.5359088930082274,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0089",
+      "custody_btc": 15.019672026565642,
+      "daily_volume_btc": 1.5019672026565642,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0090",
+      "custody_btc": 14.691383095662564,
+      "daily_volume_btc": 1.4691383095662565,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0091",
+      "custody_btc": 14.373740951699162,
+      "daily_volume_btc": 1.437374095169916,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0092",
+      "custody_btc": 14.066290139343472,
+      "daily_volume_btc": 1.4066290139343471,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0093",
+      "custody_btc": 13.7685993000432,
+      "daily_volume_btc": 1.3768599300043198,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0094",
+      "custody_btc": 13.480259658191876,
+      "daily_volume_btc": 1.3480259658191878,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0095",
+      "custody_btc": 13.200883617098707,
+      "daily_volume_btc": 1.3200883617098709,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0096",
+      "custody_btc": 12.930103455753185,
+      "daily_volume_btc": 1.2930103455753184,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0097",
+      "custody_btc": 12.667570118198846,
+      "daily_volume_btc": 1.2667570118198845,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0098",
+      "custody_btc": 12.41295208807078,
+      "daily_volume_btc": 1.2412952088070779,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0099",
+      "custody_btc": 12.16593434151817,
+      "daily_volume_btc": 1.216593434151817,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0100",
+      "custody_btc": 11.92621737233425,
+      "daily_volume_btc": 1.192621737233425,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0101",
+      "custody_btc": 11.69351628365837,
+      "daily_volume_btc": 1.1693516283658372,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0102",
+      "custody_btc": 11.467559941104883,
+      "daily_volume_btc": 1.1467559941104883,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0103",
+      "custody_btc": 11.248090182616652,
+      "daily_volume_btc": 1.124809018261665,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0104",
+      "custody_btc": 11.034861080742106,
+      "daily_volume_btc": 1.1034861080742104,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0105",
+      "custody_btc": 10.827638253398158,
+      "daily_volume_btc": 1.0827638253398157,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0106",
+      "custody_btc": 10.626198219511023,
+      "daily_volume_btc": 1.0626198219511023,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0107",
+      "custody_btc": 10.43032779622614,
+      "daily_volume_btc": 1.043032779622614,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0108",
+      "custody_btc": 10.239823534650425,
+      "daily_volume_btc": 1.0239823534650425,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0109",
+      "custody_btc": 10.05449119133733,
+      "daily_volume_btc": 1.0054491191337331,
+      "user_type": "large"
+    },
+    {
+      "id": "user-0110",
+      "custody_btc": 9.874145232950385,
+      "daily_volume_btc": 0.9874145232950384,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0111",
+      "custody_btc": 9.698608371745989,
+      "daily_volume_btc": 0.9698608371745989,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0112",
+      "custody_btc": 9.52771112970332,
+      "daily_volume_btc": 0.952771112970332,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0113",
+      "custody_btc": 9.361291429299914,
+      "daily_volume_btc": 0.9361291429299915,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0114",
+      "custody_btc": 9.199194209087462,
+      "daily_volume_btc": 0.9199194209087462,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0115",
+      "custody_btc": 9.04127106236487,
+      "daily_volume_btc": 0.904127106236487,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0116",
+      "custody_btc": 8.887379897376121,
+      "daily_volume_btc": 0.888737989737612,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0117",
+      "custody_btc": 8.73738461757984,
+      "daily_volume_btc": 0.8737384617579841,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0118",
+      "custody_btc": 8.591154820646967,
+      "daily_volume_btc": 0.8591154820646967,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0119",
+      "custody_btc": 8.448565514943173,
+      "daily_volume_btc": 0.8448565514943174,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0120",
+      "custody_btc": 8.309496852344902,
+      "daily_volume_btc": 0.8309496852344901,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0121",
+      "custody_btc": 8.17383387632234,
+      "daily_volume_btc": 0.8173833876322338,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0122",
+      "custody_btc": 8.041466284300462,
+      "daily_volume_btc": 0.8041466284300463,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0123",
+      "custody_btc": 7.9122882033807045,
+      "daily_volume_btc": 0.7912288203380704,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0124",
+      "custody_btc": 7.786197978571629,
+      "daily_volume_btc": 0.7786197978571628,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0125",
+      "custody_btc": 7.663097972737573,
+      "daily_volume_btc": 0.7663097972737573,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0126",
+      "custody_btc": 7.54289437753002,
+      "daily_volume_btc": 0.7542894377530021,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0127",
+      "custody_btc": 7.425497034618023,
+      "daily_volume_btc": 0.7425497034618024,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0128",
+      "custody_btc": 7.310819266581436,
+      "daily_volume_btc": 0.7310819266581436,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0129",
+      "custody_btc": 7.198777716874656,
+      "daily_volume_btc": 0.7198777716874657,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0130",
+      "custody_btc": 7.089292198309055,
+      "daily_volume_btc": 0.7089292198309055,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0131",
+      "custody_btc": 6.982285549539813,
+      "daily_volume_btc": 0.6982285549539813,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0132",
+      "custody_btc": 6.87768349907749,
+      "daily_volume_btc": 0.6877683499077489,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0133",
+      "custody_btc": 6.775414536376794,
+      "daily_volume_btc": 0.6775414536376794,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0134",
+      "custody_btc": 6.675409789584729,
+      "daily_volume_btc": 0.6675409789584729,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0135",
+      "custody_btc": 6.577602909557834,
+      "daily_volume_btc": 0.6577602909557834,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0136",
+      "custody_btc": 6.481929959783775,
+      "daily_volume_btc": 0.6481929959783775,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0137",
+      "custody_btc": 6.388329311866294,
+      "daily_volume_btc": 0.6388329311866294,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0138",
+      "custody_btc": 6.296741546254422,
+      "daily_volume_btc": 0.6296741546254422,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0139",
+      "custody_btc": 6.207109357917434,
+      "daily_volume_btc": 0.6207109357917434,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0140",
+      "custody_btc": 6.119377466685866,
+      "daily_volume_btc": 0.6119377466685867,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0141",
+      "custody_btc": 6.033492531996711,
+      "daily_volume_btc": 0.6033492531996711,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0142",
+      "custody_btc": 5.949403071797237,
+      "daily_volume_btc": 0.5949403071797237,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0143",
+      "custody_btc": 5.867059385377204,
+      "daily_volume_btc": 0.5867059385377204,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0144",
+      "custody_btc": 5.786413479913517,
+      "daily_volume_btc": 0.5786413479913517,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0145",
+      "custody_btc": 5.707419000524569,
+      "daily_volume_btc": 0.5707419000524568,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0146",
+      "custody_btc": 5.630031163643931,
+      "daily_volume_btc": 0.5630031163643932,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0147",
+      "custody_btc": 5.554206693534591,
+      "daily_volume_btc": 0.5554206693534591,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0148",
+      "custody_btc": 5.479903761775672,
+      "daily_volume_btc": 0.5479903761775672,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0149",
+      "custody_btc": 5.407081929563631,
+      "daily_volume_btc": 0.5407081929563632,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0150",
+      "custody_btc": 5.335702092679343,
+      "daily_volume_btc": 0.5335702092679343,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0151",
+      "custody_btc": 5.2657264289812025,
+      "daily_volume_btc": 0.5265726428981202,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0152",
+      "custody_btc": 5.1971183482926095,
+      "daily_volume_btc": 0.519711834829261,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0153",
+      "custody_btc": 5.129842444559863,
+      "daily_volume_btc": 0.5129842444559862,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0154",
+      "custody_btc": 5.063864450163651,
+      "daily_volume_btc": 0.5063864450163651,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0155",
+      "custody_btc": 4.999151192274067,
+      "daily_volume_btc": 0.4999151192274067,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0156",
+      "custody_btc": 4.935670551145348,
+      "daily_volume_btc": 0.49356705511453486,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0157",
+      "custody_btc": 4.873391420252431,
+      "daily_volume_btc": 0.48733914202524314,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0158",
+      "custody_btc": 4.812283668176959,
+      "daily_volume_btc": 0.48122836681769593,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0159",
+      "custody_btc": 4.7523181021555345,
+      "daily_volume_btc": 0.4752318102155535,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0160",
+      "custody_btc": 4.693466433207889,
+      "daily_volume_btc": 0.4693466433207889,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0161",
+      "custody_btc": 4.6357012427671735,
+      "daily_volume_btc": 0.46357012427671734,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0162",
+      "custody_btc": 4.578995950738895,
+      "daily_volume_btc": 0.45789959507388944,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0163",
+      "custody_btc": 4.52332478491901,
+      "daily_volume_btc": 0.45233247849190106,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0164",
+      "custody_btc": 4.46866275170548,
+      "daily_volume_btc": 0.44686627517054806,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0165",
+      "custody_btc": 4.414985608041142,
+      "daily_volume_btc": 0.44149856080411415,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0166",
+      "custody_btc": 4.362269834529086,
+      "daily_volume_btc": 0.43622698345290867,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0167",
+      "custody_btc": 4.310492609664885,
+      "daily_volume_btc": 0.43104926096648843,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0168",
+      "custody_btc": 4.2596317851329335,
+      "daily_volume_btc": 0.42596317851329335,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0169",
+      "custody_btc": 4.2096658621170135,
+      "daily_volume_btc": 0.4209665862117014,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0170",
+      "custody_btc": 4.16057396857774,
+      "daily_volume_btc": 0.41605739685777404,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0171",
+      "custody_btc": 4.112335837452059,
+      "daily_volume_btc": 0.4112335837452059,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0172",
+      "custody_btc": 4.0649317857322895,
+      "daily_volume_btc": 0.406493178573229,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0173",
+      "custody_btc": 4.018342694384387,
+      "daily_volume_btc": 0.4018342694384387,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0174",
+      "custody_btc": 3.972549989067157,
+      "daily_volume_btc": 0.39725499890671573,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0175",
+      "custody_btc": 3.9275356216161446,
+      "daily_volume_btc": 0.39275356216161444,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0176",
+      "custody_btc": 3.883282052257707,
+      "daily_volume_btc": 0.3883282052257707,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0177",
+      "custody_btc": 3.839772232520568,
+      "daily_volume_btc": 0.38397722325205685,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0178",
+      "custody_btc": 3.7969895888137604,
+      "daily_volume_btc": 0.379698958881376,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0179",
+      "custody_btc": 3.7549180066414105,
+      "daily_volume_btc": 0.37549180066414106,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0180",
+      "custody_btc": 3.7135418154263204,
+      "daily_volume_btc": 0.37135418154263206,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0181",
+      "custody_btc": 3.672845773915641,
+      "daily_volume_btc": 0.3672845773915641,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0182",
+      "custody_btc": 3.632815056143262,
+      "daily_volume_btc": 0.3632815056143262,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0183",
+      "custody_btc": 3.5934352379247905,
+      "daily_volume_btc": 0.359343523792479,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0184",
+      "custody_btc": 3.5546922838621384,
+      "daily_volume_btc": 0.35546922838621386,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0185",
+      "custody_btc": 3.516572534835868,
+      "daily_volume_btc": 0.3516572534835868,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0186",
+      "custody_btc": 3.479062695964474,
+      "daily_volume_btc": 0.3479062695964474,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0187",
+      "custody_btc": 3.4421498250108,
+      "daily_volume_btc": 0.34421498250107996,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0188",
+      "custody_btc": 3.405821321216699,
+      "daily_volume_btc": 0.3405821321216699,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0189",
+      "custody_btc": 3.370064914547969,
+      "daily_volume_btc": 0.33700649145479694,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0190",
+      "custody_btc": 3.334868655332411,
+      "daily_volume_btc": 0.33348686553324114,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0191",
+      "custody_btc": 3.300220904274677,
+      "daily_volume_btc": 0.3300220904274677,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0192",
+      "custody_btc": 3.2661103228323363,
+      "daily_volume_btc": 0.3266110322832336,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0193",
+      "custody_btc": 3.2325258639382963,
+      "daily_volume_btc": 0.3232525863938296,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0194",
+      "custody_btc": 3.199456763055403,
+      "daily_volume_btc": 0.31994567630554027,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0195",
+      "custody_btc": 3.1668925295497115,
+      "daily_volume_btc": 0.31668925295497113,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0196",
+      "custody_btc": 3.134822938369494,
+      "daily_volume_btc": 0.31348229383694937,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0197",
+      "custody_btc": 3.103238022017695,
+      "daily_volume_btc": 0.31032380220176947,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0198",
+      "custody_btc": 3.0721280628060326,
+      "daily_volume_btc": 0.30721280628060327,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0199",
+      "custody_btc": 3.0414835853795426,
+      "daily_volume_btc": 0.30414835853795424,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0200",
+      "custody_btc": 3.011295349500797,
+      "daily_volume_btc": 0.30112953495007966,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0201",
+      "custody_btc": 2.9815543430835625,
+      "daily_volume_btc": 0.2981554343083562,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0202",
+      "custody_btc": 2.9522517754660798,
+      "daily_volume_btc": 0.295225177546608,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0203",
+      "custody_btc": 2.9233790709145926,
+      "daily_volume_btc": 0.2923379070914593,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0204",
+      "custody_btc": 2.8949278623481667,
+      "daily_volume_btc": 0.28949278623481667,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0205",
+      "custody_btc": 2.8668899852762206,
+      "daily_volume_btc": 0.2866889985276221,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0206",
+      "custody_btc": 2.839257471940575,
+      "daily_volume_btc": 0.2839257471940575,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0207",
+      "custody_btc": 2.812022545654163,
+      "daily_volume_btc": 0.28120225456541625,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0208",
+      "custody_btc": 2.7851776153289003,
+      "daily_volume_btc": 0.27851776153289004,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0209",
+      "custody_btc": 2.7587152701855264,
+      "daily_volume_btc": 0.2758715270185526,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0210",
+      "custody_btc": 2.7326282746385235,
+      "daily_volume_btc": 0.27326282746385233,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0211",
+      "custody_btc": 2.7069095633495395,
+      "daily_volume_btc": 0.27069095633495394,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0212",
+      "custody_btc": 2.681552236442983,
+      "daily_volume_btc": 0.2681552236442983,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0213",
+      "custody_btc": 2.656549554877756,
+      "daily_volume_btc": 0.26565495548777557,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0214",
+      "custody_btc": 2.631894935969317,
+      "daily_volume_btc": 0.2631894935969317,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0215",
+      "custody_btc": 2.607581949056535,
+      "daily_volume_btc": 0.2607581949056535,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0216",
+      "custody_btc": 2.583604311307985,
+      "daily_volume_btc": 0.2583604311307985,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0217",
+      "custody_btc": 2.559955883662606,
+      "daily_volume_btc": 0.25599558836626063,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0218",
+      "custody_btc": 2.536630666899808,
+      "daily_volume_btc": 0.25366306668998084,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0219",
+      "custody_btc": 2.5136227978343326,
+      "daily_volume_btc": 0.2513622797834333,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0220",
+      "custody_btc": 2.4909265456313694,
+      "daily_volume_btc": 0.24909265456313695,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0221",
+      "custody_btc": 2.468536308237596,
+      "daily_volume_btc": 0.2468536308237596,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0222",
+      "custody_btc": 2.446446608924002,
+      "daily_volume_btc": 0.2446446608924002,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0223",
+      "custody_btc": 2.424652092936497,
+      "daily_volume_btc": 0.24246520929364973,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0224",
+      "custody_btc": 2.4031475242505027,
+      "daily_volume_btc": 0.2403147524250503,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0225",
+      "custody_btc": 2.38192778242583,
+      "daily_volume_btc": 0.238192778242583,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0226",
+      "custody_btc": 2.36098785955834,
+      "daily_volume_btc": 0.236098785955834,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0227",
+      "custody_btc": 2.3403228573249786,
+      "daily_volume_btc": 0.23403228573249787,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0228",
+      "custody_btc": 2.319927984118947,
+      "daily_volume_btc": 0.23199279841189469,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0229",
+      "custody_btc": 2.2997985522718656,
+      "daily_volume_btc": 0.22997985522718656,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0230",
+      "custody_btc": 2.2799299753599387,
+      "daily_volume_btc": 0.22799299753599386,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0231",
+      "custody_btc": 2.2603177655912177,
+      "daily_volume_btc": 0.22603177655912174,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0232",
+      "custody_btc": 2.2409575312711913,
+      "daily_volume_btc": 0.22409575312711913,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0233",
+      "custody_btc": 2.2218449743440303,
+      "daily_volume_btc": 0.222184497434403,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0234",
+      "custody_btc": 2.2029758880069115,
+      "daily_volume_btc": 0.22029758880069114,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0235",
+      "custody_btc": 2.18434615439496,
+      "daily_volume_btc": 0.21843461543949602,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0236",
+      "custody_btc": 2.165951742334414,
+      "daily_volume_btc": 0.2165951742334414,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0237",
+      "custody_btc": 2.1477887051617417,
+      "daily_volume_btc": 0.21477887051617417,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0238",
+      "custody_btc": 2.1298531786064965,
+      "daily_volume_btc": 0.21298531786064967,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0239",
+      "custody_btc": 2.112141378735793,
+      "daily_volume_btc": 0.21121413787357934,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0240",
+      "custody_btc": 2.094649599958363,
+      "daily_volume_btc": 0.2094649599958363,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0241",
+      "custody_btc": 2.0773742130862254,
+      "daily_volume_btc": 0.20773742130862252,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0242",
+      "custody_btc": 2.060311663452077,
+      "daily_volume_btc": 0.20603116634520768,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0243",
+      "custody_btc": 2.043458469080585,
+      "daily_volume_btc": 0.20434584690805846,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0244",
+      "custody_btc": 2.026811218911815,
+      "daily_volume_btc": 0.2026811218911815,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0245",
+      "custody_btc": 2.0103665710751155,
+      "daily_volume_btc": 0.20103665710751156,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0246",
+      "custody_btc": 1.9941212512118165,
+      "daily_volume_btc": 0.19941212512118164,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0247",
+      "custody_btc": 1.9780720508451761,
+      "daily_volume_btc": 0.1978072050845176,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0248",
+      "custody_btc": 1.962215825796063,
+      "daily_volume_btc": 0.19622158257960629,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0249",
+      "custody_btc": 1.9465494946429072,
+      "daily_volume_btc": 0.1946549494642907,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0250",
+      "custody_btc": 1.9310700372245153,
+      "daily_volume_btc": 0.19310700372245154,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0251",
+      "custody_btc": 1.9157744931843932,
+      "daily_volume_btc": 0.1915774493184393,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0252",
+      "custody_btc": 1.9006599605552608,
+      "daily_volume_btc": 0.19006599605552607,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0253",
+      "custody_btc": 1.885723594382505,
+      "daily_volume_btc": 0.18857235943825051,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0254",
+      "custody_btc": 1.8709626053853394,
+      "daily_volume_btc": 0.18709626053853395,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0255",
+      "custody_btc": 1.8563742586545058,
+      "daily_volume_btc": 0.1856374258654506,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0256",
+      "custody_btc": 1.8419558723853762,
+      "daily_volume_btc": 0.1841955872385376,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0257",
+      "custody_btc": 1.827704816645359,
+      "daily_volume_btc": 0.1827704816645359,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0258",
+      "custody_btc": 1.8136185121745605,
+      "daily_volume_btc": 0.18136185121745604,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0259",
+      "custody_btc": 1.799694429218664,
+      "daily_volume_btc": 0.17996944292186642,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0260",
+      "custody_btc": 1.7859300863930607,
+      "daily_volume_btc": 0.17859300863930608,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0261",
+      "custody_btc": 1.7723230495772637,
+      "daily_volume_btc": 0.17723230495772638,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0262",
+      "custody_btc": 1.758870930838695,
+      "daily_volume_btc": 0.1758870930838695,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0263",
+      "custody_btc": 1.7455713873849532,
+      "daily_volume_btc": 0.17455713873849532,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0264",
+      "custody_btc": 1.7324221205437054,
+      "daily_volume_btc": 0.17324221205437054,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0265",
+      "custody_btc": 1.7194208747693724,
+      "daily_volume_btc": 0.17194208747693723,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0266",
+      "custody_btc": 1.7065654366758083,
+      "daily_volume_btc": 0.17065654366758082,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0267",
+      "custody_btc": 1.6938536340941985,
+      "daily_volume_btc": 0.16938536340941984,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0268",
+      "custody_btc": 1.6812833351554248,
+      "daily_volume_btc": 0.1681283335155425,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0269",
+      "custody_btc": 1.6688524473961823,
+      "daily_volume_btc": 0.16688524473961822,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0270",
+      "custody_btc": 1.6565589168881374,
+      "daily_volume_btc": 0.16565589168881373,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0271",
+      "custody_btc": 1.6444007273894585,
+      "daily_volume_btc": 0.16444007273894584,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0272",
+      "custody_btc": 1.6323758995180628,
+      "daily_volume_btc": 0.1632375899518063,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0273",
+      "custody_btc": 1.6204824899459438,
+      "daily_volume_btc": 0.16204824899459438,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0274",
+      "custody_btc": 1.608718590613973,
+      "daily_volume_btc": 0.16087185906139728,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0275",
+      "custody_btc": 1.5970823279665736,
+      "daily_volume_btc": 0.15970823279665736,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0276",
+      "custody_btc": 1.5855718622057071,
+      "daily_volume_btc": 0.1585571862205707,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0277",
+      "custody_btc": 1.5741853865636055,
+      "daily_volume_btc": 0.15741853865636055,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0278",
+      "custody_btc": 1.562921126593719,
+      "daily_volume_btc": 0.1562921126593719,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0279",
+      "custody_btc": 1.5517773394793586,
+      "daily_volume_btc": 0.15517773394793585,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0280",
+      "custody_btc": 1.540752313359528,
+      "daily_volume_btc": 0.1540752313359528,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0281",
+      "custody_btc": 1.5298443666714665,
+      "daily_volume_btc": 0.15298443666714667,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0282",
+      "custody_btc": 1.519051847509417,
+      "daily_volume_btc": 0.1519051847509417,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0283",
+      "custody_btc": 1.5083731329991779,
+      "daily_volume_btc": 0.15083731329991779,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0284",
+      "custody_btc": 1.4978066286879865,
+      "daily_volume_btc": 0.14978066286879865,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0285",
+      "custody_btc": 1.4873507679493092,
+      "daily_volume_btc": 0.14873507679493092,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0286",
+      "custody_btc": 1.477004011402126,
+      "daily_volume_btc": 0.14770040114021257,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0287",
+      "custody_btc": 1.466764846344301,
+      "daily_volume_btc": 0.1466764846344301,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0288",
+      "custody_btc": 1.4566317861996587,
+      "daily_volume_btc": 0.14566317861996586,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0289",
+      "custody_btc": 1.4466033699783793,
+      "daily_volume_btc": 0.14466033699783792,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0290",
+      "custody_btc": 1.4366781617503537,
+      "daily_volume_btc": 0.14366781617503535,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0291",
+      "custody_btc": 1.4268547501311422,
+      "daily_volume_btc": 0.1426854750131142,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0292",
+      "custody_btc": 1.417131747780192,
+      "daily_volume_btc": 0.14171317477801917,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0293",
+      "custody_btc": 1.4075077909109828,
+      "daily_volume_btc": 0.1407507790910983,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0294",
+      "custody_btc": 1.3979815388127745,
+      "daily_volume_btc": 0.13979815388127745,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0295",
+      "custody_btc": 1.3885516733836478,
+      "daily_volume_btc": 0.13885516733836478,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0296",
+      "custody_btc": 1.379216898674531,
+      "daily_volume_btc": 0.1379216898674531,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0297",
+      "custody_btc": 1.369975940443918,
+      "daily_volume_btc": 0.1369975940443918,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0298",
+      "custody_btc": 1.3608275457229975,
+      "daily_volume_btc": 0.13608275457229976,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0299",
+      "custody_btc": 1.3517704823909078,
+      "daily_volume_btc": 0.1351770482390908,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0300",
+      "custody_btc": 1.3428035387598558,
+      "daily_volume_btc": 0.13428035387598558,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0301",
+      "custody_btc": 1.3339255231698357,
+      "daily_volume_btc": 0.13339255231698358,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0302",
+      "custody_btc": 1.3251352635926947,
+      "daily_volume_btc": 0.13251352635926947,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0303",
+      "custody_btc": 1.3164316072453006,
+      "daily_volume_btc": 0.13164316072453006,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0304",
+      "custody_btc": 1.3078134202115743,
+      "daily_volume_btc": 0.13078134202115743,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0305",
+      "custody_btc": 1.2992795870731524,
+      "daily_volume_btc": 0.12992795870731524,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0306",
+      "custody_btc": 1.290829010548459,
+      "daily_volume_btc": 0.1290829010548459,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0307",
+      "custody_btc": 1.2824606111399657,
+      "daily_volume_btc": 0.12824606111399656,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0308",
+      "custody_btc": 1.2741733267894315,
+      "daily_volume_btc": 0.12741733267894315,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0309",
+      "custody_btc": 1.2659661125409127,
+      "daily_volume_btc": 0.12659661125409127,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0310",
+      "custody_btc": 1.257837940211347,
+      "daily_volume_btc": 0.1257837940211347,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0311",
+      "custody_btc": 1.2497877980685168,
+      "daily_volume_btc": 0.12497877980685168,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0312",
+      "custody_btc": 1.241814690516201,
+      "daily_volume_btc": 0.12418146905162011,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0313",
+      "custody_btc": 1.233917637786337,
+      "daily_volume_btc": 0.12339176377863371,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0314",
+      "custody_btc": 1.2260956756380117,
+      "daily_volume_btc": 0.12260956756380116,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0315",
+      "custody_btc": 1.2183478550631077,
+      "daily_volume_btc": 0.12183478550631079,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0316",
+      "custody_btc": 1.2106732419984445,
+      "daily_volume_btc": 0.12106732419984446,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0317",
+      "custody_btc": 1.2030709170442397,
+      "daily_volume_btc": 0.12030709170442398,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0318",
+      "custody_btc": 1.1955399751887432,
+      "daily_volume_btc": 0.11955399751887431,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0319",
+      "custody_btc": 1.1880795255388836,
+      "daily_volume_btc": 0.11880795255388837,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0320",
+      "custody_btc": 1.1806886910567804,
+      "daily_volume_btc": 0.11806886910567803,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0321",
+      "custody_btc": 1.1733666083019723,
+      "daily_volume_btc": 0.11733666083019723,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0322",
+      "custody_btc": 1.166112427179228,
+      "daily_volume_btc": 0.11661124271792281,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0323",
+      "custody_btc": 1.1589253106917934,
+      "daily_volume_btc": 0.11589253106917934,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0324",
+      "custody_btc": 1.151804434699945,
+      "daily_volume_btc": 0.1151804434699945,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0325",
+      "custody_btc": 1.1447489876847237,
+      "daily_volume_btc": 0.11447489876847236,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0326",
+      "custody_btc": 1.137758170516714,
+      "daily_volume_btc": 0.11377581705167139,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0327",
+      "custody_btc": 1.1308311962297526,
+      "daily_volume_btc": 0.11308311962297526,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0328",
+      "custody_btc": 1.1239672897994446,
+      "daily_volume_btc": 0.11239672897994446,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0329",
+      "custody_btc": 1.11716568792637,
+      "daily_volume_btc": 0.11171656879263701,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0330",
+      "custody_btc": 1.110425638823867,
+      "daily_volume_btc": 0.11104256388238669,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0331",
+      "custody_btc": 1.1037464020102854,
+      "daily_volume_btc": 0.11037464020102854,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0332",
+      "custody_btc": 1.0971272481055985,
+      "daily_volume_btc": 0.10971272481055984,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0333",
+      "custody_btc": 1.0905674586322716,
+      "daily_volume_btc": 0.10905674586322717,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0334",
+      "custody_btc": 1.084066325820287,
+      "daily_volume_btc": 0.10840663258202869,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0335",
+      "custody_btc": 1.0776231524162212,
+      "daily_volume_btc": 0.10776231524162211,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0336",
+      "custody_btc": 1.0712372514962858,
+      "daily_volume_btc": 0.10712372514962858,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0337",
+      "custody_btc": 1.0649079462832334,
+      "daily_volume_btc": 0.10649079462832334,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0338",
+      "custody_btc": 1.0586345699670356,
+      "daily_volume_btc": 0.10586345699670356,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0339",
+      "custody_btc": 1.0524164655292534,
+      "daily_volume_btc": 0.10524164655292535,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0340",
+      "custody_btc": 1.046252985571002,
+      "daily_volume_btc": 0.10462529855710022,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0341",
+      "custody_btc": 1.040143492144435,
+      "daily_volume_btc": 0.10401434921444351,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0342",
+      "custody_btc": 1.0340873565876607,
+      "daily_volume_btc": 0.10340873565876607,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0343",
+      "custody_btc": 1.0280839593630147,
+      "daily_volume_btc": 0.10280839593630148,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0344",
+      "custody_btc": 1.022132689898607,
+      "daily_volume_btc": 0.1022132689898607,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0345",
+      "custody_btc": 1.0162329464330724,
+      "daily_volume_btc": 0.10162329464330724,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0346",
+      "custody_btc": 1.0103841358634462,
+      "daily_volume_btc": 0.10103841358634463,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0347",
+      "custody_btc": 1.0045856735960967,
+      "daily_volume_btc": 0.10045856735960967,
+      "user_type": "medium"
+    },
+    {
+      "id": "user-0348",
+      "custody_btc": 0.9988369834006429,
+      "daily_volume_btc": 0.09988369834006429,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0349",
+      "custody_btc": 0.9931374972667892,
+      "daily_volume_btc": 0.09931374972667893,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0350",
+      "custody_btc": 0.9874866552640132,
+      "daily_volume_btc": 0.09874866552640132,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0351",
+      "custody_btc": 0.9818839054040361,
+      "daily_volume_btc": 0.09818839054040361,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0352",
+      "custody_btc": 0.9763287035060203,
+      "daily_volume_btc": 0.09763287035060203,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0353",
+      "custody_btc": 0.9708205130644267,
+      "daily_volume_btc": 0.09708205130644268,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0354",
+      "custody_btc": 0.965358805119474,
+      "daily_volume_btc": 0.09653588051194739,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0355",
+      "custody_btc": 0.959943058130142,
+      "daily_volume_btc": 0.09599430581301421,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0356",
+      "custody_btc": 0.9545727578496631,
+      "daily_volume_btc": 0.09545727578496631,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0357",
+      "custody_btc": 0.9492473972034401,
+      "daily_volume_btc": 0.094924739720344,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0358",
+      "custody_btc": 0.9439664761693477,
+      "daily_volume_btc": 0.09439664761693477,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0359",
+      "custody_btc": 0.9387295016603526,
+      "daily_volume_btc": 0.09387295016603527,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0360",
+      "custody_btc": 0.9335359874094098,
+      "daily_volume_btc": 0.09335359874094099,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0361",
+      "custody_btc": 0.9283854538565801,
+      "daily_volume_btc": 0.09283854538565801,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0362",
+      "custody_btc": 0.9232774280383222,
+      "daily_volume_btc": 0.09232774280383223,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0363",
+      "custody_btc": 0.9182114434789103,
+      "daily_volume_btc": 0.09182114434789103,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0364",
+      "custody_btc": 0.9131870400839309,
+      "daily_volume_btc": 0.09131870400839309,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0365",
+      "custody_btc": 0.9082037640358155,
+      "daily_volume_btc": 0.09082037640358155,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0366",
+      "custody_btc": 0.9032611676913609,
+      "daily_volume_btc": 0.09032611676913609,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0367",
+      "custody_btc": 0.8983588094811976,
+      "daily_volume_btc": 0.08983588094811976,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0368",
+      "custody_btc": 0.8934962538111625,
+      "daily_volume_btc": 0.08934962538111625,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0369",
+      "custody_btc": 0.8886730709655346,
+      "daily_volume_btc": 0.08886730709655347,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0370",
+      "custody_btc": 0.8838888370120944,
+      "daily_volume_btc": 0.08838888370120944,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0371",
+      "custody_btc": 0.879143133708967,
+      "daily_volume_btc": 0.0879143133708967,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0372",
+      "custody_btc": 0.8744355484132114,
+      "daily_volume_btc": 0.08744355484132114,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0373",
+      "custody_btc": 0.8697656739911185,
+      "daily_volume_btc": 0.08697656739911185,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0374",
+      "custody_btc": 0.865133108730181,
+      "daily_volume_btc": 0.0865133108730181,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0375",
+      "custody_btc": 0.8605374562527,
+      "daily_volume_btc": 0.08605374562526999,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0376",
+      "custody_btc": 0.8559783254309937,
+      "daily_volume_btc": 0.08559783254309937,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0377",
+      "custody_btc": 0.8514553303041748,
+      "daily_volume_btc": 0.08514553303041747,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0378",
+      "custody_btc": 0.8469680899964613,
+      "daily_volume_btc": 0.08469680899964614,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0379",
+      "custody_btc": 0.8425162286369923,
+      "daily_volume_btc": 0.08425162286369924,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0380",
+      "custody_btc": 0.8380993752811134,
+      "daily_volume_btc": 0.08380993752811135,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0381",
+      "custody_btc": 0.8337171638331028,
+      "daily_volume_btc": 0.08337171638331028,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0382",
+      "custody_btc": 0.8293692329703094,
+      "daily_volume_btc": 0.08293692329703094,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0383",
+      "custody_btc": 0.8250552260686692,
+      "daily_volume_btc": 0.08250552260686693,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0384",
+      "custody_btc": 0.820774791129578,
+      "daily_volume_btc": 0.08207747911295779,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0385",
+      "custody_btc": 0.8165275807080841,
+      "daily_volume_btc": 0.0816527580708084,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0386",
+      "custody_btc": 0.8123132518423819,
+      "daily_volume_btc": 0.0812313251842382,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0387",
+      "custody_btc": 0.8081314659845741,
+      "daily_volume_btc": 0.0808131465984574,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0388",
+      "custody_btc": 0.8039818889326776,
+      "daily_volume_btc": 0.08039818889326776,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0389",
+      "custody_btc": 0.7998641907638507,
+      "daily_volume_btc": 0.07998641907638507,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0390",
+      "custody_btc": 0.7957780457688117,
+      "daily_volume_btc": 0.07957780457688118,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0391",
+      "custody_btc": 0.7917231323874279,
+      "daily_volume_btc": 0.07917231323874278,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0392",
+      "custody_btc": 0.7876991331454507,
+      "daily_volume_btc": 0.07876991331454507,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0393",
+      "custody_btc": 0.7837057345923735,
+      "daily_volume_btc": 0.07837057345923734,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0394",
+      "custody_btc": 0.779742627240389,
+      "daily_volume_btc": 0.0779742627240389,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0395",
+      "custody_btc": 0.7758095055044237,
+      "daily_volume_btc": 0.07758095055044237,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0396",
+      "custody_btc": 0.7719060676432291,
+      "daily_volume_btc": 0.07719060676432292,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0397",
+      "custody_btc": 0.7680320157015081,
+      "daily_volume_btc": 0.07680320157015082,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0398",
+      "custody_btc": 0.7641870554530543,
+      "daily_volume_btc": 0.07641870554530543,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0399",
+      "custody_btc": 0.7603708963448856,
+      "daily_volume_btc": 0.07603708963448856,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0400",
+      "custody_btc": 0.7565832514423524,
+      "daily_volume_btc": 0.07565832514423523,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0401",
+      "custody_btc": 0.7528238373751992,
+      "daily_volume_btc": 0.07528238373751991,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0402",
+      "custody_btc": 0.7490923742845635,
+      "daily_volume_btc": 0.07490923742845636,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0403",
+      "custody_btc": 0.7453885857708906,
+      "daily_volume_btc": 0.07453885857708906,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0404",
+      "custody_btc": 0.7417121988427477,
+      "daily_volume_btc": 0.07417121988427477,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0405",
+      "custody_btc": 0.7380629438665199,
+      "daily_volume_btc": 0.073806294386652,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0406",
+      "custody_btc": 0.7344405545169709,
+      "daily_volume_btc": 0.07344405545169709,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0407",
+      "custody_btc": 0.7308447677286481,
+      "daily_volume_btc": 0.07308447677286482,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0408",
+      "custody_btc": 0.7272753236481232,
+      "daily_volume_btc": 0.07272753236481232,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0409",
+      "custody_btc": 0.7237319655870417,
+      "daily_volume_btc": 0.07237319655870417,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0410",
+      "custody_btc": 0.7202144399759752,
+      "daily_volume_btc": 0.07202144399759752,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0411",
+      "custody_btc": 0.7167224963190552,
+      "daily_volume_btc": 0.07167224963190552,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0412",
+      "custody_btc": 0.7132558871493747,
+      "daily_volume_btc": 0.07132558871493747,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0413",
+      "custody_btc": 0.7098143679851437,
+      "daily_volume_btc": 0.07098143679851437,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0414",
+      "custody_btc": 0.7063976972865826,
+      "daily_volume_btc": 0.07063976972865826,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0415",
+      "custody_btc": 0.7030056364135407,
+      "daily_volume_btc": 0.07030056364135406,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0416",
+      "custody_btc": 0.6996379495838247,
+      "daily_volume_btc": 0.06996379495838247,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0417",
+      "custody_btc": 0.6962944038322251,
+      "daily_volume_btc": 0.06962944038322251,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0418",
+      "custody_btc": 0.6929747689702251,
+      "daily_volume_btc": 0.06929747689702252,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0419",
+      "custody_btc": 0.6896788175463816,
+      "daily_volume_btc": 0.06896788175463815,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0420",
+      "custody_btc": 0.6864063248073623,
+      "daily_volume_btc": 0.06864063248073624,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0421",
+      "custody_btc": 0.6831570686596309,
+      "daily_volume_btc": 0.06831570686596308,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0422",
+      "custody_btc": 0.6799308296317629,
+      "daily_volume_btc": 0.06799308296317629,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0423",
+      "custody_btc": 0.6767273908373849,
+      "daily_volume_btc": 0.06767273908373848,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0424",
+      "custody_btc": 0.6735465379387222,
+      "daily_volume_btc": 0.06735465379387222,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0425",
+      "custody_btc": 0.6703880591107457,
+      "daily_volume_btc": 0.06703880591107457,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0426",
+      "custody_btc": 0.6672517450059052,
+      "daily_volume_btc": 0.06672517450059053,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0427",
+      "custody_btc": 0.664137388719439,
+      "daily_volume_btc": 0.06641373887194389,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0428",
+      "custody_btc": 0.6610447857552485,
+      "daily_volume_btc": 0.06610447857552486,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0429",
+      "custody_btc": 0.6579737339923293,
+      "daily_volume_btc": 0.06579737339923293,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0430",
+      "custody_btc": 0.6549240336517443,
+      "daily_volume_btc": 0.06549240336517444,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0431",
+      "custody_btc": 0.6518954872641337,
+      "daily_volume_btc": 0.06518954872641337,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0432",
+      "custody_btc": 0.6488878996377478,
+      "daily_volume_btc": 0.06488878996377478,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0433",
+      "custody_btc": 0.6459010778269962,
+      "daily_volume_btc": 0.06459010778269962,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0434",
+      "custody_btc": 0.642934831101502,
+      "daily_volume_btc": 0.06429348311015019,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0435",
+      "custody_btc": 0.6399889709156515,
+      "daily_volume_btc": 0.06399889709156516,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0436",
+      "custody_btc": 0.6370633108786332,
+      "daily_volume_btc": 0.06370633108786332,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0437",
+      "custody_btc": 0.634157666724952,
+      "daily_volume_btc": 0.06341576667249521,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0438",
+      "custody_btc": 0.6312718562854162,
+      "daily_volume_btc": 0.06312718562854161,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0439",
+      "custody_btc": 0.6284056994585832,
+      "daily_volume_btc": 0.06284056994585832,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0440",
+      "custody_btc": 0.6255590181826589,
+      "daily_volume_btc": 0.0625559018182659,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0441",
+      "custody_btc": 0.6227316364078423,
+      "daily_volume_btc": 0.06227316364078424,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0442",
+      "custody_btc": 0.6199233800691045,
+      "daily_volume_btc": 0.06199233800691045,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0443",
+      "custody_btc": 0.617134077059399,
+      "daily_volume_btc": 0.0617134077059399,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0444",
+      "custody_btc": 0.6143635572032909,
+      "daily_volume_btc": 0.06143635572032909,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0445",
+      "custody_btc": 0.6116116522310004,
+      "daily_volume_btc": 0.06116116522310005,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0446",
+      "custody_btc": 0.6088781957528524,
+      "daily_volume_btc": 0.060887819575285246,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0447",
+      "custody_btc": 0.6061630232341243,
+      "daily_volume_btc": 0.06061630232341243,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0448",
+      "custody_btc": 0.6034659719702864,
+      "daily_volume_btc": 0.06034659719702864,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0449",
+      "custody_btc": 0.6007868810626257,
+      "daily_volume_btc": 0.06007868810626257,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0450",
+      "custody_btc": 0.5981255913942493,
+      "daily_volume_btc": 0.05981255913942493,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0451",
+      "custody_btc": 0.5954819456064575,
+      "daily_volume_btc": 0.05954819456064575,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0452",
+      "custody_btc": 0.5928557880754826,
+      "daily_volume_btc": 0.059285578807548256,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0453",
+      "custody_btc": 0.590246964889585,
+      "daily_volume_btc": 0.0590246964889585,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0454",
+      "custody_btc": 0.5876553238265025,
+      "daily_volume_btc": 0.058765532382650254,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0455",
+      "custody_btc": 0.5850807143312446,
+      "daily_volume_btc": 0.05850807143312447,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0456",
+      "custody_btc": 0.5825229874942265,
+      "daily_volume_btc": 0.05825229874942264,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0457",
+      "custody_btc": 0.5799819960297368,
+      "daily_volume_btc": 0.05799819960297367,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0458",
+      "custody_btc": 0.5774575942547344,
+      "daily_volume_btc": 0.05774575942547344,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0459",
+      "custody_btc": 0.5749496380679664,
+      "daily_volume_btc": 0.05749496380679664,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0460",
+      "custody_btc": 0.5724579849294033,
+      "daily_volume_btc": 0.05724579849294033,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0461",
+      "custody_btc": 0.5699824938399847,
+      "daily_volume_btc": 0.056998249383998466,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0462",
+      "custody_btc": 0.5675230253216729,
+      "daily_volume_btc": 0.05675230253216729,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0463",
+      "custody_btc": 0.5650794413978044,
+      "daily_volume_btc": 0.056507944139780435,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0464",
+      "custody_btc": 0.5626516055737389,
+      "daily_volume_btc": 0.05626516055737389,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0465",
+      "custody_btc": 0.5602393828177978,
+      "daily_volume_btc": 0.05602393828177978,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0466",
+      "custody_btc": 0.5578426395424881,
+      "daily_volume_btc": 0.05578426395424882,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0467",
+      "custody_btc": 0.5554612435860076,
+      "daily_volume_btc": 0.05554612435860075,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0468",
+      "custody_btc": 0.5530950641940239,
+      "daily_volume_btc": 0.05530950641940239,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0469",
+      "custody_btc": 0.5507439720017279,
+      "daily_volume_btc": 0.055074397200172785,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0470",
+      "custody_btc": 0.5484078390161499,
+      "daily_volume_btc": 0.05484078390161498,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0471",
+      "custody_btc": 0.54608653859874,
+      "daily_volume_btc": 0.054608653859874005,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0472",
+      "custody_btc": 0.5437799454482061,
+      "daily_volume_btc": 0.054377994544820604,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0473",
+      "custody_btc": 0.5414879355836035,
+      "daily_volume_btc": 0.05414879355836035,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0474",
+      "custody_btc": 0.5392103863276752,
+      "daily_volume_btc": 0.053921038632767516,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0475",
+      "custody_btc": 0.5369471762904354,
+      "daily_volume_btc": 0.05369471762904354,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0476",
+      "custody_btc": 0.5346981853529954,
+      "daily_volume_btc": 0.05346981853529954,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0477",
+      "custody_btc": 0.5324632946516241,
+      "daily_volume_btc": 0.05324632946516242,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0478",
+      "custody_btc": 0.5302423865620429,
+      "daily_volume_btc": 0.053024238656204294,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0479",
+      "custody_btc": 0.5280353446839483,
+      "daily_volume_btc": 0.052803534468394836,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0480",
+      "custody_btc": 0.5258420538257602,
+      "daily_volume_btc": 0.05258420538257602,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0481",
+      "custody_btc": 0.5236623999895907,
+      "daily_volume_btc": 0.05236623999895908,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0482",
+      "custody_btc": 0.5214962703564321,
+      "daily_volume_btc": 0.052149627035643215,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0483",
+      "custody_btc": 0.5193435532715563,
+      "daily_volume_btc": 0.05193435532715563,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0484",
+      "custody_btc": 0.5172041382301272,
+      "daily_volume_btc": 0.05172041382301273,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0485",
+      "custody_btc": 0.5150779158630192,
+      "daily_volume_btc": 0.05150779158630192,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0486",
+      "custody_btc": 0.5129647779228386,
+      "daily_volume_btc": 0.05129647779228385,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0487",
+      "custody_btc": 0.5108646172701462,
+      "daily_volume_btc": 0.051086461727014615,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0488",
+      "custody_btc": 0.5087773278598773,
+      "daily_volume_btc": 0.05087773278598772,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0489",
+      "custody_btc": 0.5067028047279537,
+      "daily_volume_btc": 0.05067028047279538,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0490",
+      "custody_btc": 0.504640943978089,
+      "daily_volume_btc": 0.050464094397808905,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0491",
+      "custody_btc": 0.5025916427687789,
+      "daily_volume_btc": 0.05025916427687789,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0492",
+      "custody_btc": 0.5005547993004773,
+      "daily_volume_btc": 0.050055479930047726,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0493",
+      "custody_btc": 0.4985303128029541,
+      "daily_volume_btc": 0.04985303128029541,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0494",
+      "custody_btc": 0.4965180835228311,
+      "daily_volume_btc": 0.04965180835228311,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0495",
+      "custody_btc": 0.49451801271129403,
+      "daily_volume_btc": 0.0494518012711294,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0496",
+      "custody_btc": 0.49253000261197655,
+      "daily_volume_btc": 0.04925300026119765,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0497",
+      "custody_btc": 0.4905539564490157,
+      "daily_volume_btc": 0.04905539564490157,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0498",
+      "custody_btc": 0.48858977841527423,
+      "daily_volume_btc": 0.04885897784152743,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0499",
+      "custody_btc": 0.4866373736607268,
+      "daily_volume_btc": 0.04866373736607268,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0500",
+      "custody_btc": 0.4846966482810096,
+      "daily_volume_btc": 0.04846966482810096,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0501",
+      "custody_btc": 0.48276750930612883,
+      "daily_volume_btc": 0.048276750930612886,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0502",
+      "custody_btc": 0.48084986468932606,
+      "daily_volume_btc": 0.04808498646893261,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0503",
+      "custody_btc": 0.4789436232960983,
+      "daily_volume_btc": 0.04789436232960983,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0504",
+      "custody_btc": 0.47704869489337004,
+      "daily_volume_btc": 0.047704869489337005,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0505",
+      "custody_btc": 0.4751649901388152,
+      "daily_volume_btc": 0.04751649901388152,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0506",
+      "custody_btc": 0.47329242057032583,
+      "daily_volume_btc": 0.04732924205703258,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0507",
+      "custody_btc": 0.47143089859562626,
+      "daily_volume_btc": 0.04714308985956263,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0508",
+      "custody_btc": 0.46958033748202954,
+      "daily_volume_btc": 0.046958033748202954,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0509",
+      "custody_btc": 0.46774065134633486,
+      "daily_volume_btc": 0.04677406513463349,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0510",
+      "custody_btc": 0.4659117551448627,
+      "daily_volume_btc": 0.04659117551448627,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0511",
+      "custody_btc": 0.46409356466362645,
+      "daily_volume_btc": 0.04640935646636265,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0512",
+      "custody_btc": 0.4622859965086378,
+      "daily_volume_btc": 0.046228599650863775,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0513",
+      "custody_btc": 0.46048896809634404,
+      "daily_volume_btc": 0.0460488968096344,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0514",
+      "custody_btc": 0.4587023976441953,
+      "daily_volume_btc": 0.04587023976441953,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0515",
+      "custody_btc": 0.4569262041613398,
+      "daily_volume_btc": 0.04569262041613398,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0516",
+      "custody_btc": 0.4551603074394446,
+      "daily_volume_btc": 0.04551603074394446,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0517",
+      "custody_btc": 0.4534046280436401,
+      "daily_volume_btc": 0.04534046280436401,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0518",
+      "custody_btc": 0.4516590873035877,
+      "daily_volume_btc": 0.04516590873035877,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0519",
+      "custody_btc": 0.449923607304666,
+      "daily_volume_btc": 0.044992360730466606,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0520",
+      "custody_btc": 0.4481981108792765,
+      "daily_volume_btc": 0.04481981108792765,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0521",
+      "custody_btc": 0.4464825215982652,
+      "daily_volume_btc": 0.04464825215982652,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0522",
+      "custody_btc": 0.4447767637624592,
+      "daily_volume_btc": 0.044477676376245924,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0523",
+      "custody_btc": 0.44308076239431593,
+      "daily_volume_btc": 0.044308076239431594,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0524",
+      "custody_btc": 0.44139444322968413,
+      "daily_volume_btc": 0.044139444322968416,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0525",
+      "custody_btc": 0.43971773270967374,
+      "daily_volume_btc": 0.04397177327096737,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0526",
+      "custody_btc": 0.4380505579726341,
+      "daily_volume_btc": 0.04380505579726341,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0527",
+      "custody_btc": 0.4363928468462383,
+      "daily_volume_btc": 0.04363928468462383,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0528",
+      "custody_btc": 0.43474452783967216,
+      "daily_volume_btc": 0.043474452783967214,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0529",
+      "custody_btc": 0.43310553013592634,
+      "daily_volume_btc": 0.043310553013592636,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0530",
+      "custody_btc": 0.4314757835841896,
+      "daily_volume_btc": 0.04314757835841896,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0531",
+      "custody_btc": 0.4298552186923431,
+      "daily_volume_btc": 0.04298552186923431,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0532",
+      "custody_btc": 0.4282437666195512,
+      "daily_volume_btc": 0.04282437666195512,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0533",
+      "custody_btc": 0.4266413591689521,
+      "daily_volume_btc": 0.042664135916895204,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0534",
+      "custody_btc": 0.4250479287804409,
+      "daily_volume_btc": 0.04250479287804409,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0535",
+      "custody_btc": 0.42346340852354963,
+      "daily_volume_btc": 0.04234634085235496,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0536",
+      "custody_btc": 0.42188773209041786,
+      "daily_volume_btc": 0.04218877320904178,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0537",
+      "custody_btc": 0.4203208337888562,
+      "daily_volume_btc": 0.04203208337888562,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0538",
+      "custody_btc": 0.41876264853549894,
+      "daily_volume_btc": 0.041876264853549894,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0539",
+      "custody_btc": 0.4172131118490456,
+      "daily_volume_btc": 0.041721311184904554,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0540",
+      "custody_btc": 0.4156721598435898,
+      "daily_volume_btc": 0.041567215984358974,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0541",
+      "custody_btc": 0.41413972922203435,
+      "daily_volume_btc": 0.04141397292220343,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0542",
+      "custody_btc": 0.41261575726959115,
+      "daily_volume_btc": 0.04126157572695911,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0543",
+      "custody_btc": 0.41110018184736463,
+      "daily_volume_btc": 0.04111001818473646,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0544",
+      "custody_btc": 0.40959294138601704,
+      "daily_volume_btc": 0.0409592941386017,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0545",
+      "custody_btc": 0.4080939748795157,
+      "daily_volume_btc": 0.04080939748795157,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0546",
+      "custody_btc": 0.40660322187895986,
+      "daily_volume_btc": 0.04066032218789598,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0547",
+      "custody_btc": 0.40512062248648595,
+      "daily_volume_btc": 0.040512062248648596,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0548",
+      "custody_btc": 0.4036461173492513,
+      "daily_volume_btc": 0.04036461173492513,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0549",
+      "custody_btc": 0.40217964765349323,
+      "daily_volume_btc": 0.04021796476534932,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0550",
+      "custody_btc": 0.4007211551186647,
+      "daily_volume_btc": 0.040072115511866464,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0551",
+      "custody_btc": 0.3992705819916434,
+      "daily_volume_btc": 0.03992705819916434,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0552",
+      "custody_btc": 0.39782787104101486,
+      "daily_volume_btc": 0.039782787104101484,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0553",
+      "custody_btc": 0.3963929655514268,
+      "daily_volume_btc": 0.03963929655514267,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0554",
+      "custody_btc": 0.39496580931801545,
+      "daily_volume_btc": 0.03949658093180155,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0555",
+      "custody_btc": 0.3935463466409014,
+      "daily_volume_btc": 0.039354634664090136,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0556",
+      "custody_btc": 0.39213452231975504,
+      "daily_volume_btc": 0.039213452231975504,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0557",
+      "custody_btc": 0.39073028164842977,
+      "daily_volume_btc": 0.039073028164842975,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0558",
+      "custody_btc": 0.3893335704096623,
+      "daily_volume_btc": 0.03893335704096623,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0559",
+      "custody_btc": 0.38794433486983965,
+      "daily_volume_btc": 0.03879443348698396,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0560",
+      "custody_btc": 0.38656252177383044,
+      "daily_volume_btc": 0.03865625217738305,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0561",
+      "custody_btc": 0.385188078339882,
+      "daily_volume_btc": 0.0385188078339882,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0562",
+      "custody_btc": 0.38382095225457913,
+      "daily_volume_btc": 0.038382095225457914,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0563",
+      "custody_btc": 0.3824610916678666,
+      "daily_volume_btc": 0.03824610916678667,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0564",
+      "custody_btc": 0.3811084451881328,
+      "daily_volume_btc": 0.03811084451881328,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0565",
+      "custody_btc": 0.37976296187735425,
+      "daily_volume_btc": 0.037976296187735424,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0566",
+      "custody_btc": 0.37842459124629985,
+      "daily_volume_btc": 0.03784245912462999,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0567",
+      "custody_btc": 0.37709328324979446,
+      "daily_volume_btc": 0.037709328324979446,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0568",
+      "custody_btc": 0.3757689882820405,
+      "daily_volume_btc": 0.037576898828204044,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0569",
+      "custody_btc": 0.37445165717199663,
+      "daily_volume_btc": 0.03744516571719966,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0570",
+      "custody_btc": 0.37314124117881403,
+      "daily_volume_btc": 0.0373141241178814,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0571",
+      "custody_btc": 0.3718376919873273,
+      "daily_volume_btc": 0.03718376919873273,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0572",
+      "custody_btc": 0.3705409617036013,
+      "daily_volume_btc": 0.037054096170360123,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0573",
+      "custody_btc": 0.3692510028505315,
+      "daily_volume_btc": 0.03692510028505314,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0574",
+      "custody_btc": 0.36796776836349854,
+      "daily_volume_btc": 0.036796776836349854,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0575",
+      "custody_btc": 0.36669121158607526,
+      "daily_volume_btc": 0.03666912115860752,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0576",
+      "custody_btc": 0.36542128626578546,
+      "daily_volume_btc": 0.036542128626578546,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0577",
+      "custody_btc": 0.3641579465499147,
+      "daily_volume_btc": 0.036415794654991465,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0578",
+      "custody_btc": 0.3629011469813707,
+      "daily_volume_btc": 0.036290114698137074,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0579",
+      "custody_btc": 0.36165084249459484,
+      "daily_volume_btc": 0.03616508424945948,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0580",
+      "custody_btc": 0.36040698841152174,
+      "daily_volume_btc": 0.03604069884115217,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0581",
+      "custody_btc": 0.3591695404375884,
+      "daily_volume_btc": 0.03591695404375884,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0582",
+      "custody_btc": 0.3579384546577903,
+      "daily_volume_btc": 0.03579384546577903,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0583",
+      "custody_btc": 0.35671368753278554,
+      "daily_volume_btc": 0.03567136875327855,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0584",
+      "custody_btc": 0.3554951958950448,
+      "daily_volume_btc": 0.03554951958950448,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0585",
+      "custody_btc": 0.354282936945048,
+      "daily_volume_btc": 0.035428293694504794,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0586",
+      "custody_btc": 0.3530768682475257,
+      "daily_volume_btc": 0.03530768682475257,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0587",
+      "custody_btc": 0.3518769477277457,
+      "daily_volume_btc": 0.03518769477277457,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0588",
+      "custody_btc": 0.3506831336678428,
+      "daily_volume_btc": 0.03506831336678428,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0589",
+      "custody_btc": 0.34949538470319363,
+      "daily_volume_btc": 0.03494953847031936,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0590",
+      "custody_btc": 0.34831365981883267,
+      "daily_volume_btc": 0.03483136598188327,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0591",
+      "custody_btc": 0.34713791834591196,
+      "daily_volume_btc": 0.034713791834591196,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0592",
+      "custody_btc": 0.34596811995820176,
+      "daily_volume_btc": 0.034596811995820174,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0593",
+      "custody_btc": 0.34480422466863275,
+      "daily_volume_btc": 0.034480422466863274,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0594",
+      "custody_btc": 0.34364619282587866,
+      "daily_volume_btc": 0.03436461928258787,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0595",
+      "custody_btc": 0.3424939851109795,
+      "daily_volume_btc": 0.03424939851109795,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0596",
+      "custody_btc": 0.3413475625340036,
+      "daily_volume_btc": 0.034134756253400365,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0597",
+      "custody_btc": 0.34020688643074937,
+      "daily_volume_btc": 0.03402068864307494,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0598",
+      "custody_btc": 0.3390719184594851,
+      "daily_volume_btc": 0.03390719184594851,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0599",
+      "custody_btc": 0.33794262059772695,
+      "daily_volume_btc": 0.0337942620597727,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0600",
+      "custody_btc": 0.3368189551390547,
+      "daily_volume_btc": 0.03368189551390547,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0601",
+      "custody_btc": 0.33570088468996395,
+      "daily_volume_btc": 0.033570088468996395,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0602",
+      "custody_btc": 0.33458837216675524,
+      "daily_volume_btc": 0.03345883721667552,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0603",
+      "custody_btc": 0.3334813807924589,
+      "daily_volume_btc": 0.033348138079245894,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0604",
+      "custody_btc": 0.33237987409379605,
+      "daily_volume_btc": 0.0332379874093796,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0605",
+      "custody_btc": 0.3312838158981737,
+      "daily_volume_btc": 0.03312838158981737,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0606",
+      "custody_btc": 0.3301931703307152,
+      "daily_volume_btc": 0.033019317033071524,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0607",
+      "custody_btc": 0.32910790181132515,
+      "daily_volume_btc": 0.032910790181132514,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0608",
+      "custody_btc": 0.32802797505178666,
+      "daily_volume_btc": 0.03280279750517867,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0609",
+      "custody_btc": 0.3269533550528936,
+      "daily_volume_btc": 0.03269533550528936,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0610",
+      "custody_btc": 0.3258840071016142,
+      "daily_volume_btc": 0.03258840071016142,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0611",
+      "custody_btc": 0.3248198967682881,
+      "daily_volume_btc": 0.03248198967682881,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0612",
+      "custody_btc": 0.32376098990385505,
+      "daily_volume_btc": 0.0323760989903855,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0613",
+      "custody_btc": 0.32270725263711475,
+      "daily_volume_btc": 0.032270725263711476,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0614",
+      "custody_btc": 0.32165865137201843,
+      "daily_volume_btc": 0.03216586513720185,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0615",
+      "custody_btc": 0.3206151527849914,
+      "daily_volume_btc": 0.03206151527849914,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0616",
+      "custody_btc": 0.3195767238222846,
+      "daily_volume_btc": 0.03195767238222846,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0617",
+      "custody_btc": 0.3185433316973579,
+      "daily_volume_btc": 0.031854333169735786,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0618",
+      "custody_btc": 0.3175149438882916,
+      "daily_volume_btc": 0.03175149438882916,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0619",
+      "custody_btc": 0.3164915281352282,
+      "daily_volume_btc": 0.03164915281352282,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0620",
+      "custody_btc": 0.3154730524378417,
+      "daily_volume_btc": 0.03154730524378417,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0621",
+      "custody_btc": 0.3144594850528368,
+      "daily_volume_btc": 0.03144594850528368,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0622",
+      "custody_btc": 0.313450794491475,
+      "daily_volume_btc": 0.0313450794491475,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0623",
+      "custody_btc": 0.3124469495171292,
+      "daily_volume_btc": 0.03124469495171292,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0624",
+      "custody_btc": 0.3114479191428652,
+      "daily_volume_btc": 0.031144791914286516,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0625",
+      "custody_btc": 0.31045367262905027,
+      "daily_volume_btc": 0.03104536726290503,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0626",
+      "custody_btc": 0.3094641794809889,
+      "daily_volume_btc": 0.030946417948098895,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0627",
+      "custody_btc": 0.30847940944658425,
+      "daily_volume_btc": 0.03084794094465843,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0628",
+      "custody_btc": 0.30749933251402584,
+      "daily_volume_btc": 0.030749933251402586,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0629",
+      "custody_btc": 0.3065239189095029,
+      "daily_volume_btc": 0.03065239189095029,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0630",
+      "custody_btc": 0.30555313909494325,
+      "daily_volume_btc": 0.030555313909494324,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0631",
+      "custody_btc": 0.30458696376577693,
+      "daily_volume_btc": 0.030458696376577696,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0632",
+      "custody_btc": 0.3036253638487248,
+      "daily_volume_btc": 0.03036253638487248,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0633",
+      "custody_btc": 0.3026683104996111,
+      "daily_volume_btc": 0.030266831049961116,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0634",
+      "custody_btc": 0.30171577510120084,
+      "daily_volume_btc": 0.030171577510120083,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0635",
+      "custody_btc": 0.30076772926105994,
+      "daily_volume_btc": 0.030076772926105996,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0636",
+      "custody_btc": 0.2998241448094401,
+      "daily_volume_btc": 0.02998241448094401,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0637",
+      "custody_btc": 0.2988849937971858,
+      "daily_volume_btc": 0.02988849937971858,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0638",
+      "custody_btc": 0.2979502484936648,
+      "daily_volume_btc": 0.02979502484936648,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0639",
+      "custody_btc": 0.2970198813847209,
+      "daily_volume_btc": 0.029701988138472094,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0640",
+      "custody_btc": 0.2960938651706496,
+      "daily_volume_btc": 0.02960938651706496,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0641",
+      "custody_btc": 0.2951721727641951,
+      "daily_volume_btc": 0.029517217276419507,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0642",
+      "custody_btc": 0.2942547772885693,
+      "daily_volume_btc": 0.02942547772885693,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0643",
+      "custody_btc": 0.29334165207549306,
+      "daily_volume_btc": 0.029334165207549306,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0644",
+      "custody_btc": 0.29243277066325746,
+      "daily_volume_btc": 0.02924327706632575,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0645",
+      "custody_btc": 0.291528106794807,
+      "daily_volume_btc": 0.029152810679480702,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0646",
+      "custody_btc": 0.29062763441584316,
+      "daily_volume_btc": 0.029062763441584316,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0647",
+      "custody_btc": 0.28973132767294835,
+      "daily_volume_btc": 0.028973132767294834,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0648",
+      "custody_btc": 0.2888391609117303,
+      "daily_volume_btc": 0.028883916091173027,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0649",
+      "custody_btc": 0.28795110867498624,
+      "daily_volume_btc": 0.028795110867498624,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0650",
+      "custody_btc": 0.2870671457008872,
+      "daily_volume_btc": 0.028706714570088724,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0651",
+      "custody_btc": 0.2861872469211809,
+      "daily_volume_btc": 0.02861872469211809,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0652",
+      "custody_btc": 0.285311387459415,
+      "daily_volume_btc": 0.0285311387459415,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0653",
+      "custody_btc": 0.2844395426291785,
+      "daily_volume_btc": 0.028443954262917848,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0654",
+      "custody_btc": 0.2835716879323622,
+      "daily_volume_btc": 0.02835716879323622,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0655",
+      "custody_btc": 0.28270779905743815,
+      "daily_volume_btc": 0.028270779905743816,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0656",
+      "custody_btc": 0.28184785187775646,
+      "daily_volume_btc": 0.02818478518777565,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0657",
+      "custody_btc": 0.28099182244986115,
+      "daily_volume_btc": 0.028099182244986115,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0658",
+      "custody_btc": 0.28013968701182346,
+      "daily_volume_btc": 0.028013968701182345,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0659",
+      "custody_btc": 0.2792914219815925,
+      "daily_volume_btc": 0.027929142198159253,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0660",
+      "custody_btc": 0.27844700395536426,
+      "daily_volume_btc": 0.027844700395536423,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0661",
+      "custody_btc": 0.27760640970596673,
+      "daily_volume_btc": 0.027760640970596672,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0662",
+      "custody_btc": 0.2767696161812632,
+      "daily_volume_btc": 0.02767696161812632,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0663",
+      "custody_btc": 0.27593660050257135,
+      "daily_volume_btc": 0.027593660050257134,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0664",
+      "custody_btc": 0.27510733996309955,
+      "daily_volume_btc": 0.027510733996309954,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0665",
+      "custody_btc": 0.2742818120263996,
+      "daily_volume_btc": 0.02742818120263996,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0666",
+      "custody_btc": 0.2734599943248354,
+      "daily_volume_btc": 0.02734599943248354,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0667",
+      "custody_btc": 0.2726418646580679,
+      "daily_volume_btc": 0.02726418646580679,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0668",
+      "custody_btc": 0.2718274009915557,
+      "daily_volume_btc": 0.027182740099155573,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0669",
+      "custody_btc": 0.27101658145507174,
+      "daily_volume_btc": 0.027101658145507173,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0670",
+      "custody_btc": 0.2702093843412343,
+      "daily_volume_btc": 0.027020938434123433,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0671",
+      "custody_btc": 0.2694057881040553,
+      "daily_volume_btc": 0.026940578810405527,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0672",
+      "custody_btc": 0.2686057713575013,
+      "daily_volume_btc": 0.026860577135750133,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0673",
+      "custody_btc": 0.26780931287407145,
+      "daily_volume_btc": 0.026780931287407144,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0674",
+      "custody_btc": 0.26701639158338913,
+      "daily_volume_btc": 0.026701639158338918,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0675",
+      "custody_btc": 0.26622698657080834,
+      "daily_volume_btc": 0.026622698657080834,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0676",
+      "custody_btc": 0.26544107707603426,
+      "daily_volume_btc": 0.026544107707603425,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0677",
+      "custody_btc": 0.2646586424917589,
+      "daily_volume_btc": 0.02646586424917589,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0678",
+      "custody_btc": 0.26387966236230986,
+      "daily_volume_btc": 0.02638796623623099,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0679",
+      "custody_btc": 0.26310411638231335,
+      "daily_volume_btc": 0.026310411638231338,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0680",
+      "custody_btc": 0.2623319843953711,
+      "daily_volume_btc": 0.026233198439537107,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0681",
+      "custody_btc": 0.2615632463927505,
+      "daily_volume_btc": 0.026156324639275055,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0682",
+      "custody_btc": 0.2607978825120886,
+      "daily_volume_btc": 0.02607978825120886,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0683",
+      "custody_btc": 0.26003587303610876,
+      "daily_volume_btc": 0.026003587303610878,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0684",
+      "custody_btc": 0.25927719839135105,
+      "daily_volume_btc": 0.025927719839135104,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0685",
+      "custody_btc": 0.2585218391469152,
+      "daily_volume_btc": 0.025852183914691518,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0686",
+      "custody_btc": 0.2577697760132163,
+      "daily_volume_btc": 0.02577697760132163,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0687",
+      "custody_btc": 0.25702098984075367,
+      "daily_volume_btc": 0.02570209898407537,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0688",
+      "custody_btc": 0.2562754616188913,
+      "daily_volume_btc": 0.025627546161889128,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0689",
+      "custody_btc": 0.25553317247465174,
+      "daily_volume_btc": 0.025553317247465176,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0690",
+      "custody_btc": 0.2547941036715214,
+      "daily_volume_btc": 0.02547941036715214,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0691",
+      "custody_btc": 0.2540582366082681,
+      "daily_volume_btc": 0.02540582366082681,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0692",
+      "custody_btc": 0.25332555281777097,
+      "daily_volume_btc": 0.025332555281777098,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0693",
+      "custody_btc": 0.25259603396586155,
+      "daily_volume_btc": 0.02525960339658616,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0694",
+      "custody_btc": 0.2518696618501769,
+      "daily_volume_btc": 0.02518696618501769,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0695",
+      "custody_btc": 0.2511464183990242,
+      "daily_volume_btc": 0.02511464183990242,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0696",
+      "custody_btc": 0.2504262856702566,
+      "daily_volume_btc": 0.025042628567025663,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0697",
+      "custody_btc": 0.24970924585016072,
+      "daily_volume_btc": 0.024970924585016072,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0698",
+      "custody_btc": 0.24899528125235457,
+      "daily_volume_btc": 0.024899528125235458,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0699",
+      "custody_btc": 0.2482843743166973,
+      "daily_volume_btc": 0.024828437431669733,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0700",
+      "custody_btc": 0.2475765076082094,
+      "daily_volume_btc": 0.02475765076082094,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0701",
+      "custody_btc": 0.2468716638160033,
+      "daily_volume_btc": 0.02468716638160033,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0702",
+      "custody_btc": 0.24616982575222568,
+      "daily_volume_btc": 0.024616982575222567,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0703",
+      "custody_btc": 0.24547097635100903,
+      "daily_volume_btc": 0.024547097635100903,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0704",
+      "custody_btc": 0.24477509866743466,
+      "daily_volume_btc": 0.024477509866743467,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0705",
+      "custody_btc": 0.24408217587650508,
+      "daily_volume_btc": 0.024408217587650508,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0706",
+      "custody_btc": 0.24339219127212755,
+      "daily_volume_btc": 0.024339219127212756,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0707",
+      "custody_btc": 0.24270512826610668,
+      "daily_volume_btc": 0.02427051282661067,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0708",
+      "custody_btc": 0.2420209703871475,
+      "daily_volume_btc": 0.024202097038714752,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0709",
+      "custody_btc": 0.2413397012798685,
+      "daily_volume_btc": 0.024133970127986848,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0710",
+      "custody_btc": 0.24066130470382377,
+      "daily_volume_btc": 0.024066130470382377,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0711",
+      "custody_btc": 0.2399857645325355,
+      "daily_volume_btc": 0.023998576453253553,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0712",
+      "custody_btc": 0.23931306475253547,
+      "daily_volume_btc": 0.023931306475253548,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0713",
+      "custody_btc": 0.23864318946241578,
+      "daily_volume_btc": 0.023864318946241577,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0714",
+      "custody_btc": 0.23797612287188952,
+      "daily_volume_btc": 0.023797612287188952,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0715",
+      "custody_btc": 0.23731184930086002,
+      "daily_volume_btc": 0.023731184930086,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0716",
+      "custody_btc": 0.2366503531784996,
+      "daily_volume_btc": 0.023665035317849963,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0717",
+      "custody_btc": 0.23599161904233693,
+      "daily_volume_btc": 0.023599161904233692,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0718",
+      "custody_btc": 0.2353356315373533,
+      "daily_volume_btc": 0.02353356315373533,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0719",
+      "custody_btc": 0.23468237541508816,
+      "daily_volume_btc": 0.023468237541508816,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0720",
+      "custody_btc": 0.2340318355327527,
+      "daily_volume_btc": 0.02340318355327527,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0721",
+      "custody_btc": 0.23338399685235245,
+      "daily_volume_btc": 0.023338399685235246,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0722",
+      "custody_btc": 0.23273884443981813,
+      "daily_volume_btc": 0.02327388444398181,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0723",
+      "custody_btc": 0.23209636346414503,
+      "daily_volume_btc": 0.023209636346414503,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0724",
+      "custody_btc": 0.2314565391965407,
+      "daily_volume_btc": 0.023145653919654067,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0725",
+      "custody_btc": 0.23081935700958056,
+      "daily_volume_btc": 0.023081935700958057,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0726",
+      "custody_btc": 0.23018480237637234,
+      "daily_volume_btc": 0.023018480237637234,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0727",
+      "custody_btc": 0.22955286086972757,
+      "daily_volume_btc": 0.022955286086972757,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0728",
+      "custody_btc": 0.22892351816134188,
+      "daily_volume_btc": 0.022892351816134186,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0729",
+      "custody_btc": 0.22829676002098273,
+      "daily_volume_btc": 0.022829676002098273,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0730",
+      "custody_btc": 0.22767257231568488,
+      "daily_volume_btc": 0.02276725723156849,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0731",
+      "custody_btc": 0.22705094100895387,
+      "daily_volume_btc": 0.022705094100895388,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0732",
+      "custody_btc": 0.22643185215997666,
+      "daily_volume_btc": 0.022643185215997664,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0733",
+      "custody_btc": 0.22581529192284022,
+      "daily_volume_btc": 0.02258152919228402,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0734",
+      "custody_btc": 0.22520124654575724,
+      "daily_volume_btc": 0.022520124654575722,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0735",
+      "custody_btc": 0.2245897023702994,
+      "daily_volume_btc": 0.02245897023702994,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0736",
+      "custody_btc": 0.2239806458306378,
+      "daily_volume_btc": 0.022398064583063777,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0737",
+      "custody_btc": 0.22337406345279062,
+      "daily_volume_btc": 0.022337406345279063,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0738",
+      "custody_btc": 0.222769941853878,
+      "daily_volume_btc": 0.0222769941853878,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0739",
+      "custody_btc": 0.22216826774138365,
+      "daily_volume_btc": 0.022216826774138367,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0740",
+      "custody_btc": 0.221569027912424,
+      "daily_volume_btc": 0.0221569027912424,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0741",
+      "custody_btc": 0.2209722092530236,
+      "daily_volume_btc": 0.02209722092530236,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0742",
+      "custody_btc": 0.22037779873739777,
+      "daily_volume_btc": 0.022037779873739775,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0743",
+      "custody_btc": 0.21978578342724175,
+      "daily_volume_btc": 0.021978578342724174,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0744",
+      "custody_btc": 0.2191961504710269,
+      "daily_volume_btc": 0.02191961504710269,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0745",
+      "custody_btc": 0.21860888710330284,
+      "daily_volume_btc": 0.021860888710330286,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0746",
+      "custody_btc": 0.21802398064400696,
+      "daily_volume_btc": 0.021802398064400697,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0747",
+      "custody_btc": 0.21744141849777962,
+      "daily_volume_btc": 0.02174414184977796,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0748",
+      "custody_btc": 0.21686118815328617,
+      "daily_volume_btc": 0.021686118815328618,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0749",
+      "custody_btc": 0.21628327718254525,
+      "daily_volume_btc": 0.021628327718254525,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0750",
+      "custody_btc": 0.2157076732402632,
+      "daily_volume_btc": 0.02157076732402632,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0751",
+      "custody_btc": 0.215134364063175,
+      "daily_volume_btc": 0.021513436406317497,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0752",
+      "custody_btc": 0.2145633374693906,
+      "daily_volume_btc": 0.02145633374693906,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0753",
+      "custody_btc": 0.21399458135774843,
+      "daily_volume_btc": 0.021399458135774842,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0754",
+      "custody_btc": 0.21342808370717373,
+      "daily_volume_btc": 0.02134280837071737,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0755",
+      "custody_btc": 0.2128638325760437,
+      "daily_volume_btc": 0.021286383257604367,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0756",
+      "custody_btc": 0.212301816101558,
+      "daily_volume_btc": 0.021230181610155798,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0757",
+      "custody_btc": 0.21174202249911533,
+      "daily_volume_btc": 0.021174202249911536,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0758",
+      "custody_btc": 0.21118444006169568,
+      "daily_volume_btc": 0.02111844400616957,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0759",
+      "custody_btc": 0.21062905715924807,
+      "daily_volume_btc": 0.02106290571592481,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0760",
+      "custody_btc": 0.21007586223808442,
+      "daily_volume_btc": 0.021007586223808442,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0761",
+      "custody_btc": 0.20952484382027836,
+      "daily_volume_btc": 0.020952484382027837,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0762",
+      "custody_btc": 0.2089759905030699,
+      "daily_volume_btc": 0.02089759905030699,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0763",
+      "custody_btc": 0.2084292909582757,
+      "daily_volume_btc": 0.02084292909582757,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0764",
+      "custody_btc": 0.20788473393170437,
+      "daily_volume_btc": 0.02078847339317044,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0765",
+      "custody_btc": 0.20734230824257735,
+      "daily_volume_btc": 0.020734230824257734,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0766",
+      "custody_btc": 0.2068020027829548,
+      "daily_volume_btc": 0.02068020027829548,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0767",
+      "custody_btc": 0.2062638065171673,
+      "daily_volume_btc": 0.020626380651716732,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0768",
+      "custody_btc": 0.20572770848125208,
+      "daily_volume_btc": 0.020572770848125206,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0769",
+      "custody_btc": 0.2051936977823945,
+      "daily_volume_btc": 0.020519369778239448,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0770",
+      "custody_btc": 0.2046617635983751,
+      "daily_volume_btc": 0.02046617635983751,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0771",
+      "custody_btc": 0.20413189517702102,
+      "daily_volume_btc": 0.0204131895177021,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0772",
+      "custody_btc": 0.20360408183566267,
+      "daily_volume_btc": 0.02036040818356627,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0773",
+      "custody_btc": 0.20307831296059548,
+      "daily_volume_btc": 0.02030783129605955,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0774",
+      "custody_btc": 0.202554578006546,
+      "daily_volume_btc": 0.0202554578006546,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0775",
+      "custody_btc": 0.20203286649614352,
+      "daily_volume_btc": 0.02020328664961435,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0776",
+      "custody_btc": 0.20151316801939562,
+      "daily_volume_btc": 0.020151316801939562,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0777",
+      "custody_btc": 0.2009954722331694,
+      "daily_volume_btc": 0.02009954722331694,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0778",
+      "custody_btc": 0.20047976886067634,
+      "daily_volume_btc": 0.020047976886067635,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0779",
+      "custody_btc": 0.19996604769096268,
+      "daily_volume_btc": 0.019996604769096267,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0780",
+      "custody_btc": 0.19945429857840372,
+      "daily_volume_btc": 0.019945429857840372,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0781",
+      "custody_btc": 0.19894451144220293,
+      "daily_volume_btc": 0.019894451144220296,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0782",
+      "custody_btc": 0.19843667626589565,
+      "daily_volume_btc": 0.019843667626589564,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0783",
+      "custody_btc": 0.19793078309685697,
+      "daily_volume_btc": 0.019793078309685696,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0784",
+      "custody_btc": 0.19742682204581397,
+      "daily_volume_btc": 0.019742682204581394,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0785",
+      "custody_btc": 0.19692478328636268,
+      "daily_volume_btc": 0.019692478328636267,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0786",
+      "custody_btc": 0.1964246570544888,
+      "daily_volume_btc": 0.01964246570544888,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0787",
+      "custody_btc": 0.19592643364809337,
+      "daily_volume_btc": 0.019592643364809335,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0788",
+      "custody_btc": 0.19543010342652167,
+      "daily_volume_btc": 0.019543010342652167,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0789",
+      "custody_btc": 0.19493565681009725,
+      "daily_volume_btc": 0.019493565681009725,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0790",
+      "custody_btc": 0.19444308427965962,
+      "daily_volume_btc": 0.01944430842796596,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0791",
+      "custody_btc": 0.19395237637610593,
+      "daily_volume_btc": 0.019395237637610592,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0792",
+      "custody_btc": 0.19346352369993702,
+      "daily_volume_btc": 0.0193463523699937,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0793",
+      "custody_btc": 0.19297651691080728,
+      "daily_volume_btc": 0.01929765169108073,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0794",
+      "custody_btc": 0.19249134672707835,
+      "daily_volume_btc": 0.019249134672707835,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0795",
+      "custody_btc": 0.19200800392537704,
+      "daily_volume_btc": 0.019200800392537704,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0796",
+      "custody_btc": 0.19152647934015685,
+      "daily_volume_btc": 0.019152647934015683,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0797",
+      "custody_btc": 0.19104676386326358,
+      "daily_volume_btc": 0.019104676386326357,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0798",
+      "custody_btc": 0.19056884844350447,
+      "daily_volume_btc": 0.019056884844350447,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0799",
+      "custody_btc": 0.1900927240862214,
+      "daily_volume_btc": 0.01900927240862214,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0800",
+      "custody_btc": 0.18961838185286758,
+      "daily_volume_btc": 0.018961838185286756,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0801",
+      "custody_btc": 0.1891458128605881,
+      "daily_volume_btc": 0.01891458128605881,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0802",
+      "custody_btc": 0.18867500828180392,
+      "daily_volume_btc": 0.01886750082818039,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0803",
+      "custody_btc": 0.1882059593437998,
+      "daily_volume_btc": 0.01882059593437998,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0804",
+      "custody_btc": 0.18773865732831557,
+      "daily_volume_btc": 0.018773865732831557,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0805",
+      "custody_btc": 0.1872730935711409,
+      "daily_volume_btc": 0.01872730935711409,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0806",
+      "custody_btc": 0.18680925946171387,
+      "daily_volume_btc": 0.018680925946171385,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0807",
+      "custody_btc": 0.18634714644272266,
+      "daily_volume_btc": 0.018634714644272264,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0808",
+      "custody_btc": 0.18588674600971106,
+      "daily_volume_btc": 0.018588674600971106,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0809",
+      "custody_btc": 0.18542804971068694,
+      "daily_volume_btc": 0.018542804971068694,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0810",
+      "custody_btc": 0.1849710491457346,
+      "daily_volume_btc": 0.01849710491457346,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0811",
+      "custody_btc": 0.18451573596662998,
+      "daily_volume_btc": 0.018451573596663,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0812",
+      "custody_btc": 0.18406210187645972,
+      "daily_volume_btc": 0.01840621018764597,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0813",
+      "custody_btc": 0.18361013862924272,
+      "daily_volume_btc": 0.018361013862924273,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0814",
+      "custody_btc": 0.1831598380295558,
+      "daily_volume_btc": 0.01831598380295558,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0815",
+      "custody_btc": 0.18271119193216204,
+      "daily_volume_btc": 0.018271119193216206,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0816",
+      "custody_btc": 0.18226419224164248,
+      "daily_volume_btc": 0.018226419224164247,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0817",
+      "custody_btc": 0.1818188309120308,
+      "daily_volume_btc": 0.01818188309120308,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0818",
+      "custody_btc": 0.1813750999464514,
+      "daily_volume_btc": 0.01813750999464514,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0819",
+      "custody_btc": 0.18093299139676042,
+      "daily_volume_btc": 0.018093299139676042,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0820",
+      "custody_btc": 0.18049249736318962,
+      "daily_volume_btc": 0.018049249736318964,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0821",
+      "custody_btc": 0.1800536099939938,
+      "daily_volume_btc": 0.01800536099939938,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0822",
+      "custody_btc": 0.1796163214851006,
+      "daily_volume_btc": 0.01796163214851006,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0823",
+      "custody_btc": 0.1791806240797638,
+      "daily_volume_btc": 0.01791806240797638,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0824",
+      "custody_btc": 0.1787465100682192,
+      "daily_volume_btc": 0.01787465100682192,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0825",
+      "custody_btc": 0.17831397178734368,
+      "daily_volume_btc": 0.017831397178734366,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0826",
+      "custody_btc": 0.17788300162031687,
+      "daily_volume_btc": 0.017788300162031687,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0827",
+      "custody_btc": 0.17745359199628594,
+      "daily_volume_btc": 0.017745359199628594,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0828",
+      "custody_btc": 0.17702573539003305,
+      "daily_volume_btc": 0.017702573539003306,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0829",
+      "custody_btc": 0.17659942432164566,
+      "daily_volume_btc": 0.017659942432164566,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0830",
+      "custody_btc": 0.17617465135618968,
+      "daily_volume_btc": 0.017617465135618966,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0831",
+      "custody_btc": 0.1757514091033852,
+      "daily_volume_btc": 0.017575140910338516,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0832",
+      "custody_btc": 0.17532969021728503,
+      "daily_volume_btc": 0.017532969021728503,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0833",
+      "custody_btc": 0.1749094873959562,
+      "daily_volume_btc": 0.017490948739595617,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0834",
+      "custody_btc": 0.17449079338116344,
+      "daily_volume_btc": 0.017449079338116343,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0835",
+      "custody_btc": 0.17407360095805627,
+      "daily_volume_btc": 0.017407360095805628,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0836",
+      "custody_btc": 0.1736579029548577,
+      "daily_volume_btc": 0.01736579029548577,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0837",
+      "custody_btc": 0.17324369224255629,
+      "daily_volume_btc": 0.01732436922425563,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0838",
+      "custody_btc": 0.17283096173460047,
+      "daily_volume_btc": 0.017283096173460046,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0839",
+      "custody_btc": 0.1724197043865954,
+      "daily_volume_btc": 0.017241970438659538,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0840",
+      "custody_btc": 0.17200991319600228,
+      "daily_volume_btc": 0.01720099131960023,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0841",
+      "custody_btc": 0.17160158120184058,
+      "daily_volume_btc": 0.01716015812018406,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0842",
+      "custody_btc": 0.17119470148439203,
+      "daily_volume_btc": 0.017119470148439203,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0843",
+      "custody_btc": 0.17078926716490772,
+      "daily_volume_btc": 0.01707892671649077,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0844",
+      "custody_btc": 0.1703852714053173,
+      "daily_volume_btc": 0.017038527140531733,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0845",
+      "custody_btc": 0.16998270740794072,
+      "daily_volume_btc": 0.01699827074079407,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0846",
+      "custody_btc": 0.16958156841520206,
+      "daily_volume_btc": 0.016958156841520206,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0847",
+      "custody_btc": 0.16918184770934622,
+      "daily_volume_btc": 0.01691818477093462,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0848",
+      "custody_btc": 0.16878353861215745,
+      "daily_volume_btc": 0.016878353861215743,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0849",
+      "custody_btc": 0.16838663448468055,
+      "daily_volume_btc": 0.016838663448468055,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0850",
+      "custody_btc": 0.1679911287269442,
+      "daily_volume_btc": 0.016799112872694418,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0851",
+      "custody_btc": 0.16759701477768643,
+      "daily_volume_btc": 0.016759701477768642,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0852",
+      "custody_btc": 0.16720428611408286,
+      "daily_volume_btc": 0.016720428611408284,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0853",
+      "custody_btc": 0.1668129362514763,
+      "daily_volume_btc": 0.01668129362514763,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0854",
+      "custody_btc": 0.1664229587431096,
+      "daily_volume_btc": 0.016642295874310962,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0855",
+      "custody_btc": 0.16603434717985974,
+      "daily_volume_btc": 0.016603434717985973,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0856",
+      "custody_btc": 0.16564709518997464,
+      "daily_volume_btc": 0.016564709518997463,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0857",
+      "custody_btc": 0.16526119643881212,
+      "daily_volume_btc": 0.016526119643881215,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0858",
+      "custody_btc": 0.16487664462858062,
+      "daily_volume_btc": 0.016487664462858063,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0859",
+      "custody_btc": 0.16449343349808232,
+      "daily_volume_btc": 0.016449343349808233,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0860",
+      "custody_btc": 0.16411155682245843,
+      "daily_volume_btc": 0.016411155682245843,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0861",
+      "custody_btc": 0.16373100841293609,
+      "daily_volume_btc": 0.01637310084129361,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0862",
+      "custody_btc": 0.163351782116578,
+      "daily_volume_btc": 0.0163351782116578,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0863",
+      "custody_btc": 0.16297387181603343,
+      "daily_volume_btc": 0.016297387181603343,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0864",
+      "custody_btc": 0.16259727142929156,
+      "daily_volume_btc": 0.016259727142929156,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0865",
+      "custody_btc": 0.16222197490943696,
+      "daily_volume_btc": 0.016222197490943696,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0866",
+      "custody_btc": 0.16184797624440653,
+      "daily_volume_btc": 0.016184797624440653,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0867",
+      "custody_btc": 0.16147526945674906,
+      "daily_volume_btc": 0.016147526945674905,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0868",
+      "custody_btc": 0.16110384860338617,
+      "daily_volume_btc": 0.016110384860338615,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0869",
+      "custody_btc": 0.1607337077753755,
+      "daily_volume_btc": 0.016073370777537548,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0870",
+      "custody_btc": 0.1603648410976756,
+      "daily_volume_btc": 0.01603648410976756,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0871",
+      "custody_btc": 0.1599972427289129,
+      "daily_volume_btc": 0.01599972427289129,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0872",
+      "custody_btc": 0.15963090686115042,
+      "daily_volume_btc": 0.015963090686115042,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0873",
+      "custody_btc": 0.1592658277196583,
+      "daily_volume_btc": 0.01592658277196583,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0874",
+      "custody_btc": 0.1589019995626863,
+      "daily_volume_btc": 0.01589019995626863,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0875",
+      "custody_btc": 0.158539416681238,
+      "daily_volume_btc": 0.015853941668123803,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0876",
+      "custody_btc": 0.15817807339884687,
+      "daily_volume_btc": 0.015817807339884686,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0877",
+      "custody_btc": 0.15781796407135404,
+      "daily_volume_btc": 0.015781796407135402,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0878",
+      "custody_btc": 0.157459083086688,
+      "daily_volume_btc": 0.0157459083086688,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0879",
+      "custody_btc": 0.1571014248646458,
+      "daily_volume_btc": 0.01571014248646458,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0880",
+      "custody_btc": 0.15674498385667626,
+      "daily_volume_btc": 0.015674498385667625,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0881",
+      "custody_btc": 0.15638975454566473,
+      "daily_volume_btc": 0.015638975454566474,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0882",
+      "custody_btc": 0.15603573144571964,
+      "daily_volume_btc": 0.015603573144571963,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0883",
+      "custody_btc": 0.1556829091019606,
+      "daily_volume_btc": 0.01556829091019606,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0884",
+      "custody_btc": 0.15533128209030828,
+      "daily_volume_btc": 0.015533128209030828,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0885",
+      "custody_btc": 0.15498084501727613,
+      "daily_volume_btc": 0.015498084501727613,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0886",
+      "custody_btc": 0.15463159251976336,
+      "daily_volume_btc": 0.015463159251976335,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0887",
+      "custody_btc": 0.15428351926484976,
+      "daily_volume_btc": 0.015428351926484975,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0888",
+      "custody_btc": 0.15393661994959223,
+      "daily_volume_btc": 0.015393661994959224,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0889",
+      "custody_btc": 0.15359088930082274,
+      "daily_volume_btc": 0.015359088930082273,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0890",
+      "custody_btc": 0.15324632207494787,
+      "daily_volume_btc": 0.015324632207494788,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0891",
+      "custody_btc": 0.1529029130577501,
+      "daily_volume_btc": 0.015290291305775012,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0892",
+      "custody_btc": 0.15256065706419056,
+      "daily_volume_btc": 0.015256065706419056,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0893",
+      "custody_btc": 0.1522195489382131,
+      "daily_volume_btc": 0.015221954893821311,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0894",
+      "custody_btc": 0.1518795835525504,
+      "daily_volume_btc": 0.01518795835525504,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0895",
+      "custody_btc": 0.15154075580853107,
+      "daily_volume_btc": 0.015154075580853108,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0896",
+      "custody_btc": 0.15120306063588862,
+      "daily_volume_btc": 0.015120306063588862,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0897",
+      "custody_btc": 0.1508664929925716,
+      "daily_volume_btc": 0.01508664929925716,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0898",
+      "custody_btc": 0.1505310478645556,
+      "daily_volume_btc": 0.01505310478645556,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0899",
+      "custody_btc": 0.15019672026565642,
+      "daily_volume_btc": 0.015019672026565643,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0900",
+      "custody_btc": 0.14986350523734474,
+      "daily_volume_btc": 0.014986350523734473,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0901",
+      "custody_btc": 0.14953139784856231,
+      "daily_volume_btc": 0.014953139784856233,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0902",
+      "custody_btc": 0.14920039319553954,
+      "daily_volume_btc": 0.014920039319553954,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0903",
+      "custody_btc": 0.14887048640161438,
+      "daily_volume_btc": 0.014887048640161438,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0904",
+      "custody_btc": 0.14854167261705284,
+      "daily_volume_btc": 0.014854167261705284,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0905",
+      "custody_btc": 0.14821394701887064,
+      "daily_volume_btc": 0.014821394701887064,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0906",
+      "custody_btc": 0.14788730481065643,
+      "daily_volume_btc": 0.014788730481065644,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0907",
+      "custody_btc": 0.14756174122239624,
+      "daily_volume_btc": 0.014756174122239625,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0908",
+      "custody_btc": 0.14723725151029943,
+      "daily_volume_btc": 0.014723725151029942,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0909",
+      "custody_btc": 0.14691383095662564,
+      "daily_volume_btc": 0.014691383095662564,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0910",
+      "custody_btc": 0.1465914748695137,
+      "daily_volume_btc": 0.014659147486951372,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0911",
+      "custody_btc": 0.14627017858281116,
+      "daily_volume_btc": 0.014627017858281117,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0912",
+      "custody_btc": 0.14594993745590548,
+      "daily_volume_btc": 0.014594993745590548,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0913",
+      "custody_btc": 0.14563074687355662,
+      "daily_volume_btc": 0.01456307468735566,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0914",
+      "custody_btc": 0.14531260224573048,
+      "daily_volume_btc": 0.014531260224573047,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0915",
+      "custody_btc": 0.1449954990074342,
+      "daily_volume_btc": 0.014499549900743418,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0916",
+      "custody_btc": 0.14467943261855215,
+      "daily_volume_btc": 0.014467943261855213,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0917",
+      "custody_btc": 0.1443643985636836,
+      "daily_volume_btc": 0.01443643985636836,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0918",
+      "custody_btc": 0.1440503923519813,
+      "daily_volume_btc": 0.01440503923519813,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0919",
+      "custody_btc": 0.1437374095169916,
+      "daily_volume_btc": 0.01437374095169916,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0920",
+      "custody_btc": 0.14342544561649542,
+      "daily_volume_btc": 0.014342544561649542,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0921",
+      "custody_btc": 0.1431144962323508,
+      "daily_volume_btc": 0.014311449623235082,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0922",
+      "custody_btc": 0.1428045569703364,
+      "daily_volume_btc": 0.014280455697033638,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0923",
+      "custody_btc": 0.14249562345999617,
+      "daily_volume_btc": 0.014249562345999616,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0924",
+      "custody_btc": 0.14218769135448553,
+      "daily_volume_btc": 0.014218769135448553,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0925",
+      "custody_btc": 0.14188075633041822,
+      "daily_volume_btc": 0.014188075633041822,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0926",
+      "custody_btc": 0.14157481408771458,
+      "daily_volume_btc": 0.014157481408771457,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0927",
+      "custody_btc": 0.1412698603494511,
+      "daily_volume_btc": 0.014126986034945109,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0928",
+      "custody_btc": 0.1409658908617107,
+      "daily_volume_btc": 0.014096589086171072,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0929",
+      "custody_btc": 0.14066290139343474,
+      "daily_volume_btc": 0.014066290139343473,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0930",
+      "custody_btc": 0.14036088773627528,
+      "daily_volume_btc": 0.014036088773627527,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0931",
+      "custody_btc": 0.14005984570444946,
+      "daily_volume_btc": 0.014005984570444946,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0932",
+      "custody_btc": 0.13975977113459412,
+      "daily_volume_btc": 0.013975977113459413,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0933",
+      "custody_btc": 0.13946065988562203,
+      "daily_volume_btc": 0.013946065988562205,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0934",
+      "custody_btc": 0.13916250783857897,
+      "daily_volume_btc": 0.013916250783857897,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0935",
+      "custody_btc": 0.1388653108965019,
+      "daily_volume_btc": 0.013886531089650187,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0936",
+      "custody_btc": 0.13856906498427812,
+      "daily_volume_btc": 0.013856906498427813,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0937",
+      "custody_btc": 0.13827376604850597,
+      "daily_volume_btc": 0.013827376604850597,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0938",
+      "custody_btc": 0.13797941005735567,
+      "daily_volume_btc": 0.013797941005735566,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0939",
+      "custody_btc": 0.13768599300043197,
+      "daily_volume_btc": 0.013768599300043196,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0940",
+      "custody_btc": 0.13739351088863758,
+      "daily_volume_btc": 0.013739351088863757,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0941",
+      "custody_btc": 0.13710195975403747,
+      "daily_volume_btc": 0.013710195975403745,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0942",
+      "custody_btc": 0.1368113356497243,
+      "daily_volume_btc": 0.013681133564972432,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0943",
+      "custody_btc": 0.136521634649685,
+      "daily_volume_btc": 0.013652163464968501,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0944",
+      "custody_btc": 0.13623285284866796,
+      "daily_volume_btc": 0.013623285284866796,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0945",
+      "custody_btc": 0.13594498636205152,
+      "daily_volume_btc": 0.013594498636205151,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0946",
+      "custody_btc": 0.13565803132571336,
+      "daily_volume_btc": 0.013565803132571337,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0947",
+      "custody_btc": 0.13537198389590088,
+      "daily_volume_btc": 0.013537198389590088,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0948",
+      "custody_btc": 0.1350868402491022,
+      "daily_volume_btc": 0.01350868402491022,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0949",
+      "custody_btc": 0.1348025965819188,
+      "daily_volume_btc": 0.013480259658191879,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0950",
+      "custody_btc": 0.1345192491109383,
+      "daily_volume_btc": 0.01345192491109383,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0951",
+      "custody_btc": 0.13423679407260886,
+      "daily_volume_btc": 0.013423679407260886,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0952",
+      "custody_btc": 0.13395522772311405,
+      "daily_volume_btc": 0.013395522772311406,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0953",
+      "custody_btc": 0.13367454633824885,
+      "daily_volume_btc": 0.013367454633824886,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0954",
+      "custody_btc": 0.13339474621329644,
+      "daily_volume_btc": 0.013339474621329643,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0955",
+      "custody_btc": 0.13311582366290603,
+      "daily_volume_btc": 0.013311582366290604,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0956",
+      "custody_btc": 0.1328377750209715,
+      "daily_volume_btc": 0.013283777502097149,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0957",
+      "custody_btc": 0.13256059664051073,
+      "daily_volume_btc": 0.013256059664051073,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0958",
+      "custody_btc": 0.13228428489354646,
+      "daily_volume_btc": 0.013228428489354646,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0959",
+      "custody_btc": 0.13200883617098708,
+      "daily_volume_btc": 0.013200883617098709,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0960",
+      "custody_btc": 0.1317342468825091,
+      "daily_volume_btc": 0.013173424688250909,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0961",
+      "custody_btc": 0.13146051345644005,
+      "daily_volume_btc": 0.013146051345644005,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0962",
+      "custody_btc": 0.13118763233964226,
+      "daily_volume_btc": 0.013118763233964225,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0963",
+      "custody_btc": 0.13091559999739769,
+      "daily_volume_btc": 0.01309155999973977,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0964",
+      "custody_btc": 0.13064441291329343,
+      "daily_volume_btc": 0.013064441291329344,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0965",
+      "custody_btc": 0.13037406758910802,
+      "daily_volume_btc": 0.013037406758910804,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0966",
+      "custody_btc": 0.1301045605446986,
+      "daily_volume_btc": 0.013010456054469861,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0967",
+      "custody_btc": 0.1298358883178891,
+      "daily_volume_btc": 0.012983588831788908,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0968",
+      "custody_btc": 0.12956804746435868,
+      "daily_volume_btc": 0.012956804746435869,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0969",
+      "custody_btc": 0.1293010345575318,
+      "daily_volume_btc": 0.012930103455753182,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0970",
+      "custody_btc": 0.12903484618846833,
+      "daily_volume_btc": 0.012903484618846835,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0971",
+      "custody_btc": 0.1287694789657548,
+      "daily_volume_btc": 0.01287694789657548,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0972",
+      "custody_btc": 0.12850492951539638,
+      "daily_volume_btc": 0.012850492951539639,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0973",
+      "custody_btc": 0.12824119448070964,
+      "daily_volume_btc": 0.012824119448070962,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0974",
+      "custody_btc": 0.12797827052221614,
+      "daily_volume_btc": 0.012797827052221614,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0975",
+      "custody_btc": 0.12771615431753655,
+      "daily_volume_btc": 0.012771615431753654,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0976",
+      "custody_btc": 0.12745484256128592,
+      "daily_volume_btc": 0.012745484256128594,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0977",
+      "custody_btc": 0.12719433196496932,
+      "daily_volume_btc": 0.01271943319649693,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0978",
+      "custody_btc": 0.12693461925687832,
+      "daily_volume_btc": 0.012693461925687832,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0979",
+      "custody_btc": 0.12667570118198843,
+      "daily_volume_btc": 0.012667570118198844,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0980",
+      "custody_btc": 0.1264175745018571,
+      "daily_volume_btc": 0.012641757450185708,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0981",
+      "custody_btc": 0.12616023599452225,
+      "daily_volume_btc": 0.012616023599452226,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0982",
+      "custody_btc": 0.12590368245440206,
+      "daily_volume_btc": 0.012590368245440206,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0983",
+      "custody_btc": 0.12564791069219472,
+      "daily_volume_btc": 0.012564791069219473,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0984",
+      "custody_btc": 0.12539291753477977,
+      "daily_volume_btc": 0.012539291753477977,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0985",
+      "custody_btc": 0.12513869982511933,
+      "daily_volume_btc": 0.012513869982511932,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0986",
+      "custody_btc": 0.12488525442216053,
+      "daily_volume_btc": 0.012488525442216052,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0987",
+      "custody_btc": 0.12463257820073853,
+      "daily_volume_btc": 0.012463257820073853,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0988",
+      "custody_btc": 0.12438066805148001,
+      "daily_volume_btc": 0.012438066805148001,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0989",
+      "custody_btc": 0.12412952088070778,
+      "daily_volume_btc": 0.012412952088070778,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0990",
+      "custody_btc": 0.12387913361034547,
+      "daily_volume_btc": 0.012387913361034546,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0991",
+      "custody_btc": 0.12362950317782351,
+      "daily_volume_btc": 0.01236295031778235,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0992",
+      "custody_btc": 0.12338062653598524,
+      "daily_volume_btc": 0.012338062653598523,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0993",
+      "custody_btc": 0.12313250065299414,
+      "daily_volume_btc": 0.012313250065299413,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0994",
+      "custody_btc": 0.1228851225122413,
+      "daily_volume_btc": 0.01228851225122413,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0995",
+      "custody_btc": 0.12263848911225393,
+      "daily_volume_btc": 0.012263848911225393,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0996",
+      "custody_btc": 0.12239259746660414,
+      "daily_volume_btc": 0.012239259746660413,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0997",
+      "custody_btc": 0.12214744460381856,
+      "daily_volume_btc": 0.012214744460381857,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0998",
+      "custody_btc": 0.12190302756728869,
+      "daily_volume_btc": 0.012190302756728869,
+      "user_type": "small"
+    },
+    {
+      "id": "user-0999",
+      "custody_btc": 0.1216593434151817,
+      "daily_volume_btc": 0.01216593434151817,
+      "user_type": "small"
+    }
+  ],
+  "summary": {
+    "exchanges": {
+      "count": 3,
+      "total_custody_btc": 4000000,
+      "total_volume_btc": 400000,
+      "avg_custody_btc": 1333333.3333333333
+    },
+    "mining_pools": {
+      "count": 6,
+      "total_hashrate_pct": 100.0,
+      "top_3_hashrate_pct": 65.0
+    },
+    "users": {
+      "count": 1000,
+      "total_custody_btc": 199999.9999999993,
+      "total_volume_btc": 19999.999999999978,
+      "whales": 34,
+      "large": 76,
+      "medium": 238,
+      "small": 652
+    },
+    "network_total": {
+      "total_custody_btc": 4199999.999999999,
+      "total_volume_btc": 420000.0,
+      "total_hashrate_pct": 100.0
+    }
+  }
+}
