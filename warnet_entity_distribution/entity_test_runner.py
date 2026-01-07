@@ -27,7 +27,7 @@ class EntityTestRunner:
         results_dir: str = None
     ):
         self.warnet_root = Path(warnet_root)
-        self.scenario_dir = self.warnet_root / "warnet" / "scenarios"
+        self.scenario_dir = self.warnet_root / "warnet" / "resources" / "scenarios"
         self.monitoring_dir = self.warnet_root / "warnetScenarioDiscovery" / "monitoring"
 
         if results_dir is None:
@@ -284,21 +284,36 @@ class EntityTestRunner:
     def _activate_dynamic_partition(self, network_dir: Path) -> bool:
         """Activate dynamic partitioning using setban RPC"""
         try:
-            # This would use partition_utils.sh, but for simplicity we'll call
-            # the partition_by_version function directly through subprocess
-
             partition_script = self.warnet_root / "warnetScenarioDiscovery" / "tools" / "partition_utils.sh"
 
             if not partition_script.exists():
                 print(f"  Warning: partition_utils.sh not found, skipping dynamic partition")
                 return True  # Not critical if script doesn't exist
 
-            # For now, just log that we would partition
-            # Full implementation would source partition_utils.sh and call partition_by_version
-            print("  Dynamic partitioning would be applied here")
-            print("  (Simplified: assuming network was built with proper connections)")
+            network_yaml = network_dir / "network.yaml"
+            if not network_yaml.exists():
+                print(f"  Error: network.yaml not found at {network_yaml}")
+                return False
 
-            time.sleep(10)
+            # Call partition_by_version function from the script
+            print(f"  Applying network partition using setban RPC...")
+            result = subprocess.run(
+                ['bash', '-c', f'source {partition_script} && partition_by_version {network_yaml} "27.0" "26.0" 86400'],
+                capture_output=True,
+                text=True,
+                timeout=300  # 5 minute timeout
+            )
+
+            if result.returncode != 0:
+                print(f"  Error: Partition script failed")
+                print(f"  stderr: {result.stderr}")
+                return False
+
+            # Print the partition script output
+            if result.stdout:
+                for line in result.stdout.splitlines():
+                    print(f"    {line}")
+
             return True
 
         except Exception as e:
@@ -329,6 +344,7 @@ class EntityTestRunner:
                 result['error'] = f"partition_miner.py not found at {scenario_path}"
                 return result
 
+            print(f"  DEBUG: Using scenario from: {scenario_path}")
             print(f"  Starting partition mining...")
             print(f"  v27: {v27_hashrate:.1f}% hashrate, v26: {v26_hashrate:.1f}% hashrate")
             print(f"  Duration: {duration}s")
@@ -356,12 +372,35 @@ class EntityTestRunner:
                 print(f"  Error: {proc.stderr}")
                 return result
 
+            # warnet run returns immediately after deploying the pod
+            # We need to wait for the scenario pod to actually complete
+            print(f"  Scenario deployed, waiting for mining to complete ({duration}s + overhead)...")
+
+            # Wait for the scenario pod to finish
+            # Poll for pod completion with timeout
+            start_wait = time.time()
+            timeout = duration + 120  # Add 2 min buffer for scenario startup/shutdown
+
+            while time.time() - start_wait < timeout:
+                # Check for partition miner pods
+                check_cmd = ['kubectl', 'get', 'pods', '-l', 'mission=commander', '-o', 'jsonpath={.items[*].status.phase}']
+                check_result = subprocess.run(check_cmd, capture_output=True, text=True, timeout=5)
+
+                if check_result.returncode == 0:
+                    phases = check_result.stdout.strip().split()
+                    # If no running pods, scenario is complete
+                    if 'Running' not in phases:
+                        print(f"  Scenario pod completed")
+                        break
+
+                time.sleep(5)  # Check every 5 seconds
+
             # Query final heights
             print("  Mining complete, querying final heights...")
 
             # Wait for block propagation before querying
-            print("  Waiting 30 seconds for block propagation...")
-            time.sleep(30)
+            print("  Waiting 60 seconds for block propagation...")
+            time.sleep(60)
 
             v27_result = subprocess.run(
                 ['warnet', 'bitcoin', 'rpc', 'node-0000', 'getblockcount'],
@@ -391,7 +430,9 @@ class EntityTestRunner:
                     'v26': v26_height - start_height
                 }
 
-                result['fork_depth'] = abs(v27_height - v26_height)
+                # Fork depth is the total number of blocks since the common ancestor
+                # (blocks mined on both sides of the partition)
+                result['fork_depth'] = (v27_height - start_height) + (v26_height - start_height)
                 result['status'] = 'success'
 
         except subprocess.TimeoutExpired:

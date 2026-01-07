@@ -26,24 +26,78 @@
     "mining": {
       "status": "success",
       "blocks": {
-        "v27": 1,
-        "v26": 1
+        "v27": 2,
+        "v26": 4
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 103,
+        "v26": 105
       },
-      "fork_depth": 0
+      "fork_depth": 6
     },
     "analysis": {
       "status": "success",
-      "analysis": {}
+      "analysis": {
+        "fork_detected": true,
+        "is_sustained_fork": false,
+        "fork_depth": {
+          "common_ancestor": {
+            "hash": "estimated (not queried)",
+            "height": 104
+          },
+          "chain_a": {
+            "tip": "2931f46e7888a3b4968e3308f63ade9324fe5cceaddbe3869b0bd19e59168e56",
+            "height": 105,
+            "blocks_since_fork": 1,
+            "num_nodes": 5
+          },
+          "chain_b": {
+            "tip": "3f5c15f24901faacccbfaaf8a032278015bfc5ce369ba1c23cf0d1d8dc19ac2a",
+            "height": 105,
+            "blocks_since_fork": 1,
+            "num_nodes": 5
+          },
+          "total_depth": 2,
+          "is_sustained_fork": false,
+          "threshold": 3,
+          "method": "height-based estimation"
+        },
+        "threshold": 3,
+        "message": "Natural chain split - below threshold"
+      }
     }
   },
   "final_heights": {
-    "v27": 102,
-    "v26": 102
+    "v27": 103,
+    "v26": 105
   },
-  "fork_depth": 0,
-  "economic_analysis": {}
+  "fork_depth": 6,
+  "economic_analysis": {
+    "fork_detected": true,
+    "is_sustained_fork": false,
+    "fork_depth": {
+      "common_ancestor": {
+        "hash": "estimated (not queried)",
+        "height": 104
+      },
+      "chain_a": {
+        "tip": "2931f46e7888a3b4968e3308f63ade9324fe5cceaddbe3869b0bd19e59168e56",
+        "height": 105,
+        "blocks_since_fork": 1,
+        "num_nodes": 5
+      },
+      "chain_b": {
+        "tip": "3f5c15f24901faacccbfaaf8a032278015bfc5ce369ba1c23cf0d1d8dc19ac2a",
+        "height": 105,
+        "blocks_since_fork": 1,
+        "num_nodes": 5
+      },
+      "total_depth": 2,
+      "is_sustained_fork": false,
+      "threshold": 3,
+      "method": "height-based estimation"
+    },
+    "threshold": 3,
+    "message": "Natural chain split - below threshold"
+  }
 }

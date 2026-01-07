@@ -1,10 +1,10 @@
 {
-  "config_id": "economic-vs-miners",
+  "config_id": "random-017",
   "status": "success",
   "splits": {
     "economic": {
-      "v27": 100.0,
-      "v26": 0.0
+      "v27": 4.757567382002594,
+      "v26": 95.24243261799741
     },
     "hashrate": {
       "v27": 0,
@@ -26,30 +26,24 @@
     "mining": {
       "status": "success",
       "blocks": {
-        "v27": 0,
-        "v26": 0
+        "v27": 3,
+        "v26": 3
       },
       "final_heights": {
-        "v27": 101,
-        "v26": 101
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0
     },
     "analysis": {
       "status": "success",
-      "analysis": {
-        "fork_detected": false,
-        "message": "No fork detected - all nodes on same chain"
-      }
+      "analysis": {}
     }
   },
   "final_heights": {
-    "v27": 101,
-    "v26": 101
+    "v27": 104,
+    "v26": 104
   },
   "fork_depth": 0,
-  "economic_analysis": {
-    "fork_detected": false,
-    "message": "No fork detected - all nodes on same chain"
-  }
+  "economic_analysis": {}
 }

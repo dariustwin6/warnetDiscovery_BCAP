@@ -26,12 +26,12 @@
     "mining": {
       "status": "success",
       "blocks": {
-        "v27": 1,
-        "v26": 1
+        "v27": 3,
+        "v26": 3
       },
       "final_heights": {
-        "v27": 102,
-        "v26": 102
+        "v27": 104,
+        "v26": 104
       },
       "fork_depth": 0
     },
@@ -41,8 +41,8 @@
     }
   },
   "final_heights": {
-    "v27": 102,
-    "v26": 102
+    "v27": 104,
+    "v26": 104
   },
   "fork_depth": 0,
   "economic_analysis": {}
