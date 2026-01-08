@@ -27,13 +27,13 @@
       "status": "success",
       "blocks": {
         "v27": 2,
-        "v26": 2
+        "v26": 5
       },
       "final_heights": {
         "v27": 103,
-        "v26": 103
+        "v26": 106
       },
-      "fork_depth": 4
+      "fork_depth": 7
     },
     "analysis": {
       "status": "success",
@@ -197,31 +197,31 @@
         },
         "fork_metadata": {
           "num_total_chains": 2,
-          "chain_a_tip": "3a8acdae41a729fdace8223ae3cc1d4e8b864cd9579c6b97f16bd7cdf0de13bf",
-          "chain_b_tip": "03132814bb1d5299c50e56b2ae164ad7f8fea8ad7403853acd95276c70be6ac1",
+          "chain_a_tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
+          "chain_b_tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
           "chain_a_height": 103,
-          "chain_b_height": 107,
+          "chain_b_height": 108,
           "fork_depth": {
             "common_ancestor": {
-              "hash": "estimated (not queried)",
-              "height": 102
+              "hash": "height 101",
+              "height": 101
             },
             "chain_a": {
-              "tip": "3a8acdae41a729fdace8223ae3cc1d4e8b864cd9579c6b97f16bd7cdf0de13bf",
+              "tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
               "height": 103,
-              "blocks_since_fork": 1,
+              "blocks_since_fork": 2,
               "num_nodes": 10
             },
             "chain_b": {
-              "tip": "03132814bb1d5299c50e56b2ae164ad7f8fea8ad7403853acd95276c70be6ac1",
-              "height": 107,
-              "blocks_since_fork": 4,
+              "tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
+              "height": 108,
+              "blocks_since_fork": 7,
               "num_nodes": 3
             },
-            "total_depth": 6,
+            "total_depth": 9,
             "is_sustained_fork": true,
             "threshold": 3,
-            "method": "height-based estimation"
+            "method": "exact (from known start_height)"
           }
         }
       }
@@ -229,9 +229,9 @@
   },
   "final_heights": {
     "v27": 103,
-    "v26": 103
+    "v26": 106
   },
-  "fork_depth": 4,
+  "fork_depth": 7,
   "economic_analysis": {
     "chains": {
       "chain_a": {
@@ -392,31 +392,31 @@
     },
     "fork_metadata": {
       "num_total_chains": 2,
-      "chain_a_tip": "3a8acdae41a729fdace8223ae3cc1d4e8b864cd9579c6b97f16bd7cdf0de13bf",
-      "chain_b_tip": "03132814bb1d5299c50e56b2ae164ad7f8fea8ad7403853acd95276c70be6ac1",
+      "chain_a_tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
+      "chain_b_tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
       "chain_a_height": 103,
-      "chain_b_height": 107,
+      "chain_b_height": 108,
       "fork_depth": {
         "common_ancestor": {
-          "hash": "estimated (not queried)",
-          "height": 102
+          "hash": "height 101",
+          "height": 101
         },
         "chain_a": {
-          "tip": "3a8acdae41a729fdace8223ae3cc1d4e8b864cd9579c6b97f16bd7cdf0de13bf",
+          "tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
           "height": 103,
-          "blocks_since_fork": 1,
+          "blocks_since_fork": 2,
           "num_nodes": 10
         },
         "chain_b": {
-          "tip": "03132814bb1d5299c50e56b2ae164ad7f8fea8ad7403853acd95276c70be6ac1",
-          "height": 107,
-          "blocks_since_fork": 4,
+          "tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
+          "height": 108,
+          "blocks_since_fork": 7,
           "num_nodes": 3
         },
-        "total_depth": 6,
+        "total_depth": 9,
         "is_sustained_fork": true,
         "threshold": 3,
-        "method": "height-based estimation"
+        "method": "exact (from known start_height)"
       }
     }
   }

@@ -27,13 +27,13 @@
       "status": "success",
       "blocks": {
         "v27": 0,
-        "v26": 0
+        "v26": 7
       },
       "final_heights": {
         "v27": 101,
-        "v26": 101
+        "v26": 108
       },
-      "fork_depth": 0
+      "fork_depth": 7
     },
     "analysis": {
       "status": "success",
@@ -45,9 +45,9 @@
   },
   "final_heights": {
     "v27": 101,
-    "v26": 101
+    "v26": 108
   },
-  "fork_depth": 0,
+  "fork_depth": 7,
   "economic_analysis": {
     "fork_detected": false,
     "message": "No fork detected - all nodes on same chain"

@@ -26,14 +26,14 @@
     "mining": {
       "status": "success",
       "blocks": {
-        "v27": 3,
+        "v27": 4,
         "v26": 3
       },
       "final_heights": {
-        "v27": 104,
+        "v27": 105,
         "v26": 104
       },
-      "fork_depth": 6
+      "fork_depth": 7
     },
     "analysis": {
       "status": "success",
@@ -142,42 +142,42 @@
           "chain_b_volume": 96
         },
         "fork_metadata": {
-          "num_total_chains": 3,
-          "chain_a_tip": "69627151cca0df0aa85df5a213965dfbc7cf448d7646dcd2240adb4d3a828c01",
-          "chain_b_tip": "06fe4fc8ee66b04820debd546d3b3e69242d6d127368fff2daac426ec09eb142",
-          "chain_a_height": 104,
-          "chain_b_height": 105,
+          "num_total_chains": 4,
+          "chain_a_tip": "00642395ca6fedf880f62c31ab5ac56c6539530683965a3e90e1c09681617db3",
+          "chain_b_tip": "56eff6fdf2b290b8943e2d6d8ed043334447ed429d430d244814b4deb641ac7e",
+          "chain_a_height": 105,
+          "chain_b_height": 106,
           "fork_depth": {
             "common_ancestor": {
-              "hash": "estimated (not queried)",
-              "height": 103
+              "hash": "height 101",
+              "height": 101
             },
             "chain_a": {
-              "tip": "785ddac250c90b332d5f994323ea0060e62dae6f869c2dc933e688cb36d0057c",
-              "height": 104,
-              "blocks_since_fork": 1,
-              "num_nodes": 6
-            },
-            "chain_b": {
-              "tip": "06fe4fc8ee66b04820debd546d3b3e69242d6d127368fff2daac426ec09eb142",
-              "height": 105,
-              "blocks_since_fork": 1,
+              "tip": "56eff6fdf2b290b8943e2d6d8ed043334447ed429d430d244814b4deb641ac7e",
+              "height": 106,
+              "blocks_since_fork": 5,
               "num_nodes": 4
             },
-            "total_depth": 3,
+            "chain_b": {
+              "tip": "3238672b706eb0a85581827cb375d629a55dce7b46a4c4ca498aa007066d2b69",
+              "height": 105,
+              "blocks_since_fork": 4,
+              "num_nodes": 4
+            },
+            "total_depth": 9,
             "is_sustained_fork": true,
             "threshold": 3,
-            "method": "height-based estimation"
+            "method": "exact (from known start_height)"
           }
         }
       }
     }
   },
   "final_heights": {
-    "v27": 104,
+    "v27": 105,
     "v26": 104
   },
-  "fork_depth": 6,
+  "fork_depth": 7,
   "economic_analysis": {
     "chains": {
       "chain_a": {
@@ -283,32 +283,32 @@
       "chain_b_volume": 96
     },
     "fork_metadata": {
-      "num_total_chains": 3,
-      "chain_a_tip": "69627151cca0df0aa85df5a213965dfbc7cf448d7646dcd2240adb4d3a828c01",
-      "chain_b_tip": "06fe4fc8ee66b04820debd546d3b3e69242d6d127368fff2daac426ec09eb142",
-      "chain_a_height": 104,
-      "chain_b_height": 105,
+      "num_total_chains": 4,
+      "chain_a_tip": "00642395ca6fedf880f62c31ab5ac56c6539530683965a3e90e1c09681617db3",
+      "chain_b_tip": "56eff6fdf2b290b8943e2d6d8ed043334447ed429d430d244814b4deb641ac7e",
+      "chain_a_height": 105,
+      "chain_b_height": 106,
       "fork_depth": {
         "common_ancestor": {
-          "hash": "estimated (not queried)",
-          "height": 103
+          "hash": "height 101",
+          "height": 101
         },
         "chain_a": {
-          "tip": "785ddac250c90b332d5f994323ea0060e62dae6f869c2dc933e688cb36d0057c",
-          "height": 104,
-          "blocks_since_fork": 1,
-          "num_nodes": 6
-        },
-        "chain_b": {
-          "tip": "06fe4fc8ee66b04820debd546d3b3e69242d6d127368fff2daac426ec09eb142",
-          "height": 105,
-          "blocks_since_fork": 1,
+          "tip": "56eff6fdf2b290b8943e2d6d8ed043334447ed429d430d244814b4deb641ac7e",
+          "height": 106,
+          "blocks_since_fork": 5,
           "num_nodes": 4
         },
-        "total_depth": 3,
+        "chain_b": {
+          "tip": "3238672b706eb0a85581827cb375d629a55dce7b46a4c4ca498aa007066d2b69",
+          "height": 105,
+          "blocks_since_fork": 4,
+          "num_nodes": 4
+        },
+        "total_depth": 9,
         "is_sustained_fork": true,
         "threshold": 3,
-        "method": "height-based estimation"
+        "method": "exact (from known start_height)"
       }
     }
   }
