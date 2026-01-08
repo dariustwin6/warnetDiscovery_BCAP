@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-06T21:25:33.752055",
-  "count": 8,
+  "timestamp": "2026-01-07T23:09:51.072387",
+  "count": 10,
   "specifications": [
     {
       "config_id": "baseline-all-v27",
@@ -222,41 +222,41 @@
       "fork_a": {
         "name": "v27",
         "exchanges": 1,
-        "mining_pools": 6,
-        "users": 737,
-        "total_nodes": 744,
-        "custody_btc": 1399956.6367377134,
-        "volume_btc_per_day": 139995.66367377143,
-        "hashrate_pct": 100.0,
-        "consensus_weight": 769976.1502057423
+        "mining_pools": 2,
+        "users": 705,
+        "total_nodes": 708,
+        "custody_btc": 1399949.1544191416,
+        "volume_btc_per_day": 139994.91544191423,
+        "hashrate_pct": 50.0,
+        "consensus_weight": 769972.0349305279
       },
       "fork_b": {
         "name": "v26",
         "exchanges": 2,
-        "mining_pools": 0,
-        "users": 263,
-        "total_nodes": 265,
-        "custody_btc": 2800043.3632622855,
-        "volume_btc_per_day": 280004.3363262286,
-        "hashrate_pct": 0,
-        "consensus_weight": 1540023.849794257
+        "mining_pools": 4,
+        "users": 295,
+        "total_nodes": 301,
+        "custody_btc": 2800050.8455808577,
+        "volume_btc_per_day": 280005.0845580858,
+        "hashrate_pct": 50.0,
+        "consensus_weight": 1540027.9650694719
       },
       "splits": {
         "economic": {
-          "v27": 33.33230087470747,
-          "v26": 66.66769912529253
+          "v27": 33.332122724265275,
+          "v26": 66.66787727573471
         },
         "hashrate": {
-          "v27": 100.0,
-          "v26": 0
+          "v27": 50.0,
+          "v26": 50.0
         },
         "custody": {
-          "v27": 33.332300874707464,
-          "v26": 66.66769912529253
+          "v27": 33.33212272426528,
+          "v26": 66.66787727573472
         },
         "volume": {
-          "v27": 33.332300874707485,
-          "v26": 66.66769912529251
+          "v27": 33.3321227242653,
+          "v26": 66.66787727573471
         }
       }
     },
@@ -264,42 +264,42 @@
       "config_id": "random-001",
       "fork_a": {
         "name": "v27",
-        "exchanges": 2,
-        "mining_pools": 4,
-        "users": 323,
-        "total_nodes": 329,
-        "custody_btc": 2199745.5266745463,
-        "volume_btc_per_day": 219974.55266745464,
-        "hashrate_pct": 62.67,
-        "consensus_weight": 1209860.0396710006
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 866,
+        "total_nodes": 871,
+        "custody_btc": 199981.1953835146,
+        "volume_btc_per_day": 19998.119538351508,
+        "hashrate_pct": 90.0,
+        "consensus_weight": 109989.65746093306
       },
       "fork_b": {
         "name": "v26",
-        "exchanges": 1,
-        "mining_pools": 2,
-        "users": 677,
-        "total_nodes": 680,
-        "custody_btc": 2000254.4733254532,
-        "volume_btc_per_day": 200025.44733254533,
-        "hashrate_pct": 37.33,
-        "consensus_weight": 1100139.9603289992
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 134,
+        "total_nodes": 138,
+        "custody_btc": 4000018.804616485,
+        "volume_btc_per_day": 400001.88046164846,
+        "hashrate_pct": 10.0,
+        "consensus_weight": 2200010.3425390664
       },
       "splits": {
         "economic": {
-          "v27": 52.374893492251104,
-          "v26": 47.62510650774888
+          "v27": 4.761457032940826,
+          "v26": 95.23854296705917
         },
         "hashrate": {
-          "v27": 62.67,
-          "v26": 37.33
+          "v27": 90.0,
+          "v26": 10.0
         },
         "custody": {
-          "v27": 52.374893492251104,
-          "v26": 47.62510650774889
+          "v27": 4.761457032940824,
+          "v26": 95.23854296705917
         },
         "volume": {
-          "v27": 52.374893492251104,
-          "v26": 47.62510650774889
+          "v27": 4.761457032940836,
+          "v26": 95.23854296705917
         }
       }
     },
@@ -307,42 +307,128 @@
       "config_id": "random-002",
       "fork_a": {
         "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 849,
+        "total_nodes": 854,
+        "custody_btc": 199978.38566837308,
+        "volume_btc_per_day": 19997.838566837356,
+        "hashrate_pct": 76.89,
+        "consensus_weight": 109988.11211760523
+      },
+      "fork_b": {
+        "name": "v26",
         "exchanges": 3,
-        "mining_pools": 0,
-        "users": 559,
-        "total_nodes": 562,
-        "custody_btc": 4199904.155618865,
-        "volume_btc_per_day": 419990.41556188656,
-        "hashrate_pct": 0,
-        "consensus_weight": 2309947.285590376
+        "mining_pools": 1,
+        "users": 151,
+        "total_nodes": 155,
+        "custody_btc": 4000021.6143316263,
+        "volume_btc_per_day": 400002.16143316263,
+        "hashrate_pct": 23.11,
+        "consensus_weight": 2200011.8878823947
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.761390134961265,
+          "v26": 95.23860986503874
+        },
+        "hashrate": {
+          "v27": 76.89,
+          "v26": 23.11
+        },
+        "custody": {
+          "v27": 4.761390134961265,
+          "v26": 95.23860986503875
+        },
+        "volume": {
+          "v27": 4.761390134961275,
+          "v26": 95.23860986503873
+        }
+      }
+    },
+    {
+      "config_id": "random-003",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 301,
+        "total_nodes": 305,
+        "custody_btc": 4199718.0853271,
+        "volume_btc_per_day": 419971.80853271007,
+        "hashrate_pct": 26.89,
+        "consensus_weight": 2309844.946929905
       },
       "fork_b": {
         "name": "v26",
         "exchanges": 0,
-        "mining_pools": 6,
-        "users": 441,
-        "total_nodes": 447,
-        "custody_btc": 95.84438113406769,
-        "volume_btc_per_day": 9.584438113406765,
-        "hashrate_pct": 100.0,
-        "consensus_weight": 52.714409623737225
+        "mining_pools": 5,
+        "users": 699,
+        "total_nodes": 704,
+        "custody_btc": 281.91467289922196,
+        "volume_btc_per_day": 28.191467289922226,
+        "hashrate_pct": 73.11,
+        "consensus_weight": 155.0530700945721
       },
       "splits": {
         "economic": {
-          "v27": 99.99771799092538,
-          "v26": 0.0022820090746206597
+          "v27": 99.99328774588335,
+          "v26": 0.006712254116648144
+        },
+        "hashrate": {
+          "v27": 26.89,
+          "v26": 73.11
+        },
+        "custody": {
+          "v27": 99.99328774588335,
+          "v26": 0.006712254116648143
+        },
+        "volume": {
+          "v27": 99.99328774588335,
+          "v26": 0.006712254116648149
+        }
+      }
+    },
+    {
+      "config_id": "random-004",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 0,
+        "users": 743,
+        "total_nodes": 744,
+        "custody_btc": 2199957.967969022,
+        "volume_btc_per_day": 219995.79679690232,
+        "hashrate_pct": 0,
+        "consensus_weight": 1209976.8823829624
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 6,
+        "users": 257,
+        "total_nodes": 265,
+        "custody_btc": 2000042.0320309766,
+        "volume_btc_per_day": 200004.20320309768,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1100023.1176170371
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.37995161831007,
+          "v26": 47.62004838168993
         },
         "hashrate": {
           "v27": 0,
           "v26": 100.0
         },
         "custody": {
-          "v27": 99.99771799092538,
-          "v26": 0.0022820090746206597
+          "v27": 52.37995161831006,
+          "v26": 47.62004838168993
         },
         "volume": {
-          "v27": 99.99771799092538,
-          "v26": 0.002282009074620659
+          "v27": 52.37995161831007,
+          "v26": 47.62004838168992
         }
       }
     }
