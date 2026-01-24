@@ -1,0 +1,28 @@
+[0;32m[2025-12-28 08:42:22][0m ==========================================================================
+[0;32m[2025-12-28 08:42:22][0m CONTINUOUS MINING TEST - Economic Fork Analysis
+[0;32m[2025-12-28 08:42:22][0m ==========================================================================
+[0;32m[2025-12-28 08:42:22][0m Configuration:
+[0;32m[2025-12-28 08:42:22][0m   Mining interval: 5s
+[0;32m[2025-12-28 08:42:22][0m   Test duration: 30s (0 minutes)
+[0;32m[2025-12-28 08:42:22][0m   Mining nodes: random
+[0;32m[2025-12-28 08:42:22][0m   Log directory: ../test_results/continuous_mining_20251228_084222
+[0;32m[2025-12-28 08:42:22][0m ==========================================================================
+[0;32m[2025-12-28 08:42:23][0m Querying network nodes...
+[0;32m[2025-12-28 08:42:25][0m Available nodes: node-0000 node-0001 node-0002 node-0003 node-0004 
+[0;32m[2025-12-28 08:42:25][0m Starting continuous mining...
+[0;32m[2025-12-28 08:42:25][0m Mining on random nodes with 5s interval...
+[0;32m[2025-12-28 08:42:25][0m Mining process started (PID: 343740)
+[0;32m[2025-12-28 08:42:27][0m Starting fork monitor (checking every 2s)...
+[0;32m[2025-12-28 08:42:37][0m Fork #1 detected and analyzed
+[0;32m[2025-12-28 08:42:48][0m Fork #2 detected and analyzed
+[0;32m[2025-12-28 08:43:00][0m Fork #3 detected and analyzed
+[0;32m[2025-12-28 08:43:02][0m Test duration reached (35s / 30s). Stopping...
+[0;32m[2025-12-28 08:43:02][0m Fork monitoring complete
+[0;32m[2025-12-28 08:43:02][0m Total forks detected: 3
+[0;32m[2025-12-28 08:43:02][0m Cleaning up...
+[0;32m[2025-12-28 08:43:02][0m Stopping mining process (PID: 343740)...
+[0;32m[2025-12-28 08:43:02][0m Test completed. Logs saved to: ../test_results/continuous_mining_20251228_084222
+[0;32m[2025-12-28 08:43:02][0m Summary:
+[0;32m[2025-12-28 08:43:02][0m   - Main log: ../test_results/continuous_mining_20251228_084222/continuous_mining.log
+[0;32m[2025-12-28 08:43:02][0m   - Fork log: ../test_results/continuous_mining_20251228_084222/forks_detected.log
+[0;32m[2025-12-28 08:43:02][0m   - Economic analysis log: ../test_results/continuous_mining_20251228_084222/economic_analysis.log

@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-01-07T23:09:51.072387",
-  "count": 10,
+  "timestamp": "2026-01-08T20:51:51.360492",
+  "count": 50,
   "specifications": [
     {
       "config_id": "baseline-all-v27",
@@ -221,42 +221,42 @@
       "config_id": "random-000",
       "fork_a": {
         "name": "v27",
-        "exchanges": 1,
-        "mining_pools": 2,
-        "users": 705,
-        "total_nodes": 708,
-        "custody_btc": 1399949.1544191416,
-        "volume_btc_per_day": 139994.91544191423,
-        "hashrate_pct": 50.0,
-        "consensus_weight": 769972.0349305279
+        "exchanges": 3,
+        "mining_pools": 5,
+        "users": 987,
+        "total_nodes": 995,
+        "custody_btc": 4199998.3992094435,
+        "volume_btc_per_day": 419999.8399209444,
+        "hashrate_pct": 89.22,
+        "consensus_weight": 2309999.119565194
       },
       "fork_b": {
         "name": "v26",
-        "exchanges": 2,
-        "mining_pools": 4,
-        "users": 295,
-        "total_nodes": 301,
-        "custody_btc": 2800050.8455808577,
-        "volume_btc_per_day": 280005.0845580858,
-        "hashrate_pct": 50.0,
-        "consensus_weight": 1540027.9650694719
+        "exchanges": 0,
+        "mining_pools": 1,
+        "users": 13,
+        "total_nodes": 14,
+        "custody_btc": 1.600790555787463,
+        "volume_btc_per_day": 0.1600790555787463,
+        "hashrate_pct": 10.78,
+        "consensus_weight": 0.8804348056831047
       },
       "splits": {
         "economic": {
-          "v27": 33.332122724265275,
-          "v26": 66.66787727573471
+          "v27": 99.99996188593916,
+          "v26": 3.811406085208246e-05
         },
         "hashrate": {
-          "v27": 50.0,
-          "v26": 50.0
+          "v27": 89.22,
+          "v26": 10.78
         },
         "custody": {
-          "v27": 33.33212272426528,
-          "v26": 66.66787727573472
+          "v27": 99.99996188593914,
+          "v26": 3.811406085208246e-05
         },
         "volume": {
-          "v27": 33.3321227242653,
-          "v26": 66.66787727573471
+          "v27": 99.99996188593914,
+          "v26": 3.8114060852082455e-05
         }
       }
     },
@@ -264,42 +264,42 @@
       "config_id": "random-001",
       "fork_a": {
         "name": "v27",
-        "exchanges": 0,
-        "mining_pools": 5,
-        "users": 866,
-        "total_nodes": 871,
-        "custody_btc": 199981.1953835146,
-        "volume_btc_per_day": 19998.119538351508,
-        "hashrate_pct": 90.0,
-        "consensus_weight": 109989.65746093306
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 256,
+        "total_nodes": 263,
+        "custody_btc": 999647.29370236,
+        "volume_btc_per_day": 99964.72937023603,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 549806.011536298
       },
       "fork_b": {
         "name": "v26",
-        "exchanges": 3,
-        "mining_pools": 1,
-        "users": 134,
-        "total_nodes": 138,
-        "custody_btc": 4000018.804616485,
-        "volume_btc_per_day": 400001.88046164846,
-        "hashrate_pct": 10.0,
-        "consensus_weight": 2200010.3425390664
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 744,
+        "total_nodes": 746,
+        "custody_btc": 3200352.7062976393,
+        "volume_btc_per_day": 320035.27062976395,
+        "hashrate_pct": 0,
+        "consensus_weight": 1760193.9884637017
       },
       "splits": {
         "economic": {
-          "v27": 4.761457032940826,
-          "v26": 95.23854296705917
+          "v27": 23.801126040532385,
+          "v26": 76.19887395946762
         },
         "hashrate": {
-          "v27": 90.0,
-          "v26": 10.0
+          "v27": 100.0,
+          "v26": 0
         },
         "custody": {
-          "v27": 4.761457032940824,
-          "v26": 95.23854296705917
+          "v27": 23.801126040532385,
+          "v26": 76.19887395946762
         },
         "volume": {
-          "v27": 4.761457032940836,
-          "v26": 95.23854296705917
+          "v27": 23.801126040532388,
+          "v26": 76.1988739594676
         }
       }
     },
@@ -307,42 +307,42 @@
       "config_id": "random-002",
       "fork_a": {
         "name": "v27",
-        "exchanges": 0,
-        "mining_pools": 5,
-        "users": 849,
-        "total_nodes": 854,
-        "custody_btc": 199978.38566837308,
-        "volume_btc_per_day": 19997.838566837356,
-        "hashrate_pct": 76.89,
-        "consensus_weight": 109988.11211760523
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 950,
+        "total_nodes": 952,
+        "custody_btc": 3399993.6034449153,
+        "volume_btc_per_day": 339999.36034449155,
+        "hashrate_pct": 0,
+        "consensus_weight": 1869996.4818947033
       },
       "fork_b": {
         "name": "v26",
-        "exchanges": 3,
-        "mining_pools": 1,
-        "users": 151,
-        "total_nodes": 155,
-        "custody_btc": 4000021.6143316263,
-        "volume_btc_per_day": 400002.16143316263,
-        "hashrate_pct": 23.11,
-        "consensus_weight": 2200011.8878823947
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 50,
+        "total_nodes": 57,
+        "custody_btc": 800006.396555084,
+        "volume_btc_per_day": 80000.6396555084,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 440003.51810529624
       },
       "splits": {
         "economic": {
-          "v27": 4.761390134961265,
-          "v26": 95.23860986503874
+          "v27": 80.95222865345038,
+          "v26": 19.047771346549624
         },
         "hashrate": {
-          "v27": 76.89,
-          "v26": 23.11
+          "v27": 0,
+          "v26": 100.0
         },
         "custody": {
-          "v27": 4.761390134961265,
-          "v26": 95.23860986503875
+          "v27": 80.95222865345039,
+          "v26": 19.047771346549624
         },
         "volume": {
-          "v27": 4.761390134961275,
-          "v26": 95.23860986503873
+          "v27": 80.95222865345038,
+          "v26": 19.047771346549624
         }
       }
     },
@@ -350,42 +350,42 @@
       "config_id": "random-003",
       "fork_a": {
         "name": "v27",
-        "exchanges": 3,
-        "mining_pools": 1,
-        "users": 301,
-        "total_nodes": 305,
-        "custody_btc": 4199718.0853271,
-        "volume_btc_per_day": 419971.80853271007,
-        "hashrate_pct": 26.89,
-        "consensus_weight": 2309844.946929905
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 377,
+        "total_nodes": 382,
+        "custody_btc": 199799.32231607864,
+        "volume_btc_per_day": 19979.932231607905,
+        "hashrate_pct": 85.78,
+        "consensus_weight": 109889.62727384327
       },
       "fork_b": {
         "name": "v26",
-        "exchanges": 0,
-        "mining_pools": 5,
-        "users": 699,
-        "total_nodes": 704,
-        "custody_btc": 281.91467289922196,
-        "volume_btc_per_day": 28.191467289922226,
-        "hashrate_pct": 73.11,
-        "consensus_weight": 155.0530700945721
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 623,
+        "total_nodes": 627,
+        "custody_btc": 4000200.6776839206,
+        "volume_btc_per_day": 400020.0677683921,
+        "hashrate_pct": 14.22,
+        "consensus_weight": 2200110.3727261564
       },
       "splits": {
         "economic": {
-          "v27": 99.99328774588335,
-          "v26": 0.006712254116648144
+          "v27": 4.757126721811398,
+          "v26": 95.24287327818861
         },
         "hashrate": {
-          "v27": 26.89,
-          "v26": 73.11
+          "v27": 85.78,
+          "v26": 14.22
         },
         "custody": {
-          "v27": 99.99328774588335,
-          "v26": 0.006712254116648143
+          "v27": 4.757126721811397,
+          "v26": 95.24287327818861
         },
         "volume": {
-          "v27": 99.99328774588335,
-          "v26": 0.006712254116648149
+          "v27": 4.757126721811407,
+          "v26": 95.24287327818858
         }
       }
     },
@@ -393,42 +393,1762 @@
       "config_id": "random-004",
       "fork_a": {
         "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 62,
+        "total_nodes": 67,
+        "custody_btc": 198175.09056204604,
+        "volume_btc_per_day": 19817.50905620461,
+        "hashrate_pct": 76.89,
+        "consensus_weight": 108996.29980912532
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 938,
+        "total_nodes": 942,
+        "custody_btc": 4001824.9094379535,
+        "volume_btc_per_day": 400182.49094379536,
+        "hashrate_pct": 23.11,
+        "consensus_weight": 2201003.7001908743
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.718454537191573,
+          "v26": 95.28154546280842
+        },
+        "hashrate": {
+          "v27": 76.89,
+          "v26": 23.11
+        },
+        "custody": {
+          "v27": 4.7184545371915725,
+          "v26": 95.28154546280841
+        },
+        "volume": {
+          "v27": 4.718454537191573,
+          "v26": 95.28154546280841
+        }
+      }
+    },
+    {
+      "config_id": "random-005",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 5,
+        "users": 181,
+        "total_nodes": 189,
+        "custody_btc": 4199451.300816889,
+        "volume_btc_per_day": 419945.13008168887,
+        "hashrate_pct": 85.78,
+        "consensus_weight": 2309698.215449289
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 1,
+        "users": 819,
+        "total_nodes": 820,
+        "custody_btc": 548.6991831111501,
+        "volume_btc_per_day": 54.86991831111507,
+        "hashrate_pct": 14.22,
+        "consensus_weight": 301.78455071113257
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.98693573373545,
+          "v26": 0.013064266264551193
+        },
+        "hashrate": {
+          "v27": 85.78,
+          "v26": 14.22
+        },
+        "custody": {
+          "v27": 99.98693573373545,
+          "v26": 0.013064266264551193
+        },
+        "volume": {
+          "v27": 99.98693573373545,
+          "v26": 0.013064266264551207
+        }
+      }
+    },
+    {
+      "config_id": "random-006",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 3,
+        "users": 437,
+        "total_nodes": 440,
+        "custody_btc": 199843.52015585275,
+        "volume_btc_per_day": 19984.352015585322,
+        "hashrate_pct": 52.67,
+        "consensus_weight": 109913.93608571903
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 3,
+        "users": 563,
+        "total_nodes": 569,
+        "custody_btc": 4000156.479844147,
+        "volume_btc_per_day": 400015.64798441465,
+        "hashrate_pct": 47.33,
+        "consensus_weight": 2200086.063914281
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.7581790513298285,
+          "v26": 95.24182094867017
+        },
+        "hashrate": {
+          "v27": 52.67,
+          "v26": 47.33
+        },
+        "custody": {
+          "v27": 4.758179051329827,
+          "v26": 95.24182094867017
+        },
+        "volume": {
+          "v27": 4.758179051329839,
+          "v26": 95.24182094867015
+        }
+      }
+    },
+    {
+      "config_id": "random-007",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 4,
+        "users": 491,
+        "total_nodes": 496,
+        "custody_btc": 2199874.0719797015,
+        "volume_btc_per_day": 219987.4071979702,
+        "hashrate_pct": 70.78,
+        "consensus_weight": 1209930.7395888357
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 2,
+        "users": 509,
+        "total_nodes": 513,
+        "custody_btc": 2000125.928020298,
+        "volume_btc_per_day": 200012.5928020298,
+        "hashrate_pct": 29.22,
+        "consensus_weight": 1100069.2604111638
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.377954094754806,
+          "v26": 47.622045905245194
+        },
+        "hashrate": {
+          "v27": 70.78,
+          "v26": 29.22
+        },
+        "custody": {
+          "v27": 52.3779540947548,
+          "v26": 47.622045905245194
+        },
+        "volume": {
+          "v27": 52.377954094754806,
+          "v26": 47.622045905245194
+        }
+      }
+    },
+    {
+      "config_id": "random-008",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 447,
+        "total_nodes": 452,
+        "custody_btc": 199849.73419259206,
+        "volume_btc_per_day": 19984.973419259262,
+        "hashrate_pct": 89.22,
+        "consensus_weight": 109917.35380592567
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 553,
+        "total_nodes": 557,
+        "custody_btc": 4000150.2658074074,
+        "volume_btc_per_day": 400015.02658074076,
+        "hashrate_pct": 10.78,
+        "consensus_weight": 2200082.6461940743
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.758327004585527,
+          "v26": 95.24167299541448
+        },
+        "hashrate": {
+          "v27": 89.22,
+          "v26": 10.78
+        },
+        "custody": {
+          "v27": 4.758327004585526,
+          "v26": 95.24167299541449
+        },
+        "volume": {
+          "v27": 4.758327004585539,
+          "v26": 95.24167299541446
+        }
+      }
+    },
+    {
+      "config_id": "random-009",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 4,
+        "users": 843,
+        "total_nodes": 847,
+        "custody_btc": 199977.36696417234,
+        "volume_btc_per_day": 19997.736696417283,
+        "hashrate_pct": 70.78,
+        "consensus_weight": 109987.5518302948
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 2,
+        "users": 157,
+        "total_nodes": 162,
+        "custody_btc": 4000022.633035827,
+        "volume_btc_per_day": 400002.2633035827,
+        "hashrate_pct": 29.22,
+        "consensus_weight": 2200012.448169705
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.761365880099342,
+          "v26": 95.23863411990064
+        },
+        "hashrate": {
+          "v27": 70.78,
+          "v26": 29.22
+        },
+        "custody": {
+          "v27": 4.761365880099342,
+          "v26": 95.23863411990067
+        },
+        "volume": {
+          "v27": 4.761365880099354,
+          "v26": 95.23863411990064
+        }
+      }
+    },
+    {
+      "config_id": "random-010",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 1,
+        "users": 126,
+        "total_nodes": 127,
+        "custody_btc": 199159.86960219583,
+        "volume_btc_per_day": 19915.98696021961,
+        "hashrate_pct": 15.0,
+        "consensus_weight": 109537.92828120771
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 5,
+        "users": 874,
+        "total_nodes": 882,
+        "custody_btc": 4000840.1303978036,
+        "volume_btc_per_day": 400084.0130397804,
+        "hashrate_pct": 85.0,
+        "consensus_weight": 2200462.071718792
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.7419016571951405,
+          "v26": 95.25809834280487
+        },
+        "hashrate": {
+          "v27": 15.0,
+          "v26": 85.0
+        },
+        "custody": {
+          "v27": 4.74190165719514,
+          "v26": 95.25809834280487
+        },
+        "volume": {
+          "v27": 4.741901657195145,
+          "v26": 95.25809834280486
+        }
+      }
+    },
+    {
+      "config_id": "random-011",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 4,
+        "users": 197,
+        "total_nodes": 201,
+        "custody_btc": 199505.60317450925,
+        "volume_btc_per_day": 19950.560317450952,
+        "hashrate_pct": 61.89,
+        "consensus_weight": 109728.0817459801
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 2,
+        "users": 803,
+        "total_nodes": 808,
+        "custody_btc": 4000494.3968254905,
+        "volume_btc_per_day": 400049.43968254904,
+        "hashrate_pct": 38.11,
+        "consensus_weight": 2200271.9182540197
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.750133408916887,
+          "v26": 95.2498665910831
+        },
+        "hashrate": {
+          "v27": 61.89,
+          "v26": 38.11
+        },
+        "custody": {
+          "v27": 4.750133408916887,
+          "v26": 95.2498665910831
+        },
+        "volume": {
+          "v27": 4.750133408916893,
+          "v26": 95.2498665910831
+        }
+      }
+    },
+    {
+      "config_id": "random-012",
+      "fork_a": {
+        "name": "v27",
         "exchanges": 1,
         "mining_pools": 0,
-        "users": 743,
-        "total_nodes": 744,
-        "custody_btc": 2199957.967969022,
-        "volume_btc_per_day": 219995.79679690232,
+        "users": 394,
+        "total_nodes": 395,
+        "custody_btc": 999813.209995941,
+        "volume_btc_per_day": 99981.32099959414,
         "hashrate_pct": 0,
-        "consensus_weight": 1209976.8823829624
+        "consensus_weight": 549897.2654977676
       },
       "fork_b": {
         "name": "v26",
         "exchanges": 2,
         "mining_pools": 6,
-        "users": 257,
-        "total_nodes": 265,
-        "custody_btc": 2000042.0320309766,
-        "volume_btc_per_day": 200004.20320309768,
+        "users": 606,
+        "total_nodes": 614,
+        "custody_btc": 3200186.7900040583,
+        "volume_btc_per_day": 320018.6790004058,
         "hashrate_pct": 100.0,
-        "consensus_weight": 1100023.1176170371
+        "consensus_weight": 1760102.7345022322
       },
       "splits": {
         "economic": {
-          "v27": 52.37995161831007,
-          "v26": 47.62004838168993
+          "v27": 23.805076428474788,
+          "v26": 76.1949235715252
         },
         "hashrate": {
           "v27": 0,
           "v26": 100.0
         },
         "custody": {
-          "v27": 52.37995161831006,
-          "v26": 47.62004838168993
+          "v27": 23.80507642847479,
+          "v26": 76.19492357152522
         },
         "volume": {
-          "v27": 52.37995161831007,
-          "v26": 47.62004838168992
+          "v27": 23.8050764284748,
+          "v26": 76.1949235715252
+        }
+      }
+    },
+    {
+      "config_id": "random-013",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 543,
+        "total_nodes": 545,
+        "custody_btc": 2999897.754359054,
+        "volume_btc_per_day": 299989.77543590544,
+        "hashrate_pct": 0,
+        "consensus_weight": 1649943.7648974797
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 457,
+        "total_nodes": 464,
+        "custody_btc": 1200102.2456409456,
+        "volume_btc_per_day": 120010.22456409456,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 660056.2351025201
+      },
+      "splits": {
+        "economic": {
+          "v27": 71.4261370085489,
+          "v26": 28.573862991451087
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 71.4261370085489,
+          "v26": 28.573862991451087
+        },
+        "volume": {
+          "v27": 71.42613700854892,
+          "v26": 28.573862991451087
+        }
+      }
+    },
+    {
+      "config_id": "random-014",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 1,
+        "users": 507,
+        "total_nodes": 509,
+        "custody_btc": 2199881.875767415,
+        "volume_btc_per_day": 219988.18757674153,
+        "hashrate_pct": 10.78,
+        "consensus_weight": 1209935.0316720782
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 5,
+        "users": 493,
+        "total_nodes": 500,
+        "custody_btc": 2000118.1242325846,
+        "volume_btc_per_day": 200011.81242325847,
+        "hashrate_pct": 89.22,
+        "consensus_weight": 1100064.9683279216
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.378139899224166,
+          "v26": 47.62186010077583
+        },
+        "hashrate": {
+          "v27": 10.78,
+          "v26": 89.22
+        },
+        "custody": {
+          "v27": 52.378139899224166,
+          "v26": 47.62186010077583
+        },
+        "volume": {
+          "v27": 52.37813989922417,
+          "v26": 47.62186010077583
+        }
+      }
+    },
+    {
+      "config_id": "random-015",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 0,
+        "users": 977,
+        "total_nodes": 980,
+        "custody_btc": 4199997.138858516,
+        "volume_btc_per_day": 419999.7138858516,
+        "hashrate_pct": 0,
+        "consensus_weight": 2309998.4263721835
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 6,
+        "users": 23,
+        "total_nodes": 29,
+        "custody_btc": 2.8611414836163354,
+        "volume_btc_per_day": 0.28611414836163346,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1.5736278159889845
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99993187758372,
+          "v26": 6.812241627657942e-05
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 99.99993187758373,
+          "v26": 6.812241627657942e-05
+        },
+        "volume": {
+          "v27": 99.99993187758372,
+          "v26": 6.812241627657939e-05
+        }
+      }
+    },
+    {
+      "config_id": "random-016",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 0,
+        "users": 907,
+        "total_nodes": 908,
+        "custody_btc": 2199987.5386650334,
+        "volume_btc_per_day": 219998.75386650336,
+        "hashrate_pct": 0,
+        "consensus_weight": 1209993.1462657684
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 6,
+        "users": 93,
+        "total_nodes": 101,
+        "custody_btc": 2000012.461334966,
+        "volume_btc_per_day": 200001.2461334966,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1100006.8537342313
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.3806556825008,
+          "v26": 47.61934431749919
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 52.38065568250081,
+          "v26": 47.6193443174992
+        },
+        "volume": {
+          "v27": 52.3806556825008,
+          "v26": 47.61934431749919
+        }
+      }
+    },
+    {
+      "config_id": "random-017",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 773,
+        "total_nodes": 780,
+        "custody_btc": 1399964.314336902,
+        "volume_btc_per_day": 139996.43143369028,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 769980.3728852961
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 227,
+        "total_nodes": 229,
+        "custody_btc": 2800035.685663097,
+        "volume_btc_per_day": 280003.5685663097,
+        "hashrate_pct": 0,
+        "consensus_weight": 1540019.6271147034
+      },
+      "splits": {
+        "economic": {
+          "v27": 33.33248367468815,
+          "v26": 66.66751632531185
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        },
+        "custody": {
+          "v27": 33.33248367468815,
+          "v26": 66.66751632531185
+        },
+        "volume": {
+          "v27": 33.33248367468816,
+          "v26": 66.66751632531184
+        }
+      }
+    },
+    {
+      "config_id": "random-018",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 2,
+        "users": 448,
+        "total_nodes": 453,
+        "custody_btc": 4199850.340355615,
+        "volume_btc_per_day": 419985.0340355616,
+        "hashrate_pct": 20.78,
+        "consensus_weight": 2309917.6871955884
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 4,
+        "users": 552,
+        "total_nodes": 556,
+        "custody_btc": 149.6596443840958,
+        "volume_btc_per_day": 14.965964438409571,
+        "hashrate_pct": 79.22,
+        "consensus_weight": 82.31280441125269
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99643667513371,
+          "v26": 0.0035633248662879954
+        },
+        "hashrate": {
+          "v27": 20.78,
+          "v26": 79.22
+        },
+        "custody": {
+          "v27": 99.99643667513371,
+          "v26": 0.0035633248662879963
+        },
+        "volume": {
+          "v27": 99.99643667513371,
+          "v26": 0.003563324866287993
+        }
+      }
+    },
+    {
+      "config_id": "random-019",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 6,
+        "users": 91,
+        "total_nodes": 100,
+        "custody_btc": 4198792.001457217,
+        "volume_btc_per_day": 419879.2001457217,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 2309335.6008014693
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 0,
+        "users": 909,
+        "total_nodes": 909,
+        "custody_btc": 1207.9985427826828,
+        "volume_btc_per_day": 120.7998542782681,
+        "hashrate_pct": 0,
+        "consensus_weight": 664.3991985304755
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.97123812993374,
+          "v26": 0.02876187006625435
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        },
+        "custody": {
+          "v27": 99.97123812993374,
+          "v26": 0.02876187006625435
+        },
+        "volume": {
+          "v27": 99.97123812993375,
+          "v26": 0.02876187006625431
+        }
+      }
+    },
+    {
+      "config_id": "random-020",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 4,
+        "users": 648,
+        "total_nodes": 652,
+        "custody_btc": 199933.9974248317,
+        "volume_btc_per_day": 19993.399742483245,
+        "hashrate_pct": 70.78,
+        "consensus_weight": 109963.69858365747
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 2,
+        "users": 352,
+        "total_nodes": 357,
+        "custody_btc": 4000066.0025751675,
+        "volume_btc_per_day": 400006.6002575168,
+        "hashrate_pct": 29.22,
+        "consensus_weight": 2200036.301416342
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.760333272019805,
+          "v26": 95.2396667279802
+        },
+        "hashrate": {
+          "v27": 70.78,
+          "v26": 29.22
+        },
+        "custody": {
+          "v27": 4.760333272019803,
+          "v26": 95.2396667279802
+        },
+        "volume": {
+          "v27": 4.76033327201982,
+          "v26": 95.2396667279802
+        }
+      }
+    },
+    {
+      "config_id": "random-021",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 816,
+        "total_nodes": 820,
+        "custody_btc": 4199972.59751968,
+        "volume_btc_per_day": 419997.2597519681,
+        "hashrate_pct": 10.78,
+        "consensus_weight": 2309984.928635824
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 184,
+        "total_nodes": 189,
+        "custody_btc": 27.402480319102054,
+        "volume_btc_per_day": 2.740248031910208,
+        "hashrate_pct": 89.22,
+        "consensus_weight": 15.071364175506131
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.9993475599924,
+          "v26": 0.0006524400075976682
+        },
+        "hashrate": {
+          "v27": 10.78,
+          "v26": 89.22
+        },
+        "custody": {
+          "v27": 99.9993475599924,
+          "v26": 0.000652440007597668
+        },
+        "volume": {
+          "v27": 99.9993475599924,
+          "v26": 0.0006524400075976686
+        }
+      }
+    },
+    {
+      "config_id": "random-022",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 961,
+        "total_nodes": 963,
+        "custody_btc": 2999995.067767042,
+        "volume_btc_per_day": 299999.5067767042,
+        "hashrate_pct": 0,
+        "consensus_weight": 1649997.287271873
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 39,
+        "total_nodes": 46,
+        "custody_btc": 1200004.9322329573,
+        "volume_btc_per_day": 120000.49322329574,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 660002.7127281266
+      },
+      "splits": {
+        "economic": {
+          "v27": 71.4284539944534,
+          "v26": 28.57154600554661
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 71.42845399445339,
+          "v26": 28.571546005546605
+        },
+        "volume": {
+          "v27": 71.4284539944534,
+          "v26": 28.571546005546605
+        }
+      }
+    },
+    {
+      "config_id": "random-023",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 6,
+        "users": 31,
+        "total_nodes": 40,
+        "custody_btc": 4196259.721405372,
+        "volume_btc_per_day": 419625.9721405372,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 2307942.846772955
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 0,
+        "users": 969,
+        "total_nodes": 969,
+        "custody_btc": 3740.2785946273866,
+        "volume_btc_per_day": 374.0278594627385,
+        "hashrate_pct": 0,
+        "consensus_weight": 2057.1532270450625
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.91094574774696,
+          "v26": 0.08905425225303301
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        },
+        "custody": {
+          "v27": 99.91094574774696,
+          "v26": 0.08905425225303304
+        },
+        "volume": {
+          "v27": 99.91094574774696,
+          "v26": 0.08905425225303298
+        }
+      }
+    },
+    {
+      "config_id": "random-024",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 3,
+        "users": 640,
+        "total_nodes": 645,
+        "custody_btc": 2999931.654242525,
+        "volume_btc_per_day": 299993.16542425257,
+        "hashrate_pct": 48.11,
+        "consensus_weight": 1649962.4098333886
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 3,
+        "users": 360,
+        "total_nodes": 364,
+        "custody_btc": 1200068.3457574744,
+        "volume_btc_per_day": 120006.83457574745,
+        "hashrate_pct": 51.89,
+        "consensus_weight": 660037.5901666109
+      },
+      "splits": {
+        "economic": {
+          "v27": 71.42694414863155,
+          "v26": 28.573055851368444
+        },
+        "hashrate": {
+          "v27": 48.11,
+          "v26": 51.89
+        },
+        "custody": {
+          "v27": 71.42694414863156,
+          "v26": 28.573055851368444
+        },
+        "volume": {
+          "v27": 71.42694414863156,
+          "v26": 28.57305585136844
+        }
+      }
+    },
+    {
+      "config_id": "random-025",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 6,
+        "users": 694,
+        "total_nodes": 703,
+        "custody_btc": 4199946.423123802,
+        "volume_btc_per_day": 419994.64231238025,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 2309970.5327180913
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 0,
+        "users": 306,
+        "total_nodes": 306,
+        "custody_btc": 53.57687619714425,
+        "volume_btc_per_day": 5.357687619714423,
+        "hashrate_pct": 0,
+        "consensus_weight": 29.46728190842934
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99872436009055,
+          "v26": 0.0012756399094558158
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        },
+        "custody": {
+          "v27": 99.99872436009055,
+          "v26": 0.0012756399094558158
+        },
+        "volume": {
+          "v27": 99.99872436009055,
+          "v26": 0.0012756399094558152
+        }
+      }
+    },
+    {
+      "config_id": "random-026",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 271,
+        "total_nodes": 273,
+        "custody_btc": 2999673.4983282103,
+        "volume_btc_per_day": 299967.34983282106,
+        "hashrate_pct": 0,
+        "consensus_weight": 1649820.4240805157
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 729,
+        "total_nodes": 736,
+        "custody_btc": 1200326.5016717894,
+        "volume_btc_per_day": 120032.65016717893,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 660179.5759194841
+      },
+      "splits": {
+        "economic": {
+          "v27": 71.4207975792431,
+          "v26": 28.57920242075689
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 71.4207975792431,
+          "v26": 28.579202420756893
+        },
+        "volume": {
+          "v27": 71.42079757924311,
+          "v26": 28.57920242075689
+        }
+      }
+    },
+    {
+      "config_id": "random-027",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 0,
+        "users": 117,
+        "total_nodes": 118,
+        "custody_btc": 999086.206116075,
+        "volume_btc_per_day": 99908.62061160753,
+        "hashrate_pct": 0,
+        "consensus_weight": 549497.4133638412
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 6,
+        "users": 883,
+        "total_nodes": 891,
+        "custody_btc": 3200913.793883925,
+        "volume_btc_per_day": 320091.37938839244,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1760502.5866361586
+      },
+      "splits": {
+        "economic": {
+          "v27": 23.7877668122875,
+          "v26": 76.2122331877125
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 23.7877668122875,
+          "v26": 76.2122331877125
+        },
+        "volume": {
+          "v27": 23.787766812287508,
+          "v26": 76.21223318771249
+        }
+      }
+    },
+    {
+      "config_id": "random-028",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 3,
+        "users": 146,
+        "total_nodes": 149,
+        "custody_btc": 199291.16255418598,
+        "volume_btc_per_day": 19929.116255418623,
+        "hashrate_pct": 52.67,
+        "consensus_weight": 109610.1394048023
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 3,
+        "users": 854,
+        "total_nodes": 860,
+        "custody_btc": 4000708.8374458137,
+        "volume_btc_per_day": 400070.88374458137,
+        "hashrate_pct": 47.33,
+        "consensus_weight": 2200389.8605951974
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.745027679861573,
+          "v26": 95.25497232013844
+        },
+        "hashrate": {
+          "v27": 52.67,
+          "v26": 47.33
+        },
+        "custody": {
+          "v27": 4.745027679861571,
+          "v26": 95.25497232013842
+        },
+        "volume": {
+          "v27": 4.745027679861577,
+          "v26": 95.25497232013842
+        }
+      }
+    },
+    {
+      "config_id": "random-029",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 366,
+        "total_nodes": 373,
+        "custody_btc": 2199789.6496446934,
+        "volume_btc_per_day": 219978.96496446937,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1209884.3073045814
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 634,
+        "total_nodes": 636,
+        "custody_btc": 2000210.3503553062,
+        "volume_btc_per_day": 200021.03503553063,
+        "hashrate_pct": 0,
+        "consensus_weight": 1100115.6926954184
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.37594403915937,
+          "v26": 47.62405596084062
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        },
+        "custody": {
+          "v27": 52.375944039159364,
+          "v26": 47.62405596084062
+        },
+        "volume": {
+          "v27": 52.37594403915937,
+          "v26": 47.62405596084063
+        }
+      }
+    },
+    {
+      "config_id": "random-030",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 3,
+        "users": 892,
+        "total_nodes": 898,
+        "custody_btc": 4199985.285558459,
+        "volume_btc_per_day": 419998.52855584596,
+        "hashrate_pct": 35.78,
+        "consensus_weight": 2309991.9070571526
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 3,
+        "users": 108,
+        "total_nodes": 111,
+        "custody_btc": 14.714441540253404,
+        "volume_btc_per_day": 1.4714441540253411,
+        "hashrate_pct": 64.22,
+        "consensus_weight": 8.092942847139373
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.9996496561538,
+          "v26": 0.00035034384619650976
+        },
+        "hashrate": {
+          "v27": 35.78,
+          "v26": 64.22
+        },
+        "custody": {
+          "v27": 99.99964965615379,
+          "v26": 0.0003503438461965096
+        },
+        "volume": {
+          "v27": 99.99964965615379,
+          "v26": 0.00035034384619650976
+        }
+      }
+    },
+    {
+      "config_id": "random-031",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 6,
+        "users": 828,
+        "total_nodes": 837,
+        "custody_btc": 4199974.755650923,
+        "volume_btc_per_day": 419997.47556509235,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 2309986.1156080076
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 0,
+        "users": 172,
+        "total_nodes": 172,
+        "custody_btc": 25.24434907621096,
+        "volume_btc_per_day": 2.5244349076210972,
+        "hashrate_pct": 0,
+        "consensus_weight": 13.884391991916027
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99939894406961,
+          "v26": 0.0006010559303859754
+        },
+        "hashrate": {
+          "v27": 100.0,
+          "v26": 0
+        },
+        "custody": {
+          "v27": 99.99939894406961,
+          "v26": 0.0006010559303859754
+        },
+        "volume": {
+          "v27": 99.99939894406961,
+          "v26": 0.0006010559303859756
+        }
+      }
+    },
+    {
+      "config_id": "random-032",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 5,
+        "users": 308,
+        "total_nodes": 314,
+        "custody_btc": 2199727.2412021235,
+        "volume_btc_per_day": 219972.72412021237,
+        "hashrate_pct": 73.11,
+        "consensus_weight": 1209849.9826611679
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 1,
+        "users": 692,
+        "total_nodes": 695,
+        "custody_btc": 2000272.7587978763,
+        "volume_btc_per_day": 200027.27587978763,
+        "hashrate_pct": 26.89,
+        "consensus_weight": 1100150.017338832
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.37445812386008,
+          "v26": 47.62554187613991
+        },
+        "hashrate": {
+          "v27": 73.11,
+          "v26": 26.89
+        },
+        "custody": {
+          "v27": 52.37445812386008,
+          "v26": 47.62554187613991
+        },
+        "volume": {
+          "v27": 52.37445812386009,
+          "v26": 47.62554187613991
+        }
+      }
+    },
+    {
+      "config_id": "random-033",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 175,
+        "total_nodes": 177,
+        "custody_btc": 2199428.384777571,
+        "volume_btc_per_day": 219942.83847775715,
+        "hashrate_pct": 0,
+        "consensus_weight": 1209685.6116276642
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 825,
+        "total_nodes": 832,
+        "custody_btc": 2000571.6152224285,
+        "volume_btc_per_day": 200057.16152224285,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1100314.3883723356
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.367342494704076,
+          "v26": 47.63265750529591
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 52.367342494704076,
+          "v26": 47.63265750529592
+        },
+        "volume": {
+          "v27": 52.36734249470408,
+          "v26": 47.63265750529592
+        }
+      }
+    },
+    {
+      "config_id": "random-034",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 2,
+        "users": 414,
+        "total_nodes": 419,
+        "custody_btc": 4199828.090007103,
+        "volume_btc_per_day": 419982.8090007104,
+        "hashrate_pct": 50.0,
+        "consensus_weight": 2309905.4495039065
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 4,
+        "users": 586,
+        "total_nodes": 590,
+        "custody_btc": 171.90999289607265,
+        "volume_btc_per_day": 17.190999289607284,
+        "hashrate_pct": 50.0,
+        "consensus_weight": 94.55049609283996
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99590690493105,
+          "v26": 0.004093095068954112
+        },
+        "hashrate": {
+          "v27": 50.0,
+          "v26": 50.0
+        },
+        "custody": {
+          "v27": 99.99590690493105,
+          "v26": 0.004093095068954112
+        },
+        "volume": {
+          "v27": 99.99590690493105,
+          "v26": 0.004093095068954116
+        }
+      }
+    },
+    {
+      "config_id": "random-035",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 0,
+        "users": 954,
+        "total_nodes": 956,
+        "custody_btc": 2999994.1398307327,
+        "volume_btc_per_day": 299999.4139830733,
+        "hashrate_pct": 0,
+        "consensus_weight": 1649996.776906903
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 6,
+        "users": 46,
+        "total_nodes": 53,
+        "custody_btc": 1200005.8601692668,
+        "volume_btc_per_day": 120000.58601692668,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 660003.2230930967
+      },
+      "splits": {
+        "economic": {
+          "v27": 71.42843190073174,
+          "v26": 28.571568099268262
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 71.42843190073172,
+          "v26": 28.57156809926826
+        },
+        "volume": {
+          "v27": 71.42843190073174,
+          "v26": 28.57156809926826
+        }
+      }
+    },
+    {
+      "config_id": "random-036",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 2,
+        "users": 286,
+        "total_nodes": 288,
+        "custody_btc": 199696.95902301764,
+        "volume_btc_per_day": 19969.6959023018,
+        "hashrate_pct": 41.11,
+        "consensus_weight": 109833.32746265971
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 4,
+        "users": 714,
+        "total_nodes": 721,
+        "custody_btc": 4000303.040976982,
+        "volume_btc_per_day": 400030.3040976982,
+        "hashrate_pct": 58.89,
+        "consensus_weight": 2200166.6725373403
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.754689500548039,
+          "v26": 95.24531049945196
+        },
+        "hashrate": {
+          "v27": 41.11,
+          "v26": 58.89
+        },
+        "custody": {
+          "v27": 4.754689500548039,
+          "v26": 95.24531049945195
+        },
+        "volume": {
+          "v27": 4.754689500548047,
+          "v26": 95.24531049945195
+        }
+      }
+    },
+    {
+      "config_id": "random-037",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 5,
+        "users": 790,
+        "total_nodes": 795,
+        "custody_btc": 199967.69679184206,
+        "volume_btc_per_day": 19996.769679184254,
+        "hashrate_pct": 85.78,
+        "consensus_weight": 109982.23323551315
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 1,
+        "users": 210,
+        "total_nodes": 214,
+        "custody_btc": 4000032.3032081574,
+        "volume_btc_per_day": 400003.2303208157,
+        "hashrate_pct": 14.22,
+        "consensus_weight": 2200017.7667644867
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.761135637901003,
+          "v26": 95.23886436209898
+        },
+        "hashrate": {
+          "v27": 85.78,
+          "v26": 14.22
+        },
+        "custody": {
+          "v27": 4.761135637901003,
+          "v26": 95.23886436209901
+        },
+        "volume": {
+          "v27": 4.761135637901013,
+          "v26": 95.23886436209898
+        }
+      }
+    },
+    {
+      "config_id": "random-038",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 2,
+        "users": 865,
+        "total_nodes": 867,
+        "custody_btc": 199981.0331615397,
+        "volume_btc_per_day": 19998.103316154018,
+        "hashrate_pct": 25.78,
+        "consensus_weight": 109989.56823884686
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 4,
+        "users": 135,
+        "total_nodes": 142,
+        "custody_btc": 4000018.9668384595,
+        "volume_btc_per_day": 400001.89668384596,
+        "hashrate_pct": 74.22,
+        "consensus_weight": 2200010.4317611526
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.761453170512852,
+          "v26": 95.23854682948715
+        },
+        "hashrate": {
+          "v27": 25.78,
+          "v26": 74.22
+        },
+        "custody": {
+          "v27": 4.761453170512851,
+          "v26": 95.23854682948715
+        },
+        "volume": {
+          "v27": 4.761453170512862,
+          "v26": 95.23854682948713
+        }
+      }
+    },
+    {
+      "config_id": "random-039",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 0,
+        "mining_pools": 4,
+        "users": 501,
+        "total_nodes": 505,
+        "custody_btc": 199879.00770031192,
+        "volume_btc_per_day": 19987.90077003125,
+        "hashrate_pct": 70.78,
+        "consensus_weight": 109933.45423517158
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 3,
+        "mining_pools": 2,
+        "users": 499,
+        "total_nodes": 504,
+        "custody_btc": 4000120.9922996876,
+        "volume_btc_per_day": 400012.09922996874,
+        "hashrate_pct": 29.22,
+        "consensus_weight": 2200066.545764828
+      },
+      "splits": {
+        "economic": {
+          "v27": 4.759023992864572,
+          "v26": 95.24097600713543
+        },
+        "hashrate": {
+          "v27": 70.78,
+          "v26": 29.22
+        },
+        "custody": {
+          "v27": 4.759023992864571,
+          "v26": 95.24097600713543
+        },
+        "volume": {
+          "v27": 4.759023992864583,
+          "v26": 95.24097600713542
+        }
+      }
+    },
+    {
+      "config_id": "random-040",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 4,
+        "users": 595,
+        "total_nodes": 600,
+        "custody_btc": 1399917.300776125,
+        "volume_btc_per_day": 139991.73007761256,
+        "hashrate_pct": 62.67,
+        "consensus_weight": 769954.5154268688
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 2,
+        "users": 405,
+        "total_nodes": 409,
+        "custody_btc": 2800082.699223874,
+        "volume_btc_per_day": 280008.26992238744,
+        "hashrate_pct": 37.33,
+        "consensus_weight": 1540045.4845731307
+      },
+      "splits": {
+        "economic": {
+          "v27": 33.331364304193464,
+          "v26": 66.66863569580654
+        },
+        "hashrate": {
+          "v27": 62.67,
+          "v26": 37.33
+        },
+        "custody": {
+          "v27": 33.33136430419346,
+          "v26": 66.66863569580654
+        },
+        "volume": {
+          "v27": 33.331364304193464,
+          "v26": 66.66863569580653
+        }
+      }
+    },
+    {
+      "config_id": "random-041",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 1,
+        "mining_pools": 0,
+        "users": 736,
+        "total_nodes": 737,
+        "custody_btc": 2199956.4127570675,
+        "volume_btc_per_day": 219995.64127570682,
+        "hashrate_pct": 0,
+        "consensus_weight": 1209976.027016387
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 2,
+        "mining_pools": 6,
+        "users": 264,
+        "total_nodes": 272,
+        "custody_btc": 2000043.5872429316,
+        "volume_btc_per_day": 200004.35872429315,
+        "hashrate_pct": 100.0,
+        "consensus_weight": 1100023.9729836124
+      },
+      "splits": {
+        "economic": {
+          "v27": 52.379914589454,
+          "v26": 47.620085410546004
+        },
+        "hashrate": {
+          "v27": 0,
+          "v26": 100.0
+        },
+        "custody": {
+          "v27": 52.379914589454,
+          "v26": 47.620085410546004
+        },
+        "volume": {
+          "v27": 52.379914589454,
+          "v26": 47.62008541054599
+        }
+      }
+    },
+    {
+      "config_id": "random-042",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 3,
+        "users": 535,
+        "total_nodes": 541,
+        "custody_btc": 4199894.410283673,
+        "volume_btc_per_day": 419989.4410283673,
+        "hashrate_pct": 39.22,
+        "consensus_weight": 2309941.92565602
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 3,
+        "users": 465,
+        "total_nodes": 468,
+        "custody_btc": 105.58971632671087,
+        "volume_btc_per_day": 10.558971632671078,
+        "hashrate_pct": 60.78,
+        "consensus_weight": 58.07434397969097
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99748595913506,
+          "v26": 0.002514040864921687
+        },
+        "hashrate": {
+          "v27": 39.22,
+          "v26": 60.78
+        },
+        "custody": {
+          "v27": 99.99748595913508,
+          "v26": 0.002514040864921688
+        },
+        "volume": {
+          "v27": 99.99748595913508,
+          "v26": 0.002514040864921685
+        }
+      }
+    },
+    {
+      "config_id": "random-043",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 2,
+        "mining_pools": 2,
+        "users": 431,
+        "total_nodes": 435,
+        "custody_btc": 3399839.653484275,
+        "volume_btc_per_day": 339983.96534842753,
+        "hashrate_pct": 33.11,
+        "consensus_weight": 1869911.8094163514
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 1,
+        "mining_pools": 4,
+        "users": 569,
+        "total_nodes": 574,
+        "custody_btc": 800160.3465157243,
+        "volume_btc_per_day": 80016.03465157244,
+        "hashrate_pct": 66.89,
+        "consensus_weight": 440088.1905836484
+      },
+      "splits": {
+        "economic": {
+          "v27": 80.94856317819703,
+          "v26": 19.051436821802962
+        },
+        "hashrate": {
+          "v27": 33.11,
+          "v26": 66.89
+        },
+        "custody": {
+          "v27": 80.94856317819705,
+          "v26": 19.051436821802962
+        },
+        "volume": {
+          "v27": 80.94856317819703,
+          "v26": 19.051436821802962
+        }
+      }
+    },
+    {
+      "config_id": "random-044",
+      "fork_a": {
+        "name": "v27",
+        "exchanges": 3,
+        "mining_pools": 3,
+        "users": 768,
+        "total_nodes": 774,
+        "custody_btc": 4199963.291017755,
+        "volume_btc_per_day": 419996.3291017756,
+        "hashrate_pct": 56.11,
+        "consensus_weight": 2309979.8100597654
+      },
+      "fork_b": {
+        "name": "v26",
+        "exchanges": 0,
+        "mining_pools": 3,
+        "users": 232,
+        "total_nodes": 235,
+        "custody_btc": 36.708982243994264,
+        "volume_btc_per_day": 3.6708982243994255,
+        "hashrate_pct": 43.89,
+        "consensus_weight": 20.189940234196843
+      },
+      "splits": {
+        "economic": {
+          "v27": 99.99912597661323,
+          "v26": 0.0008740233867617683
+        },
+        "hashrate": {
+          "v27": 56.11,
+          "v26": 43.89
+        },
+        "custody": {
+          "v27": 99.99912597661323,
+          "v26": 0.0008740233867617685
+        },
+        "volume": {
+          "v27": 99.99912597661323,
+          "v26": 0.0008740233867617679
         }
       }
     }

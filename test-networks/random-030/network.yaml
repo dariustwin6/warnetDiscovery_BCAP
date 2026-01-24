@@ -1,0 +1,400 @@
+caddy:
+  enabled: true
+fork_observer:
+  enabled: true
+  configQueryInterval: 10
+nodes:
+- name: node-0000
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0004
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: exchange
+    custody_btc: 800000
+    daily_volume_btc: 80000
+    entity_id: exchange-0002
+    entity_name: Major Exchange 3
+    consensus_weight: 440000.0
+- name: node-0001
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0002
+  - node-0003
+  - node-0004
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: exchange
+    custody_btc: 1200000
+    daily_volume_btc: 120000
+    entity_id: exchange-0001
+    entity_name: Major Exchange 2
+    consensus_weight: 660000.0
+- name: node-0002
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0003
+  - node-0004
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: major_exchange
+    custody_btc: 2000000
+    daily_volume_btc: 200000
+    entity_id: exchange-0000
+    entity_name: Major Exchange 1
+    consensus_weight: 1100000.0
+- name: node-0003
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0004
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 10.0
+    entity_id: pool-binance
+    entity_name: Binance Pool
+    location: Multiple
+- name: node-0004
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 15.0
+    entity_id: pool-other
+    entity_name: Other Pools
+    location: Multiple
+- name: node-0005
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 10.78
+    entity_id: pool-viabtc
+    entity_name: ViaBTC
+    location: China
+- name: node-0006
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_0
+    custody_btc: 198911
+    daily_volume_btc: 19891
+    represents: 100
+    consensus_weight: 109401.09
+- name: node-0007
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_1
+    custody_btc: 603
+    daily_volume_btc: 60
+    represents: 100
+    consensus_weight: 332.06
+- name: node-0008
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_2
+    custody_btc: 201
+    daily_volume_btc: 20
+    represents: 100
+    consensus_weight: 111.06
+- name: node-0009
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_3
+    custody_btc: 101
+    daily_volume_btc: 10
+    represents: 100
+    consensus_weight: 55.6
+- name: node-0010
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_4
+    custody_btc: 60
+    daily_volume_btc: 6
+    represents: 100
+    consensus_weight: 33.38
+- name: node-0011
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_5
+    custody_btc: 40
+    daily_volume_btc: 4
+    represents: 100
+    consensus_weight: 22.26
+- name: node-0012
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_6
+    custody_btc: 28
+    daily_volume_btc: 2
+    represents: 100
+    consensus_weight: 15.91
+- name: node-0013
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_7
+    custody_btc: 21
+    daily_volume_btc: 2
+    represents: 100
+    consensus_weight: 11.93
+- name: node-0014
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0003
+  - node-0015
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_a_8
+    custody_btc: 15
+    daily_volume_btc: 1
+    represents: 92
+    consensus_weight: 8.62
+- name: node-0015
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0016
+  - node-0017
+  - node-0018
+  - node-0019
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 26.89
+    entity_id: pool-foundry
+    entity_name: Foundry USA
+    location: USA
+- name: node-0016
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0015
+  - node-0017
+  - node-0018
+  - node-0019
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 23.11
+    entity_id: pool-antpool
+    entity_name: AntPool
+    location: China
+- name: node-0017
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0015
+  - node-0016
+  - node-0018
+  - node-0019
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 14.22
+    entity_id: pool-f2pool
+    entity_name: F2Pool
+    location: China
+- name: node-0018
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0015
+  - node-0016
+  - node-0017
+  - node-0019
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_0
+    custody_btc: 13
+    daily_volume_btc: 1
+    represents: 100
+    consensus_weight: 7.55
+- name: node-0019
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0015
+  - node-0016
+  - node-0017
+  - node-0018
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: user_aggregated
+    entity_id: user_group_b_1
+    custody_btc: 0
+    daily_volume_btc: 0
+    represents: 8
+    consensus_weight: 0.54

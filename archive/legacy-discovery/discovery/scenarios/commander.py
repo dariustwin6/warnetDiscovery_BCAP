@@ -169,10 +169,26 @@ class Commander(BitcoinTestFramework):
     # Utility functions for Warnet scenarios
     @staticmethod
     def ensure_miner(node):
+        """
+        Ensure a miner wallet exists and return the wallet RPC handle.
+        Handles wallet creation/loading robustly with multiple fallback strategies.
+        """
         wallets = node.listwallets()
-        if "miner" not in wallets:
-            # Create descriptor wallet with auto-generated keys
-            # Using named parameters to ensure correct mapping
+
+        if "miner" in wallets:
+            # Wallet already loaded
+            return node.get_wallet_rpc("miner")
+
+        # Try to load existing wallet first
+        try:
+            node.loadwallet("miner")
+            return node.get_wallet_rpc("miner")
+        except Exception:
+            # Wallet doesn't exist, need to create it
+            pass
+
+        # Try to create wallet with descriptor format (v27 compatible)
+        try:
             node.createwallet(
                 wallet_name="miner",
                 disable_private_keys=False,
@@ -181,7 +197,19 @@ class Commander(BitcoinTestFramework):
                 avoid_reuse=False,
                 descriptors=True
             )
-        return node.get_wallet_rpc("miner")
+            return node.get_wallet_rpc("miner")
+        except Exception as e:
+            # If descriptor creation fails, try legacy wallet (v26 compatible)
+            try:
+                node.createwallet("miner", False, False, "", False, False)
+                return node.get_wallet_rpc("miner")
+            except Exception as e2:
+                # Last resort: create default wallet
+                try:
+                    node.createwallet("miner")
+                    return node.get_wallet_rpc("miner")
+                except Exception as e3:
+                    raise RuntimeError(f"Failed to create miner wallet: descriptor={e}, legacy={e2}, default={e3}")
 
     @staticmethod
     def hex_to_b64(hex):

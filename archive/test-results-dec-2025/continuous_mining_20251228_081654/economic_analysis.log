@@ -1,0 +1,54 @@
+==========================================================================
+ECONOMIC FORK ANALYSIS: 2025-12-28 08:17:20
+==========================================================================
+✓ Loaded network config: unknown
+  Economic nodes: 5
+Querying live network state...
+✓ Queried 5 nodes
+⚠  Fork detected! 3 different chains
+================================================================================
+BITCOIN NETWORK FORK ANALYSIS (BCAP Framework)
+================================================================================
+
+### RISK ASSESSMENT ###
+  Risk Score:        1.2/100
+  Risk Level:        MINIMAL
+  Consensus Chain:   Chain B (margin: 32.70)
+  Economic Majority: Chain B
+
+### METRICS BREAKDOWN ###
+  Supply Split:      0.6% vs 10.9%
+  Volume Split:      67.5% vs 152.4%
+  Weight Split:      20.7 vs 53.4
+
+### CHAIN A ###
+  Economic Nodes:    1
+  Total Custody:     119,142 BTC (0.61% of supply)
+  Daily Volume:      202,393 BTC (67.46% of on-chain)
+  Consensus Weight:  20.67
+
+  Nodes on Chain A:
+    • node-0000            (unknown             ):    119,142 BTC custody,  202,393 BTC/day, weight  20.67
+
+### CHAIN B ###
+  Economic Nodes:    3
+  Total Custody:     2,130,971 BTC (10.93% of supply)
+  Daily Volume:      457,323 BTC (152.44% of on-chain)
+  Consensus Weight:  53.37
+
+  Nodes on Chain B:
+    • node-0001            (unknown             ):    105,944 BTC custody,  190,044 BTC/day, weight  19.38
+    • node-0002            (unknown             ):    116,036 BTC custody,  230,566 BTC/day, weight  23.47
+    • node-0003            (unknown             ):  1,908,991 BTC custody,   36,713 BTC/day, weight  10.52
+
+### INTERPRETATION ###
+  ✓  MINIMAL RISK: Overwhelming majority. Minority has negligible influence.
+
+================================================================================
+
+### FORK TECHNICAL DETAILS ###
+  Total chains: 3
+  Chain A tip: 299523270d43d639... (height 104)
+  Chain B tip: 27311acb3cc577f7... (height 104)
+
+

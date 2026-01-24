@@ -12,27 +12,7 @@ nodes:
   - node-0002
   - node-0003
   - node-0004
-  - node-0011
-  bitcoin_config:
-    maxconnections: 125
-    maxmempool: 300
-    txindex: 1
-  metadata:
-    role: exchange
-    custody_btc: 1200000
-    daily_volume_btc: 120000
-    entity_id: exchange-0001
-    entity_name: Major Exchange 2
-    consensus_weight: 660000.0
-- name: node-0001
-  image:
-    tag: '27.0'
-  addnode:
-  - node-0000
-  - node-0002
-  - node-0003
-  - node-0004
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -44,34 +24,15 @@ nodes:
     entity_id: exchange-0002
     entity_name: Major Exchange 3
     consensus_weight: 440000.0
-- name: node-0002
+- name: node-0001
   image:
     tag: '27.0'
   addnode:
   - node-0000
-  - node-0001
+  - node-0002
   - node-0003
   - node-0004
-  - node-0011
-  bitcoin_config:
-    maxconnections: 125
-    maxmempool: 300
-    txindex: 1
-  metadata:
-    role: mining_pool
-    hashrate_pct: 10.78
-    entity_id: pool-viabtc
-    entity_name: ViaBTC
-    location: China
-- name: node-0003
-  image:
-    tag: '27.0'
-  addnode:
-  - node-0000
-  - node-0001
-  - node-0002
-  - node-0004
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -82,6 +43,44 @@ nodes:
     entity_id: pool-antpool
     entity_name: AntPool
     location: China
+- name: node-0002
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0003
+  - node-0004
+  - node-0010
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 14.22
+    entity_id: pool-f2pool
+    entity_name: F2Pool
+    location: China
+- name: node-0003
+  image:
+    tag: '27.0'
+  addnode:
+  - node-0000
+  - node-0001
+  - node-0002
+  - node-0004
+  - node-0010
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: mining_pool
+    hashrate_pct: 10.78
+    entity_id: pool-viabtc
+    entity_name: ViaBTC
+    location: China
 - name: node-0004
   image:
     tag: '27.0'
@@ -90,7 +89,7 @@ nodes:
   - node-0001
   - node-0002
   - node-0003
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -109,7 +108,7 @@ nodes:
   - node-0001
   - node-0002
   - node-0003
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -128,26 +127,7 @@ nodes:
   - node-0001
   - node-0002
   - node-0003
-  - node-0011
-  bitcoin_config:
-    maxconnections: 125
-    maxmempool: 300
-    txindex: 1
-  metadata:
-    role: mining_pool
-    hashrate_pct: 14.22
-    entity_id: pool-f2pool
-    entity_name: F2Pool
-    location: China
-- name: node-0007
-  image:
-    tag: '27.0'
-  addnode:
-  - node-0000
-  - node-0001
-  - node-0002
-  - node-0003
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -158,7 +138,7 @@ nodes:
     entity_id: pool-binance
     entity_name: Binance Pool
     location: Multiple
-- name: node-0008
+- name: node-0007
   image:
     tag: '27.0'
   addnode:
@@ -166,7 +146,7 @@ nodes:
   - node-0001
   - node-0002
   - node-0003
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -178,7 +158,7 @@ nodes:
     daily_volume_btc: 19891
     represents: 100
     consensus_weight: 109401.09
-- name: node-0009
+- name: node-0008
   image:
     tag: '27.0'
   addnode:
@@ -186,7 +166,7 @@ nodes:
   - node-0001
   - node-0002
   - node-0003
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -198,7 +178,7 @@ nodes:
     daily_volume_btc: 60
     represents: 100
     consensus_weight: 332.06
-- name: node-0010
+- name: node-0009
   image:
     tag: '27.0'
   addnode:
@@ -206,7 +186,7 @@ nodes:
   - node-0001
   - node-0002
   - node-0003
-  - node-0011
+  - node-0010
   bitcoin_config:
     maxconnections: 125
     maxmempool: 300
@@ -214,18 +194,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_a_2
-    custody_btc: 90
-    daily_volume_btc: 9
-    represents: 35
-    consensus_weight: 49.6
-- name: node-0011
+    custody_btc: 132
+    daily_volume_btc: 13
+    represents: 56
+    consensus_weight: 72.86
+- name: node-0010
   image:
     tag: '26.0'
   addnode:
+  - node-0011
   - node-0012
   - node-0013
   - node-0014
-  - node-0015
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -238,14 +218,34 @@ nodes:
     entity_id: exchange-0000
     entity_name: Major Exchange 1
     consensus_weight: 1100000.0
+- name: node-0011
+  image:
+    tag: '26.0'
+  addnode:
+  - node-0010
+  - node-0012
+  - node-0013
+  - node-0014
+  - node-0000
+  bitcoin_config:
+    maxconnections: 125
+    maxmempool: 300
+    txindex: 1
+  metadata:
+    role: exchange
+    custody_btc: 1200000
+    daily_volume_btc: 120000
+    entity_id: exchange-0001
+    entity_name: Major Exchange 2
+    consensus_weight: 660000.0
 - name: node-0012
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0013
   - node-0014
-  - node-0015
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -254,18 +254,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_0
-    custody_btc: 153
-    daily_volume_btc: 15
+    custody_btc: 133
+    daily_volume_btc: 13
     represents: 100
-    consensus_weight: 84.69
+    consensus_weight: 73.17
 - name: node-0013
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0014
-  - node-0015
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -274,18 +274,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_1
-    custody_btc: 83
-    daily_volume_btc: 8
+    custody_btc: 74
+    daily_volume_btc: 7
     represents: 100
-    consensus_weight: 45.8
+    consensus_weight: 41.12
 - name: node-0014
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0013
-  - node-0015
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -294,18 +294,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_2
-    custody_btc: 52
-    daily_volume_btc: 5
+    custody_btc: 47
+    daily_volume_btc: 4
     represents: 100
-    consensus_weight: 28.69
+    consensus_weight: 26.34
 - name: node-0015
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0013
-  - node-0014
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -314,18 +314,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_3
-    custody_btc: 35
+    custody_btc: 33
     daily_volume_btc: 3
     represents: 100
-    consensus_weight: 19.66
+    consensus_weight: 18.32
 - name: node-0016
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0013
-  - node-0014
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -334,18 +334,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_4
-    custody_btc: 26
+    custody_btc: 24
     daily_volume_btc: 2
     represents: 100
-    consensus_weight: 14.32
+    consensus_weight: 13.47
 - name: node-0017
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0013
-  - node-0014
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -354,18 +354,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_5
-    custody_btc: 19
+    custody_btc: 18
     daily_volume_btc: 1
     represents: 100
-    consensus_weight: 10.89
+    consensus_weight: 10.33
 - name: node-0018
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0013
-  - node-0014
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -374,18 +374,18 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_6
-    custody_btc: 15
+    custody_btc: 14
     daily_volume_btc: 1
     represents: 100
-    consensus_weight: 8.56
+    consensus_weight: 8.17
 - name: node-0019
   image:
     tag: '26.0'
   addnode:
+  - node-0010
   - node-0011
   - node-0012
   - node-0013
-  - node-0014
   - node-0000
   bitcoin_config:
     maxconnections: 125
@@ -394,7 +394,7 @@ nodes:
   metadata:
     role: user_aggregated
     entity_id: user_group_b_7
-    custody_btc: 8
+    custody_btc: 5
     daily_volume_btc: 0
-    represents: 65
-    consensus_weight: 4.65
+    represents: 44
+    consensus_weight: 3.08

@@ -150,7 +150,7 @@ class EntityTestRunner:
 
             # Step 6: Economic analysis
             print("Step 6: Running economic analysis...")
-            analysis_result = self._run_economic_analysis(network_dir, config_id)
+            analysis_result = self._run_economic_analysis(network_dir, config_id, start_height=common_history_height)
             result['steps']['analysis'] = analysis_result
 
             if analysis_result['status'] != 'success':
@@ -320,6 +320,65 @@ class EntityTestRunner:
             print(f"  Partition error: {e}")
             return False
 
+    def _find_version_nodes(self):
+        """
+        Dynamically find one v27 node and one v26 node by querying live pods.
+        Returns: (v27_node_name, v26_node_name)
+        """
+        try:
+            # Get all pod names
+            pods_result = subprocess.run(
+                ['kubectl', 'get', 'pods', '-o', 'jsonpath={.items[*].metadata.name}'],
+                capture_output=True,
+                text=True,
+                timeout=10
+            )
+
+            if pods_result.returncode != 0:
+                # Fallback to default nodes
+                return 'node-0000', 'node-0003'
+
+            pod_names = pods_result.stdout.split()
+            node_pods = [p for p in pod_names if p.startswith('node-')]
+
+            v27_node = None
+            v26_node = None
+
+            # Query each node for its version
+            for pod in node_pods[:20]:  # Check first 20 nodes max
+                try:
+                    version_result = subprocess.run(
+                        ['warnet', 'bitcoin', 'rpc', pod, 'getnetworkinfo'],
+                        capture_output=True,
+                        text=True,
+                        timeout=3
+                    )
+
+                    if version_result.returncode == 0:
+                        import json
+                        network_info = json.loads(version_result.stdout)
+                        version = network_info.get('version', 0)
+
+                        # v27.x has version >= 270000, v26.x has version >= 260000 and < 270000
+                        if version >= 270000 and v27_node is None:
+                            v27_node = pod
+                        elif 260000 <= version < 270000 and v26_node is None:
+                            v26_node = pod
+
+                        # Stop if we found both
+                        if v27_node and v26_node:
+                            break
+                except:
+                    continue
+
+            # Return found nodes or fallback
+            return (v27_node or 'node-0000', v26_node or 'node-0003')
+
+        except Exception as e:
+            print(f"  Warning: Could not auto-detect node versions: {e}")
+            # Fallback to default nodes
+            return 'node-0000', 'node-0003'
+
     def _run_partition_mining(
         self,
         v27_hashrate: float,
@@ -402,15 +461,18 @@ class EntityTestRunner:
             print("  Waiting 60 seconds for block propagation...")
             time.sleep(60)
 
+            # Dynamically find nodes of each version from the network
+            v27_node, v26_node = self._find_version_nodes()
+
             v27_result = subprocess.run(
-                ['warnet', 'bitcoin', 'rpc', 'node-0000', 'getblockcount'],
+                ['warnet', 'bitcoin', 'rpc', v27_node, 'getblockcount'],
                 capture_output=True,
                 text=True,
                 timeout=5
             )
 
             v26_result = subprocess.run(
-                ['warnet', 'bitcoin', 'rpc', 'node-0003', 'getblockcount'],
+                ['warnet', 'bitcoin', 'rpc', v26_node, 'getblockcount'],
                 capture_output=True,
                 text=True,
                 timeout=5
@@ -444,7 +506,7 @@ class EntityTestRunner:
 
         return result
 
-    def _run_economic_analysis(self, network_dir: Path, config_id: str) -> Dict:
+    def _run_economic_analysis(self, network_dir: Path, config_id: str, start_height: int = None) -> Dict:
         """Run economic analysis using auto_economic_analysis.py"""
 
         result = {
@@ -466,6 +528,10 @@ class EntityTestRunner:
                 '--live-query',
                 '--fork-depth-threshold', '3'
             ]
+
+            # Add start_height if provided (for accurate fork depth calculation)
+            if start_height is not None:
+                cmd.extend(['--start-height', str(start_height)])
 
             proc = subprocess.run(
                 cmd,

@@ -1,0 +1,108 @@
+==========================================================================
+ECONOMIC FORK ANALYSIS: 2025-12-28 08:30:15
+==========================================================================
+✓ Loaded network config: unknown
+  Economic nodes: 4
+Querying live network state...
+✓ Queried 4 nodes
+⚠  Fork detected! 2 different chains
+================================================================================
+BITCOIN NETWORK FORK ANALYSIS (BCAP Framework)
+================================================================================
+
+### RISK ASSESSMENT ###
+  Risk Score:        22.3/100
+  Risk Level:        LOW
+  Consensus Chain:   Chain A (margin: 0.77)
+  Economic Majority: Chain A
+
+### METRICS BREAKDOWN ###
+  Supply Split:      11.2% vs 0.7%
+  Volume Split:      89.6% vs 111.4%
+  Weight Split:      34.7 vs 33.9
+
+### CHAIN A ###
+  Economic Nodes:    2
+  Total Custody:     2,175,491 BTC (11.16% of supply)
+  Daily Volume:      268,924 BTC (89.64% of on-chain)
+  Consensus Weight:  34.70
+
+  Nodes on Chain A:
+    • node-0000            (unknown             ):  2,115,894 BTC custody,  114,619 BTC/day, weight  19.06
+    • node-0001            (unknown             ):     59,597 BTC custody,  154,305 BTC/day, weight  15.64
+
+### CHAIN B ###
+  Economic Nodes:    2
+  Total Custody:     144,233 BTC (0.74% of supply)
+  Daily Volume:      334,139 BTC (111.38% of on-chain)
+  Consensus Weight:  33.93
+
+  Nodes on Chain B:
+    • node-0002            (unknown             ):     62,866 BTC custody,  164,793 BTC/day, weight  16.70
+    • node-0003            (unknown             ):     81,367 BTC custody,  169,346 BTC/day, weight  17.23
+
+### INTERPRETATION ###
+  ✓  LOW RISK: Strong majority on one chain. Minority likely to capitulate.
+
+================================================================================
+
+### FORK TECHNICAL DETAILS ###
+  Total chains: 2
+  Chain A tip: 160a1a341eb44498... (height 202)
+  Chain B tip: 635710774d9c8aa6... (height 202)
+
+
+==========================================================================
+ECONOMIC FORK ANALYSIS: 2025-12-28 08:30:32
+==========================================================================
+✓ Loaded network config: unknown
+  Economic nodes: 4
+Querying live network state...
+✓ Queried 4 nodes
+⚠  Fork detected! 2 different chains
+================================================================================
+BITCOIN NETWORK FORK ANALYSIS (BCAP Framework)
+================================================================================
+
+### RISK ASSESSMENT ###
+  Risk Score:        22.3/100
+  Risk Level:        LOW
+  Consensus Chain:   Chain A (margin: 0.77)
+  Economic Majority: Chain A
+
+### METRICS BREAKDOWN ###
+  Supply Split:      11.2% vs 0.7%
+  Volume Split:      89.6% vs 111.4%
+  Weight Split:      34.7 vs 33.9
+
+### CHAIN A ###
+  Economic Nodes:    2
+  Total Custody:     2,175,491 BTC (11.16% of supply)
+  Daily Volume:      268,924 BTC (89.64% of on-chain)
+  Consensus Weight:  34.70
+
+  Nodes on Chain A:
+    • node-0000            (unknown             ):  2,115,894 BTC custody,  114,619 BTC/day, weight  19.06
+    • node-0001            (unknown             ):     59,597 BTC custody,  154,305 BTC/day, weight  15.64
+
+### CHAIN B ###
+  Economic Nodes:    2
+  Total Custody:     144,233 BTC (0.74% of supply)
+  Daily Volume:      334,139 BTC (111.38% of on-chain)
+  Consensus Weight:  33.93
+
+  Nodes on Chain B:
+    • node-0002            (unknown             ):     62,866 BTC custody,  164,793 BTC/day, weight  16.70
+    • node-0003            (unknown             ):     81,367 BTC custody,  169,346 BTC/day, weight  17.23
+
+### INTERPRETATION ###
+  ✓  LOW RISK: Strong majority on one chain. Minority likely to capitulate.
+
+================================================================================
+
+### FORK TECHNICAL DETAILS ###
+  Total chains: 2
+  Chain A tip: 160a1a341eb44498... (height 202)
+  Chain B tip: 635710774d9c8aa6... (height 202)
+
+

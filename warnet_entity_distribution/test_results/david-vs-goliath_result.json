@@ -197,8 +197,8 @@
         },
         "fork_metadata": {
           "num_total_chains": 2,
-          "chain_a_tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
-          "chain_b_tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
+          "chain_a_tip": "7cb0b189a012f9c646308272efb441874b70c5532ebc8c14064ab0f1f33016ad",
+          "chain_b_tip": "76a48d33c7960a2871a23f27b9ed61790cb9180227bcdb50f175889cb8a9058c",
           "chain_a_height": 103,
           "chain_b_height": 108,
           "fork_depth": {
@@ -207,13 +207,13 @@
               "height": 101
             },
             "chain_a": {
-              "tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
+              "tip": "7cb0b189a012f9c646308272efb441874b70c5532ebc8c14064ab0f1f33016ad",
               "height": 103,
               "blocks_since_fork": 2,
               "num_nodes": 10
             },
             "chain_b": {
-              "tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
+              "tip": "76a48d33c7960a2871a23f27b9ed61790cb9180227bcdb50f175889cb8a9058c",
               "height": 108,
               "blocks_since_fork": 7,
               "num_nodes": 3
@@ -392,8 +392,8 @@
     },
     "fork_metadata": {
       "num_total_chains": 2,
-      "chain_a_tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
-      "chain_b_tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
+      "chain_a_tip": "7cb0b189a012f9c646308272efb441874b70c5532ebc8c14064ab0f1f33016ad",
+      "chain_b_tip": "76a48d33c7960a2871a23f27b9ed61790cb9180227bcdb50f175889cb8a9058c",
       "chain_a_height": 103,
       "chain_b_height": 108,
       "fork_depth": {
@@ -402,13 +402,13 @@
           "height": 101
         },
         "chain_a": {
-          "tip": "448a745d3b91d13ac789789c8f2641fb9009f8bb1026f7868fafe5f39e7b97af",
+          "tip": "7cb0b189a012f9c646308272efb441874b70c5532ebc8c14064ab0f1f33016ad",
           "height": 103,
           "blocks_since_fork": 2,
           "num_nodes": 10
         },
         "chain_b": {
-          "tip": "4c1aa242c5818d089fe33142e71edc4ef07c56e29c71965be1409b441a9eaab2",
+          "tip": "76a48d33c7960a2871a23f27b9ed61790cb9180227bcdb50f175889cb8a9058c",
           "height": 108,
           "blocks_since_fork": 7,
           "num_nodes": 3

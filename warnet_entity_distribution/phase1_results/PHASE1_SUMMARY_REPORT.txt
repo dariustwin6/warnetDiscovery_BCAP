@@ -2,11 +2,11 @@
 PHASE 1 COARSE SEARCH - SUMMARY REPORT
 ================================================================================
 
-Total tests: 10
-Completed: 9
+Total tests: 50
+Completed: 49
 Failed: 1
 Errors: 0
-Success rate: 90.0%
+Success rate: 98.0%
 
 ================================================================================
 RESULTS BY CONFIGURATION
@@ -40,31 +40,271 @@ RESULTS BY CONFIGURATION
    Fork depth: 7 blocks
 
 6. random-000: SUCCESS
-   Economic: v27=33.3%, v26=66.7%
-   Hashrate: v27=50.0%, v26=50.0%
-   Final heights: v27=104, v26=105
-   Fork depth: 7 blocks
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=89.2%, v26=10.8%
+   Final heights: v27=109, v26=101
+   Fork depth: 8 blocks
 
 7. random-001: SUCCESS
-   Economic: v27=4.8%, v26=95.2%
-   Hashrate: v27=90.0%, v26=10.0%
+   Economic: v27=23.8%, v26=76.2%
+   Hashrate: v27=100.0%, v26=0.0%
    Final heights: v27=108, v26=101
    Fork depth: 7 blocks
 
 8. random-002: SUCCESS
+   Economic: v27=81.0%, v26=19.0%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+9. random-003: SUCCESS
    Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=85.8%, v26=14.2%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+10. random-004: SUCCESS
+   Economic: v27=4.7%, v26=95.3%
    Hashrate: v27=76.9%, v26=23.1%
    Final heights: v27=107, v26=102
    Fork depth: 7 blocks
 
-9. random-003: SUCCESS
+11. random-005: SUCCESS
    Economic: v27=100.0%, v26=0.0%
-   Hashrate: v27=26.9%, v26=73.1%
-   Final heights: v27=103, v26=106
+   Hashrate: v27=85.8%, v26=14.2%
+   Final heights: v27=108, v26=101
    Fork depth: 7 blocks
 
-10. random-004: SUCCESS
+12. random-006: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=52.7%, v26=47.3%
+   Final heights: v27=104, v26=105
+   Fork depth: 7 blocks
+
+13. random-007: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=70.8%, v26=29.2%
+   Final heights: v27=105, v26=104
+   Fork depth: 7 blocks
+
+14. random-008: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=89.2%, v26=10.8%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+15. random-009: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=70.8%, v26=29.2%
+   Final heights: v27=105, v26=104
+   Fork depth: 7 blocks
+
+16. random-010: SUCCESS
+   Economic: v27=4.7%, v26=95.3%
+   Hashrate: v27=15.0%, v26=85.0%
+   Final heights: v27=103, v26=105
+   Fork depth: 6 blocks
+
+17. random-011: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=61.9%, v26=38.1%
+   Final heights: v27=103, v26=105
+   Fork depth: 6 blocks
+
+18. random-012: SUCCESS
+   Economic: v27=23.8%, v26=76.2%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=107
+   Fork depth: 6 blocks
+
+19. random-013: SUCCESS
+   Economic: v27=71.4%, v26=28.6%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+20. random-014: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=10.8%, v26=89.2%
+   Final heights: v27=102, v26=107
+   Fork depth: 7 blocks
+
+21. random-015: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+22. random-016: SUCCESS
    Economic: v27=52.4%, v26=47.6%
    Hashrate: v27=0.0%, v26=100.0%
    Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+23. random-017: SUCCESS
+   Economic: v27=33.3%, v26=66.7%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+24. random-018: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=20.8%, v26=79.2%
+   Final heights: v27=103, v26=106
+   Fork depth: 7 blocks
+
+25. random-019: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+26. random-020: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=70.8%, v26=29.2%
+   Final heights: v27=105, v26=104
+   Fork depth: 7 blocks
+
+27. random-021: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=10.8%, v26=89.2%
+   Final heights: v27=102, v26=107
+   Fork depth: 7 blocks
+
+28. random-022: SUCCESS
+   Economic: v27=71.4%, v26=28.6%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+29. random-023: SUCCESS
+   Economic: v27=99.9%, v26=0.1%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+30. random-024: SUCCESS
+   Economic: v27=71.4%, v26=28.6%
+   Hashrate: v27=48.1%, v26=51.9%
+   Final heights: v27=104, v26=105
+   Fork depth: 7 blocks
+
+31. random-025: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=109, v26=101
+   Fork depth: 8 blocks
+
+32. random-026: SUCCESS
+   Economic: v27=71.4%, v26=28.6%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=107
+   Fork depth: 6 blocks
+
+33. random-027: SUCCESS
+   Economic: v27=23.8%, v26=76.2%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=107
+   Fork depth: 6 blocks
+
+34. random-028: SUCCESS
+   Economic: v27=4.7%, v26=95.3%
+   Hashrate: v27=52.7%, v26=47.3%
+   Final heights: v27=103, v26=105
+   Fork depth: 6 blocks
+
+35. random-029: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+36. random-030: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=35.8%, v26=64.2%
+   Final heights: v27=103, v26=107
+   Fork depth: 8 blocks
+
+37. random-031: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=100.0%, v26=0.0%
+   Final heights: v27=109, v26=101
+   Fork depth: 8 blocks
+
+38. random-032: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=73.1%, v26=26.9%
+   Final heights: v27=106, v26=103
+   Fork depth: 7 blocks
+
+39. random-033: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=107
+   Fork depth: 6 blocks
+
+40. random-034: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=50.0%, v26=50.0%
+   Final heights: v27=104, v26=105
+   Fork depth: 7 blocks
+
+41. random-035: SUCCESS
+   Economic: v27=71.4%, v26=28.6%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+42. random-036: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=41.1%, v26=58.9%
+   Final heights: v27=103, v26=106
+   Fork depth: 7 blocks
+
+43. random-037: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=85.8%, v26=14.2%
+   Final heights: v27=108, v26=101
+   Fork depth: 7 blocks
+
+44. random-038: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=25.8%, v26=74.2%
+   Final heights: v27=103, v26=106
+   Fork depth: 7 blocks
+
+45. random-039: SUCCESS
+   Economic: v27=4.8%, v26=95.2%
+   Hashrate: v27=70.8%, v26=29.2%
+   Final heights: v27=105, v26=104
+   Fork depth: 7 blocks
+
+46. random-040: SUCCESS
+   Economic: v27=33.3%, v26=66.7%
+   Hashrate: v27=62.7%, v26=37.3%
+   Final heights: v27=104, v26=105
+   Fork depth: 7 blocks
+
+47. random-041: SUCCESS
+   Economic: v27=52.4%, v26=47.6%
+   Hashrate: v27=0.0%, v26=100.0%
+   Final heights: v27=101, v26=108
+   Fork depth: 7 blocks
+
+48. random-042: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=39.2%, v26=60.8%
+   Final heights: v27=103, v26=106
+   Fork depth: 7 blocks
+
+49. random-043: SUCCESS
+   Economic: v27=80.9%, v26=19.1%
+   Hashrate: v27=33.1%, v26=66.9%
+   Final heights: v27=103, v26=106
+   Fork depth: 7 blocks
+
+50. random-044: SUCCESS
+   Economic: v27=100.0%, v26=0.0%
+   Hashrate: v27=56.1%, v26=43.9%
+   Final heights: v27=104, v26=105
    Fork depth: 7 blocks

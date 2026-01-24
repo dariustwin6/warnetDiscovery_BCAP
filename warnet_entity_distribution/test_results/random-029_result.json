@@ -3,12 +3,12 @@
   "status": "success",
   "splits": {
     "economic": {
-      "v27": 4.760291559727689,
-      "v26": 95.23970844027232
+      "v27": 52.37594403915937,
+      "v26": 47.62405596084062
     },
     "hashrate": {
-      "v27": 15.0,
-      "v26": 85.0
+      "v27": 100.0,
+      "v26": 0
     }
   },
   "steps": {
@@ -26,24 +26,254 @@
     "mining": {
       "status": "success",
       "blocks": {
-        "v27": 3,
-        "v26": 3
+        "v27": 7,
+        "v26": 0
       },
       "final_heights": {
-        "v27": 104,
-        "v26": 104
+        "v27": 108,
+        "v26": 101
       },
-      "fork_depth": 0
+      "fork_depth": 7
     },
     "analysis": {
       "status": "success",
-      "analysis": {}
+      "analysis": {
+        "chains": {
+          "chain_a": {
+            "custody_btc": 2000000,
+            "supply_percentage": 10.26,
+            "daily_volume_btc": 200000,
+            "volume_percentage": 66.67,
+            "consensus_weight": 27.18,
+            "node_count": 1,
+            "economic_nodes": [
+              {
+                "name": "node-0000",
+                "type": "unknown",
+                "custody_btc": 2000000,
+                "daily_volume_btc": 200000,
+                "custody_pct": 10.26,
+                "volume_pct": 66.67,
+                "consensus_weight": 27.18
+              }
+            ]
+          },
+          "chain_b": {
+            "custody_btc": 199787,
+            "supply_percentage": 1.02,
+            "daily_volume_btc": 19978,
+            "volume_percentage": 6.66,
+            "consensus_weight": 2.71,
+            "node_count": 4,
+            "economic_nodes": [
+              {
+                "name": "node-0007",
+                "type": "unknown",
+                "custody_btc": 198911,
+                "daily_volume_btc": 19891,
+                "custody_pct": 1.02,
+                "volume_pct": 6.63,
+                "consensus_weight": 2.7
+              },
+              {
+                "name": "node-0008",
+                "type": "unknown",
+                "custody_btc": 603,
+                "daily_volume_btc": 60,
+                "custody_pct": 0.0,
+                "volume_pct": 0.02,
+                "consensus_weight": 0.01
+              },
+              {
+                "name": "node-0009",
+                "type": "unknown",
+                "custody_btc": 201,
+                "daily_volume_btc": 20,
+                "custody_pct": 0.0,
+                "volume_pct": 0.01,
+                "consensus_weight": 0.0
+              },
+              {
+                "name": "node-0010",
+                "type": "unknown",
+                "custody_btc": 72,
+                "daily_volume_btc": 7,
+                "custody_pct": 0.0,
+                "volume_pct": 0.0,
+                "consensus_weight": 0.0
+              }
+            ]
+          }
+        },
+        "risk_assessment": {
+          "score": 20.5,
+          "level": "LOW",
+          "consensus_chain": "A",
+          "consensus_margin": 24.47,
+          "economic_majority": "A"
+        },
+        "metrics_breakdown": {
+          "supply_split": "10.3% vs 1.0%",
+          "volume_split": "66.7% vs 6.7%",
+          "weight_split": "27.2 vs 2.7"
+        },
+        "economic_influence": {
+          "chain_a_custody": 2000000,
+          "chain_b_custody": 199787,
+          "chain_a_volume": 200000,
+          "chain_b_volume": 19978
+        },
+        "fork_metadata": {
+          "num_total_chains": 3,
+          "chain_a_tip": "752a6590cb9b96b57ab793c32cfc3f8d43c0347cbd1a6284afc09cd8541a1068",
+          "chain_b_tip": "6a00469605ca7be22190db766df11f22702e0eef641e213dc00d498e62d74f4e",
+          "chain_a_height": 108,
+          "chain_b_height": 109,
+          "fork_depth": {
+            "common_ancestor": {
+              "hash": "height 101",
+              "height": 101
+            },
+            "chain_a": {
+              "tip": "2ff46b8ca062296697ea28eb12500dd2da777ddbfb994ef52b61b3acd9679d7c",
+              "height": 101,
+              "blocks_since_fork": 0,
+              "num_nodes": 9
+            },
+            "chain_b": {
+              "tip": "6a00469605ca7be22190db766df11f22702e0eef641e213dc00d498e62d74f4e",
+              "height": 109,
+              "blocks_since_fork": 8,
+              "num_nodes": 4
+            },
+            "total_depth": 8,
+            "is_sustained_fork": true,
+            "threshold": 3,
+            "method": "exact (from known start_height)"
+          }
+        }
+      }
     }
   },
   "final_heights": {
-    "v27": 104,
-    "v26": 104
+    "v27": 108,
+    "v26": 101
   },
-  "fork_depth": 0,
-  "economic_analysis": {}
+  "fork_depth": 7,
+  "economic_analysis": {
+    "chains": {
+      "chain_a": {
+        "custody_btc": 2000000,
+        "supply_percentage": 10.26,
+        "daily_volume_btc": 200000,
+        "volume_percentage": 66.67,
+        "consensus_weight": 27.18,
+        "node_count": 1,
+        "economic_nodes": [
+          {
+            "name": "node-0000",
+            "type": "unknown",
+            "custody_btc": 2000000,
+            "daily_volume_btc": 200000,
+            "custody_pct": 10.26,
+            "volume_pct": 66.67,
+            "consensus_weight": 27.18
+          }
+        ]
+      },
+      "chain_b": {
+        "custody_btc": 199787,
+        "supply_percentage": 1.02,
+        "daily_volume_btc": 19978,
+        "volume_percentage": 6.66,
+        "consensus_weight": 2.71,
+        "node_count": 4,
+        "economic_nodes": [
+          {
+            "name": "node-0007",
+            "type": "unknown",
+            "custody_btc": 198911,
+            "daily_volume_btc": 19891,
+            "custody_pct": 1.02,
+            "volume_pct": 6.63,
+            "consensus_weight": 2.7
+          },
+          {
+            "name": "node-0008",
+            "type": "unknown",
+            "custody_btc": 603,
+            "daily_volume_btc": 60,
+            "custody_pct": 0.0,
+            "volume_pct": 0.02,
+            "consensus_weight": 0.01
+          },
+          {
+            "name": "node-0009",
+            "type": "unknown",
+            "custody_btc": 201,
+            "daily_volume_btc": 20,
+            "custody_pct": 0.0,
+            "volume_pct": 0.01,
+            "consensus_weight": 0.0
+          },
+          {
+            "name": "node-0010",
+            "type": "unknown",
+            "custody_btc": 72,
+            "daily_volume_btc": 7,
+            "custody_pct": 0.0,
+            "volume_pct": 0.0,
+            "consensus_weight": 0.0
+          }
+        ]
+      }
+    },
+    "risk_assessment": {
+      "score": 20.5,
+      "level": "LOW",
+      "consensus_chain": "A",
+      "consensus_margin": 24.47,
+      "economic_majority": "A"
+    },
+    "metrics_breakdown": {
+      "supply_split": "10.3% vs 1.0%",
+      "volume_split": "66.7% vs 6.7%",
+      "weight_split": "27.2 vs 2.7"
+    },
+    "economic_influence": {
+      "chain_a_custody": 2000000,
+      "chain_b_custody": 199787,
+      "chain_a_volume": 200000,
+      "chain_b_volume": 19978
+    },
+    "fork_metadata": {
+      "num_total_chains": 3,
+      "chain_a_tip": "752a6590cb9b96b57ab793c32cfc3f8d43c0347cbd1a6284afc09cd8541a1068",
+      "chain_b_tip": "6a00469605ca7be22190db766df11f22702e0eef641e213dc00d498e62d74f4e",
+      "chain_a_height": 108,
+      "chain_b_height": 109,
+      "fork_depth": {
+        "common_ancestor": {
+          "hash": "height 101",
+          "height": 101
+        },
+        "chain_a": {
+          "tip": "2ff46b8ca062296697ea28eb12500dd2da777ddbfb994ef52b61b3acd9679d7c",
+          "height": 101,
+          "blocks_since_fork": 0,
+          "num_nodes": 9
+        },
+        "chain_b": {
+          "tip": "6a00469605ca7be22190db766df11f22702e0eef641e213dc00d498e62d74f4e",
+          "height": 109,
+          "blocks_since_fork": 8,
+          "num_nodes": 4
+        },
+        "total_depth": 8,
+        "is_sustained_fork": true,
+        "threshold": 3,
+        "method": "exact (from known start_height)"
+      }
+    }
+  }
 }

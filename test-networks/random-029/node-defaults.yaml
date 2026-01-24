@@ -1,0 +1,5 @@
+bitcoin_config:
+  dnsseed: 0
+  fallbackfee: '0.00001'
+  regtest: 1
+  txindex: 1

@@ -1,0 +1,40 @@
+Including: test_framework
+Including: __init__.py
+Including: miner_std.py
+Including: commander.py
+Including: ln_framework
+Including: test_framework/blockfilter.py
+Including: test_framework/p2p.py
+Including: test_framework/key.py
+Including: test_framework/siphash.py
+Including: test_framework/descriptors.py
+Including: test_framework/script.py
+Including: test_framework/test_shell.py
+Including: test_framework/psbt.py
+Including: test_framework/secp256k1.py
+Including: test_framework/test_framework.py
+Including: test_framework/muhash.py
+Including: test_framework/socks5.py
+Including: test_framework/ellswift.py
+Including: test_framework/__init__.py
+Including: test_framework/wallet.py
+Including: test_framework/coverage.py
+Including: test_framework/messages.py
+Including: test_framework/netutil.py
+Including: test_framework/test_node.py
+Including: test_framework/authproxy.py
+Including: test_framework/address.py
+Including: test_framework/wallet_util.py
+Including: test_framework/bdb.py
+Including: test_framework/ripemd160.py
+Including: test_framework/script_util.py
+Including: test_framework/segwit_addr.py
+Including: test_framework/blocktools.py
+Including: test_framework/util.py
+Including: ln_framework/__init__.py
+Including: ln_framework/ln.py
+Successfully deployed scenario commander: miner_std
+Commander pod name: commander-minerstd-1766927818
+initContainer in pod commander-minerstd-1766927818 (default) is ready
+Successfully copied data to commander-minerstd-1766927818(init):/shared/archive.pyz
+Successfully uploaded scenario data to commander: miner_std
