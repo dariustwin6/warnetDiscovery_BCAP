@@ -11,6 +11,7 @@ This document describes the economic simulation model used in the Warnet fork te
 3. [Dynamic Fee Market](#3-dynamic-fee-market)
 4. [Feedback Loops](#4-feedback-loops)
 5. [Anti-Oscillation Mechanisms](#5-anti-oscillation-mechanisms)
+6. [Difficulty Model](#6-difficulty-model)
 
 ---
 
@@ -48,6 +49,8 @@ chain_factor = 0.8 + (chain_weight x 0.4)
 ```
 
 **What it models:** A fork that produces blocks faster demonstrates viable mining support. Faster block production means the chain is functional, transactions confirm, and the network is usable. A chain that falls behind signals reduced security and usability, creating sell pressure on its token.
+
+> **Difficulty mode override:** When the difficulty oracle is enabled (`--enable-difficulty`), chain weight is replaced by **cumulative chainwork** (sum of difficulty of all blocks) rather than raw block height. This correctly models Bitcoin's consensus rule: a fork with fewer but harder blocks outweighs one with many easy blocks. See [Section 6](#6-difficulty-model).
 
 **Example:** If v27 is at height 120 and v26 at height 80 (total 200):
 - v27 chain_weight = 120/200 = 0.60, chain_factor = 0.8 + (0.6 x 0.4) = **1.04**
@@ -169,6 +172,8 @@ profit_per_hour = (revenue_per_block x blocks_per_hour) - (mining_cost_usd x blo
 ```
 
 Note: Block subsidy is the fixed protocol reward (currently 3.125 BTC after 2024 halving). Fee revenue per block assumes a full 1 MB block. The pool's share of blocks is proportional to its hashrate percentage.
+
+> **Difficulty mode override:** When the difficulty oracle is enabled, `blocks_per_hour` is derived from the fork's current difficulty and the total hashrate allocated to that fork, rather than the fixed 6.0 assumption. The pool's share is then proportional to its hashrate fraction of the fork's total. This means a minority fork with high pre-fork difficulty produces blocks much slower than 6/hour, significantly reducing profitability. See [Section 6.3](#63-integration-with-existing-oracles).
 
 **Step 2: Rational choice** -- mine the more profitable fork.
 
@@ -320,6 +325,8 @@ block_factor = 6.0 / blocks_per_hour
 ```
 
 **What it models:** Slower block production means less block space per hour, creating congestion. If a fork has 10% of hashrate, it produces ~0.6 blocks/hour instead of 6, creating a 10x fee multiplier. This reflects real mempool dynamics: fewer blocks = longer confirmation times = users bid up fees to get included.
+
+> **Difficulty mode override:** When the difficulty oracle is enabled, `blocks_per_hour` is computed from `3600 / expected_block_interval` where `expected_block_interval = target_interval x (difficulty / hashrate_fraction)`. Before difficulty retargets, a minority fork's block rate can be far below the simple hashrate-proportional estimate. After retarget, block rates normalize. See [Section 6.3](#63-integration-with-existing-oracles).
 
 **Example:**
 - Normal (6 blocks/hour): block_factor = 6.0/6.0 = **1.0x**
@@ -530,6 +537,196 @@ The result is a system where equilibrium shifts gradually over time, with node d
 
 ---
 
+## 6. Difficulty Model
+
+**Source:** `warnet/resources/scenarios/lib/difficulty_oracle.py`
+
+**Enabled by:** `--enable-difficulty` flag (default: off for backward compatibility)
+
+The difficulty oracle adds a realistic block production timing layer. Without it (legacy mode), one block is mined every `--interval` seconds regardless of hashrate split -- a 90/10 split produces the same global block rate, with v27 simply getting 90% of blocks. In reality, after a fork both chains inherit the same difficulty, and the minority chain produces blocks dramatically slower until difficulty adjusts. This "difficulty drag" is one of the most critical dynamics in real fork scenarios (see: BCH/BTC 2017).
+
+### 6.1 Block Production: Fixed-Interval vs. Probability-Per-Tick
+
+#### Legacy Mode (default)
+
+```
+sleep(interval)          # e.g., 10 seconds
+mine 1 block
+assign to fork probabilistically based on hashrate split
+```
+
+Both forks share a single global block rate. A 70/30 hashrate split produces ~70% of blocks on one fork and ~30% on the other, but both arrive at the same cadence.
+
+#### Difficulty Mode (`--enable-difficulty`)
+
+```
+sleep(tick_interval)     # e.g., 1 second
+for each fork independently:
+    roll probability
+    if hit: mine a block on that fork
+```
+
+Each fork produces blocks independently. The probability of finding a block per tick is:
+
+```
+probability_per_tick = tick_interval / expected_block_interval
+expected_block_interval = target_interval x (difficulty / hashrate_fraction)
+```
+
+**Example:** A fork with 10% hashrate and pre-fork difficulty 1.0, target interval 10s:
+```
+expected = 10 x (1.0 / 0.1) = 100 seconds
+probability per 1s tick = 1/100 = 0.01 (1%)
+```
+
+Blocks arrive on average every 100 seconds -- 10x slower than normal. Meanwhile, the 90% fork:
+```
+expected = 10 x (1.0 / 0.9) = 11.1 seconds
+probability per 1s tick = 1/11.1 = 0.09 (9%)
+```
+
+Blocks arrive roughly every 11 seconds -- only slightly slower than normal. This asymmetry is the core dynamic that difficulty mode captures.
+
+### 6.2 Difficulty Adjustment (Retargeting)
+
+Each fork retargets independently every N blocks (configurable, default 144). The algorithm follows Bitcoin's standard Difficulty Adjustment Algorithm (DAA):
+
+```
+actual_time = time to mine last retarget_interval blocks
+target_time = retarget_interval x target_block_interval
+adjustment_factor = target_time / actual_time
+new_difficulty = old_difficulty x adjustment_factor
+```
+
+The adjustment factor is capped:
+
+```
+adjustment_factor = clamp(adjustment_factor, 1/max_adjustment_factor, max_adjustment_factor)
+new_difficulty = max(new_difficulty, min_difficulty)
+```
+
+| Parameter | Default | Rationale |
+|-----------|---------|-----------|
+| retarget_interval | 144 blocks | Bitcoin's 2016 is too long for typical 2-hour simulations. 144 = ~1 day of real Bitcoin blocks. |
+| max_adjustment_factor | 4.0 | Bitcoin's standard limit. Prevents wild difficulty swings. |
+| min_difficulty | 0.0625 (1/16) | Floor prevents near-zero difficulty after extended low-hashrate periods. |
+
+#### Retarget Example
+
+A fork with 30% hashrate at difficulty 1.0, retarget interval 20 blocks:
+```
+expected_block_interval = 10 x (1.0 / 0.3) = 33.3 seconds
+time for 20 blocks = ~667 seconds
+target_time = 20 x 10 = 200 seconds
+adjustment_factor = 200 / 667 = 0.30
+capped at 1/4 = 0.25
+new_difficulty = 1.0 x 0.25 = 0.25
+```
+
+After retarget:
+```
+new expected interval = 10 x (0.25 / 0.3) = 8.3 seconds
+```
+
+Blocks now arrive roughly every 8 seconds -- nearly normal speed. Multiple retargets progressively normalize block times toward the target interval.
+
+#### Emergency Difficulty Adjustment (EDA)
+
+Optional (`--enable-eda`), modeled after BCH's 2017 emergency mechanism. Triggers when time since last block exceeds `eda_threshold x target_interval` (default: 6x, meaning 60 seconds at 10s target). Reduces difficulty by `eda_reduction` fraction (default: 20%) per activation.
+
+EDA breaks the "death spiral" faster than waiting for a full retarget period, at the cost of potential difficulty instability.
+
+### 6.3 Integration with Existing Oracles
+
+The difficulty oracle modifies three inputs to the existing oracle pipeline:
+
+#### Price Oracle: Chainwork Replaces Height
+
+```
+# Legacy mode:
+chain_weight = fork_height / total_heights
+
+# Difficulty mode:
+chain_weight = fork_cumulative_chainwork / total_chainwork
+```
+
+Where `cumulative_chainwork = sum of difficulty of all blocks mined on that fork`.
+
+A fork with 50 blocks at difficulty 1.0 (chainwork = 50) correctly outweighs one with 80 blocks at difficulty 0.25 (chainwork = 20). This reflects Bitcoin's actual consensus rule for determining the heaviest (winning) chain.
+
+#### Fee Oracle: Difficulty-Derived Block Rate
+
+```
+# Legacy mode:
+blocks_per_hour = blocks_mined / elapsed_hours   (historical average)
+
+# Difficulty mode:
+blocks_per_hour = 3600 / expected_block_interval
+expected_block_interval = target_interval x (difficulty / hashrate_fraction)
+```
+
+This is a forward-looking estimate based on current difficulty and hashrate, rather than a backward-looking historical average. Before the first retarget, the minority fork's block rate is dramatically lower, producing higher fee pressure through the `block_factor = 6.0 / blocks_per_hour` formula.
+
+#### Mining Pool Strategy: Difficulty-Aware Profitability
+
+```
+# Legacy mode:
+blocks_per_hour = 6.0 x (pool_hashrate_pct / 100.0)
+
+# Difficulty mode:
+fork_hashrate = sum(hashrate of all pools allocated to this fork)
+fork_blocks_per_hour = 3600 / (target_interval x difficulty / (fork_hashrate / 100))
+pool_blocks_per_hour = fork_blocks_per_hour x (pool_hashrate_pct / fork_hashrate)
+```
+
+Pools now see the actual block rate on each fork when calculating profitability. A fork with high difficulty and low hashrate produces far fewer blocks per hour, reducing the revenue side of the profitability equation. This creates realistic incentives for miners to leave slow-producing forks.
+
+### 6.4 Chain Weight and Winning Fork
+
+The difficulty oracle tracks cumulative chainwork for each fork:
+
+```
+chainwork += block_difficulty   (for each block mined)
+chain_weight = fork_chainwork / (v27_chainwork + v26_chainwork)
+```
+
+The **winning fork** is determined by highest cumulative chainwork, matching Bitcoin's actual consensus. This is reported in the final summary and exported to `partition_difficulty.json`.
+
+### 6.5 The Difficulty Death Spiral (and Recovery)
+
+The difficulty oracle enables simulation of the realistic feedback loop:
+
+```
+Low hashrate
+  -> High difficulty-to-hashrate ratio
+    -> Slow blocks
+      -> High fees (block scarcity)
+        -> Low profitability for miners (fewer blocks x same cost)
+          -> More miners leave
+            -> Even slower blocks
+
+UNTIL:
+  Difficulty retargets downward
+    -> Blocks speed up
+      -> Fees normalize
+        -> Profitability improves
+          -> Miners return
+```
+
+With EDA enabled, the death spiral breaks faster because difficulty drops before waiting for a full retarget period's worth of blocks. Without EDA, the minority fork must endure the full pain of slow blocks until enough are mined to trigger a retarget.
+
+### 6.6 Design Decisions
+
+| Decision | Value | Rationale |
+|----------|-------|-----------|
+| Retarget interval | 144 (default) | Bitcoin's 2016 is too long for 2-hour simulations (~360 blocks max). 144 blocks = ~1 day of real Bitcoin. At 10s target, minority (30%) retargets after ~4800s (80 min), majority (70%) after ~2060s (34 min). Both fit in a 2-hour test. |
+| Tick interval | 1.0 second | Small enough for accurate probability sampling. A fork with 10% hashrate has P=0.01/tick; over 100 ticks, expected blocks = 1.0 (correct). Larger ticks lose accuracy for slow forks. |
+| Min difficulty | 0.0625 (1/16) | At minimum difficulty with 10% hashrate: expected interval = 10 x (0.0625 / 0.1) = 6.25s. Fast but not unreasonable post-adjustment. |
+| Max adjustment | 4x per retarget | Bitcoin standard. A minority fork stuck at 10x-slower blocks gets at most 4x reduction per retarget, requiring multiple retargets to fully normalize. |
+| Chainwork for chain weight | Cumulative difficulty | Matches Bitcoin's actual consensus rule. Prevents gaming by producing many easy blocks. |
+
+---
+
 ## Appendix: Default Configuration Values
 
 ### Price Oracle Defaults
@@ -565,10 +762,25 @@ The result is a system where equilibrium shifts gradually over time, with node d
 | switching_cooldown | 1800s | 3600s | Time between re-evaluations |
 | max_loss_pct | 0.05 | 0.15 | Max acceptable price disadvantage |
 
+### Difficulty Oracle Defaults
+| Parameter | Default | Description |
+|-----------|---------|-------------|
+| enable_difficulty | False | Must opt in with `--enable-difficulty` |
+| target_block_interval | `--interval` value (10s) | Target seconds between blocks |
+| retarget_interval | 144 blocks | Blocks between difficulty adjustments |
+| pre_fork_difficulty | 1.0 | Starting difficulty (normalized) |
+| max_adjustment_factor | 4.0 | Maximum difficulty change per retarget |
+| min_difficulty | 0.0625 | Difficulty floor (1/16 of pre-fork) |
+| tick_interval | 1.0 second | Per-tick probability sampling interval |
+| enable_eda | False | Emergency Difficulty Adjustment |
+| eda_threshold | 6.0 | EDA triggers when block time > 6x target |
+| eda_reduction | 0.20 | Reduce difficulty 20% per EDA activation |
+
 ### Simulation Update Intervals
 | System | Default Interval | Description |
 |--------|-----------------|-------------|
-| Block mining | 10 seconds | New block on one fork |
+| Block mining (legacy) | 10 seconds | New block on one fork |
+| Block mining (difficulty) | 1 second tick | Probability check per fork per tick |
 | Price + Fee update | 60 seconds | Recalculate prices and fees |
 | Economic node re-evaluation | 300 seconds (5 min) | Nodes reconsider fork choice |
 | Mining pool re-evaluation | 600 seconds (10 min) | Pools reconsider fork choice |
